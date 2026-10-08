@@ -9,7 +9,7 @@ Data-driven marketing and AI work increasingly runs on Python — for cleaning a
 
 | # | Course / Topic | Source | Status |
 |---|----------------|--------|--------|
-| 1 | Programming fundamentals (logic, variables, loops, functions) | Kaggle — Intro to Programming | In progress |
+| 1 | Programming fundamentals (logic, variables, loops, functions) | Kaggle — Intro to Programming | Completed Oct 7, 2026 ([certificate](https://www.kaggle.com/learn/certification/luisdorta/intro-to-programming)) |
 | 2 | Python | Kaggle — Python | Up next |
 | 3 | Pandas (data manipulation & analysis) | Kaggle — Pandas | Planned |
 | 4 | Intro to Machine Learning | Kaggle — Intro to Machine Learning | Planned |
@@ -33,6 +33,7 @@ projects/                  applied marketing & business analytics projects
 | Date | What I learned |
 |------|----------------|
 | Oct 2026 | Started programming fundamentals before moving into Python |
+| Oct 7, 2026 | Completed Kaggle Intro to Programming (certificate linked above) |
 
 ---
 Connect with me on [LinkedIn](https://www.linkedin.com/in/luis-dorta-9457a9395).
