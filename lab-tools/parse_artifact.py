@@ -61,10 +61,14 @@ def figure(fig):
         if "row" in cls:
             fill = ch.select_one(".fill")
             w = re.search(r"width:\s*([\d.]+)%", fill.get("style", "")) if fill else None
-            rows.append({"label": txt(ch.find("span")), "pct": float(w.group(1)) if w else 0,
-                         "value": txt(ch.find("output")), "hi": bool(fill and "hi" in (fill.get("class") or []))})
+            lab = txt(ch.find("span"))
+            val = txt(ch.find("output")) or txt(ch).replace(lab, "", 1).strip()
+            rows.append({"label": lab, "pct": float(w.group(1)) if w else 0,
+                         "value": val, "hi": bool(fill and "hi" in (fill.get("class") or []))})
         elif "gap" in cls:
             rows.append({"gap": True})
+    while rows and rows[-1].get("gap"):
+        rows.pop()
     return {"title": txt(fig.find("h4")), "rows": rows, "note": txt(fig.select_one(".cap"))}
 
 def story(art, lead):

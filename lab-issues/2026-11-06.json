@@ -56,19 +56,19 @@
      {
       "label": "Logistic",
       "pct": 63.3,
-      "value": "",
+      "value": "1.9x",
       "hi": true
      },
      {
       "label": "Probit",
       "pct": 60.0,
-      "value": "",
+      "value": "1.8x",
       "hi": false
      },
      {
       "label": "Cauchit",
       "pct": 93.3,
-      "value": "",
+      "value": "2.8x",
       "hi": false
      }
     ],
@@ -94,19 +94,19 @@
      {
       "label": "GPT-5.6 Cyber",
       "pct": 53.5,
-      "value": "",
+      "value": "32.1%",
       "hi": false
      },
      {
       "label": "GPT-6 Astra*",
       "pct": 70.7,
-      "value": "",
+      "value": "42.4%",
       "hi": false
      },
      {
       "label": "GPT-6 Cyber",
       "pct": 80.8,
-      "value": "",
+      "value": "48.5%",
       "hi": true
      }
     ],
@@ -132,31 +132,31 @@
      {
       "label": "AMD",
       "pct": 86.5,
-      "value": "",
+      "value": "17.3%",
       "hi": true
      },
      {
       "label": "Nvidia",
       "pct": 46.5,
-      "value": "",
+      "value": "9.3%",
       "hi": false
      },
      {
       "label": "Nasdaq",
       "pct": 27.5,
-      "value": "",
+      "value": "5.5%",
       "hi": false
      },
      {
       "label": "S&P 500",
       "pct": 22.0,
-      "value": "",
+      "value": "4.4%",
       "hi": false
      },
      {
       "label": "Dow",
       "pct": 17.0,
-      "value": "",
+      "value": "3.4%",
       "hi": false
      }
     ],

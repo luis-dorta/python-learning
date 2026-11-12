@@ -86,13 +86,13 @@
      {
       "label": "Opus 5.5, none",
       "pct": 65.5,
-      "value": "",
+      "value": "0.655",
       "hi": false
      },
      {
       "label": "Opus 5.5, memory",
       "pct": 83.8,
-      "value": "",
+      "value": "0.838",
       "hi": true
      },
      {
@@ -101,13 +101,13 @@
      {
       "label": "Opus 4.7, none",
       "pct": 38.3,
-      "value": "",
+      "value": "0.383",
       "hi": false
      },
      {
       "label": "Opus 4.7, memory",
       "pct": 70.0,
-      "value": "",
+      "value": "0.700",
       "hi": true
      },
      {
@@ -116,13 +116,13 @@
      {
       "label": "Sonnet 4.6, none",
       "pct": 33.0,
-      "value": "",
+      "value": "0.330",
       "hi": false
      },
      {
       "label": "Sonnet 4.6, memory",
       "pct": 36.4,
-      "value": "",
+      "value": "0.364",
       "hi": true
      }
     ],

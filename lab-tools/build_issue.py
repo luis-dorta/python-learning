@@ -127,6 +127,10 @@ CSS = """
 @font-face{font-family:FT;font-weight:400;src:url(FONTS/figtree-latin-400-normal.woff2)}
 @font-face{font-family:FT;font-weight:600;src:url(FONTS/figtree-latin-600-normal.woff2)}
 @font-face{font-family:FT;font-weight:700;src:url(FONTS/figtree-latin-700-normal.woff2)}
+@font-face{font-family:Figtree;font-weight:400 500;src:url(FONTS/figtree-latin-400-normal.woff2)}
+@font-face{font-family:Figtree;font-weight:600;src:url(FONTS/figtree-latin-600-normal.woff2)}
+@font-face{font-family:Figtree;font-weight:700 900;src:url(FONTS/figtree-latin-700-normal.woff2)}
+@font-face{font-family:"Bricolage Grotesque";font-weight:600 900;src:url(FONTS/bricolage-grotesque-latin-800-normal.woff2)}
 *{box-sizing:border-box;margin:0}
 body{background:#fff;font-family:FT;color:#1D1D1F;width:800px}
 .c{width:800px;position:relative;overflow:hidden;margin-bottom:40px}
@@ -233,7 +237,7 @@ def cards_html(d):
                     e(st[1]["teaser_title"]), e(st[1]["teaser_line"]), e(st[2]["teaser_title"]), e(st[2]["teaser_line"]), e(skill)))
     stats = "".join('<div class="stat"><b class="%s">%s</b><span>%s</span></div>'
                     % ("sm" if len(s["value"]) > 6 else "", e(s["value"]), e(s["label"])) for s in hero["stats"][:3])
-    art = '<div class="art">%s</div>' % hero["svg"] if hero.get("svg") else ""
+    art = '<div class="art">%s</div>' % (hero.get("svg") or DEFAULT_ART)
     parts.append('<div class="c" id="hero"><span class="tag">LEAD STORY</span><h2 style="font-size:%dpx">%s</h2>%s<div class="stats">%s</div></div>'
                  % (fit(hero["headline"], [(45, 78), (70, 66), (999, 56)]), e(hero["headline"]), art, stats))
     for name, _, fig in figs(d):
@@ -248,6 +252,12 @@ def cards_html(d):
     parts.append('<div class="c" id="thumb"><div class="w">Luis\'s <span>AI</span> Brief</div><div class="dt">%s %d, %d</div><h2 style="font-size:%dpx">%s</h2></div>'
                  % (mon, day, yr, fit(lead_t, [(40, 44), (60, 38), (85, 32), (999, 27)]), e(lead_t)))
     return "".join(parts)
+
+DEFAULT_ART = ('<svg viewBox="0 0 320 150" role="img" aria-label="Abstract chart illustration">'
+               '<rect x="6" y="6" width="308" height="138" rx="20" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.35)" stroke-width="1.5"/>'
+               + "".join('<rect x="%d" y="%d" width="22" height="%d" rx="8" fill="%s"/>' % (34 + i * 38, 122 - h, h, "#F0885B" if i == 6 else "rgba(255,255,255,.55)")
+                         for i, h in enumerate([24, 36, 30, 48, 58, 52, 88]))
+               + '<circle cx="273" cy="22" r="6" fill="#D8F86C"/></svg>')
 
 def first_sentence(s):
     m = re.match(r"(.{20,170}?[.!?])(\s|$)", s)
