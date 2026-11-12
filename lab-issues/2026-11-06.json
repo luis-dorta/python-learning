@@ -1,0 +1,309 @@
+{
+ "vol": 1,
+ "no": 3,
+ "date_long": "Friday, November 6, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "An outside group says Anthropic is building AI about twice as fast.",
+   "line": "The estimate is 1.9x, and most of the boost is credited to AI itself."
+  },
+  {
+   "label": "Story 2",
+   "title": "OpenAI's hacking AI mostly stays in bounds.",
+   "line": "It stayed in scope 99.93% of the time in one test, and access stays restricted."
+  },
+  {
+   "label": "Story 3 · Update",
+   "title": "AI stocks had their worst day since April 2025.",
+   "line": "The S&P 500 fell 4.4% as data center worries grew after Tuesday's vote."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Make the AI check its own work.",
+   "line": "Hand it a short checklist before it answers. Then test yourself in the Friday recap."
+  }
+ ],
+ "stories": [
+  {
+   "hero": {
+    "headline": "Outside experts say Anthropic's AI progress has roughly doubled in speed",
+    "svg": "",
+    "stats": [
+     {
+      "value": "1.9x",
+      "label": "estimated speedup since Oct 2025 (95% range 1.5x to 2.8x)"
+     },
+     {
+      "value": "~80%",
+      "label": "of today's speedup that METR guesses comes from AI itself"
+     },
+     {
+      "value": "12x",
+      "label": "staff's own loose estimate of personal speedup, Oct 2026"
+     }
+    ]
+   },
+   "headline": "Outside experts say Anthropic's AI progress has roughly doubled in speed",
+   "kicker": "METR",
+   "paragraphs": [
+    "<strong>METR.</strong> On November 5, the nonprofit AI evaluator METR published a report based on 11 weeks of access to Anthropic's internal data and staff interviews. Its main conclusion: as of October 2026, Anthropic is probably improving its models on well-specified tasks at about twice the rate it did between March 2024 and October 2025. METR says the true figure could be anywhere from about 1.3x to 3x.",
+    "METR also guesses that around 80% of today's speedup comes from Anthropic using AI to do its own research, and it saw no clear bottleneck, such as chips or data, that would stop progress over the next 12 months, though it says it is not confident about that. The catch is that Anthropic redacted most of the evidence METR found most useful. Anthropic co-founder Sam McCandlish said some of it is commercially sensitive and could help rivals speed up. AP adds that Anthropic plans to go public later this month."
+   ],
+   "fig": {
+    "title": "Fig. 1. METR's acceleration estimate under three statistical assumptions",
+    "rows": [
+     {
+      "label": "Logistic",
+      "pct": 63.3,
+      "value": "",
+      "hi": true
+     },
+     {
+      "label": "Probit",
+      "pct": 60.0,
+      "value": "",
+      "hi": false
+     },
+     {
+      "label": "Cauchit",
+      "pct": 93.3,
+      "value": "",
+      "hi": false
+     }
+    ],
+    "note": "From METR's report. Bars share one zero-based scale from 0x to 3x. This is an outside group's estimate, not a company number, but it rests on partly redacted data."
+   },
+   "means": "The AI tools marketers use for drafting, research and analysis will keep improving quickly, so a prompt that disappointed you a few months ago may work today. The lasting skill is judging the output, which is what the prompt of the day is about.",
+   "clip": "Find a prompt you used a month or two ago, such as a campaign brief draft, and run the exact same text again. Compare the two results and note what improved and what is still wrong.",
+   "deeper": [],
+   "sources": "<a href=\"https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/\">METR report</a>, <a href=\"https://apnews.com/article/anthropic-metr-ai-claude-acceleration-9cf8c590ffc1abdb489179bdccc69c23\">AP News</a>",
+   "teaser_title": "An outside group says Anthropic is building AI about twice as fast.",
+   "teaser_line": "The estimate is 1.9x, and most of the boost is credited to AI itself."
+  },
+  {
+   "headline": "OpenAI's new hacking AI is stronger, and better at staying inside its lane",
+   "kicker": "OpenAI",
+   "paragraphs": [
+    "<strong>OpenAI.</strong> On November 5, OpenAI released GPT-6 Cyber, a version of its model built for security researchers. It finds software weaknesses and builds working exploits, which are programs that take advantage of a bug. OpenAI rates it \"Critical\" for cybersecurity risk, up from \"High\" for its predecessor, and only approved customers of its Daybreak Red program can use it, through the API and Codex.",
+    "On ExploitGym, a test of whether an AI can exploit a known weakness, it scored 48.5%, up from 32.1% for the previous version. The bigger claim is about discipline. In a trap test with off-limits systems left deliberately easy to break, it stayed in scope 99.93% of the time without OpenAI's extra safety instructions, up from 94.49%, and 100% with them. All of these numbers are OpenAI's own."
+   ],
+   "fig": {
+    "title": "Fig. 2. ExploitGym score, share of tasks solved",
+    "rows": [
+     {
+      "label": "GPT-5.6 Cyber",
+      "pct": 53.5,
+      "value": "",
+      "hi": false
+     },
+     {
+      "label": "GPT-6 Astra*",
+      "pct": 70.7,
+      "value": "",
+      "hi": false
+     },
+     {
+      "label": "GPT-6 Cyber",
+      "pct": 80.8,
+      "value": "",
+      "hi": true
+     }
+    ],
+    "note": "Vendor-reported, from OpenAI's own chart, not an independent test. Bars share one zero-based scale from 0% to 60%. *Astra with the verified-defender Daybreak Blue setup. With its normal safeguards on, OpenAI lists Astra at 0.0%."
+   },
+   "means": "You will not get access, but notice what labs now advertise: not just power, but staying inside the rules. Knowing how to set limits on an AI is becoming a real workplace skill for marketers too.",
+   "clip": "Add one scope line to a prompt you use, like \"Use only the facts I paste below. If something is missing, ask me instead of guessing.\" Notice whether the answers get more trustworthy.",
+   "deeper": [],
+   "sources": "<a href=\"https://openai.com/index/introducing-gpt-6-cyber/\">OpenAI</a> (primary source, vendor-reported; no independent test found yet)",
+   "teaser_title": "OpenAI's hacking AI mostly stays in bounds.",
+   "teaser_line": "It stayed in scope 99.93% of the time in one test, and access stays restricted."
+  },
+  {
+   "headline": "After the data center vote, AI stocks had their worst day in over a year",
+   "kicker": "Wall Street",
+   "paragraphs": [
+    "<strong>Wall Street.</strong> Yesterday's issue covered voters turning against local data centers. What is new: on Thursday, November 5, AI-linked stocks sold off hard. The S&amp;P 500 fell 4.4%, its worst day since April 2025, the Nasdaq dropped 5.5%, and Nvidia fell 9.3%. AMD sank 17.3%, and the Nasdaq ended 11.9% below its October record, which traders call a correction.",
+    "AP ties the drop to worries that AI data center construction could slow because borrowing is expensive, plus critics who say AI stock prices got too high. Tuesday's election added a new fear: Democratic wins raised the chance that governments force pauses on new data centers. One bright spot was AppLovin, a marketing platform, which jumped 31% after beating profit and revenue expectations."
+   ],
+   "fig": {
+    "title": "Fig. 3. One-day drop on Thursday, November 5",
+    "rows": [
+     {
+      "label": "AMD",
+      "pct": 86.5,
+      "value": "",
+      "hi": true
+     },
+     {
+      "label": "Nvidia",
+      "pct": 46.5,
+      "value": "",
+      "hi": false
+     },
+     {
+      "label": "Nasdaq",
+      "pct": 27.5,
+      "value": "",
+      "hi": false
+     },
+     {
+      "label": "S&P 500",
+      "pct": 22.0,
+      "value": "",
+      "hi": false
+     },
+     {
+      "label": "Dow",
+      "pct": 17.0,
+      "value": "",
+      "hi": false
+     }
+    ],
+    "note": "Percentage declines reported by AP. Bars share one zero-based scale from 0% to 20%. This is news, not financial advice."
+   },
+   "means": "When investors get nervous about AI spending, companies start asking tougher questions about what AI actually delivers. For marketers, being able to connect an AI tool to a measurable result is a strong way to stand out.",
+   "clip": "Pick one bold AI claim from an ad or a pitch deck and write the number that would prove it, such as sales, time saved or cost per lead. It is a great habit for case studies.",
+   "deeper": [],
+   "sources": "<a href=\"https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e\">AP News</a> (single source for market figures; no second source found yet)",
+   "teaser_title": "AI stocks had their worst day since April 2025.",
+   "teaser_line": "The S&P 500 fell 4.4% as data center worries grew after Tuesday's vote."
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "New Nov 5",
+    "Free clips in Google Vids",
+    "API for developers"
+   ],
+   "title": "Gemini Omni 1.2 Flash makes 15-second ad clips from your photos",
+   "paragraphs": [
+    "Google released Gemini Omni 1.2 Flash on November 5. Clips can now run up to 15 seconds, up from 10, and you can guide the video with character, product or style images, so faces, packaging and brand colors stay consistent. You can also edit a clip by chatting, such as swapping the background or lighting, without starting over.",
+    "<strong>Who can use it:</strong> Google says 15-second clips are included at no extra cost in Google Vids with a Google account, and it is available in Flow, the Gemini API, Google Cloud and Google Ads. Gemini app access is rolling out to Google AI Ultra subscribers. Outputs carry an invisible SynthID watermark.",
+    "<strong>Good for:</strong> a mock product ad for a class campaign, a short social spot for a portfolio piece, or quick variants of one concept. Vendor-reported: the price fell 30% to $0.07 per second at 720p, so a full 15-second clip is about $1.05 through the API (editor's arithmetic). Google itself says fast sports action and complex physics still need work."
+   ],
+   "sources": "<a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\">Google</a>"
+  },
+  {
+   "tags": [
+    "Music",
+    "ElevenLabs + SoundCloud"
+   ],
+   "title": "AI music can now publish straight to SoundCloud",
+   "paragraphs": [
+    "ElevenLabs says people can publish tracks made in its ElevenMusic app directly to SoundCloud, and it has created more than 25 million tracks so far (company-reported). SoundCloud Artist Pro users get three months of ElevenMusic Pro. <strong>Good for:</strong> original background music for a video project. Check each platform's AI rules first, because Bandcamp bans AI tracks and Deezer is adding a filter for them."
+   ],
+   "sources": "<a href=\"https://techcrunch.com/2026/11/05/elevenlabs-now-lets-users-publish-ai-generated-music-directly-on-soundcloud/\">TechCrunch</a>"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [],
+   "title": "Claude adds a Personal Finance hub",
+   "paragraphs": [
+    "Claude can now connect to bank and credit card accounts through Plaid so you can ask things like where your money went this month. Access is read-only, Claude cannot move money, and it shows only account names, last four digits, balances, credit limits and up to two years of transactions. Chats in the hub are not used to train Anthropic's models. It is rolling out in beta this week to US Pro, Max and Ultra plans.",
+    "<strong>How you might use it:</strong> a month-end spending check, such as asking where your money went. Connect one account first, and verify any number against your bank before relying on it. Check the tool's own setup page for steps."
+   ],
+   "sources": "<a href=\"https://claude.com/resources/articles/introducing-personal-finance-in-claude\">Anthropic</a>, <a href=\"https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/\">TechCrunch</a>"
+  },
+  {
+   "tags": [],
+   "title": "Kapwing's video editor can now be driven from Claude",
+   "paragraphs": [
+    "Kapwing has a custom connector that lets Claude upload a video, add subtitles, translate or dub it, and hand back an edited project. It is not in the Claude connector directory yet, so you add it by hand, and it needs a paid Kapwing plan (Pro or higher). Its own help page lists limits: one asset per project, and no brand kit access yet.",
+    "<strong>How you might use it:</strong> adding captions to short social videos is the first thing to automate. Skip it unless you already pay for Kapwing; any video editor with auto-captions is a generic alternative. Check the tool's own setup page for steps."
+   ],
+   "sources": "<a href=\"https://www.kapwing.com/help/about-the-kapwing-mcp/\">Kapwing Help Center</a>"
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Ask the AI to check its own work",
+  "intro": "Anthropic's prompting guide suggests adding a line like \"before you finish, verify your answer against\" a set of criteria, which it says catches errors reliably. The trick is to write the criteria yourself, so the AI grades its draft against your standard and not its own. Keep the list short, since newer models already check on their own.",
+  "weak": "Make my campaign brief better for this audience.",
+  "strong": "Tighten my campaign brief for the audience below.\n\nAudience and goal:\n[Describe the audience and the goal of the campaign]\n\nMy current draft:\n[Paste 3 to 5 lines of your brief or ad copy]\n\nTask: Rewrite each line to speak to that audience, but only using facts I gave you.\n\nBefore you give me the final answer, check your own work against this list:\n1. Every fact, number and claim in a new line appears in my current draft. If it does not, remove it.\n2. Each line starts with a strong verb or a clear benefit and fits on two lines or fewer.\n3. No line promises a result my draft does not support.\n4. No em dashes.\n\nOutput format:\n- The final lines\n- For each line, what changed and the line in my original that supports it\n- Anything you removed because I could not support it, and any gaps I should fill",
+  "why": [
+   {
+    "title": "Your standard",
+    "text": "The checklist tells the AI what \"good\" means to you, so it grades its draft against your rules."
+   },
+   {
+    "title": "Honesty built in",
+    "text": "Rule 1 stops invented numbers and claims, which is the biggest risk with marketing copy."
+   },
+   {
+    "title": "Shows evidence",
+    "text": "Asking for the supporting line from your original lets you verify each change in seconds."
+   },
+   {
+    "title": "Flags gaps",
+    "text": "It tells you what it could not support, which is useful to know before you publish."
+   }
+  ],
+  "try": "Take a short piece of marketing copy, like a product description or a social caption. Fill both brackets and run the prompt. Then add a fifth check of your own, such as \"keep the tone plain, no buzzwords,\" and run it again to see the difference.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic prompting best practices</a> (the \"Ask Claude to self-check\" guidance)"
+ },
+ "brief": [
+  {
+   "name": "Anthropic",
+   "text": "Added more than 25 partner agents and products to Claude Marketplace, including Webflow, Runway and AirOps for marketing and creative work. Enterprise customers can pay with their committed Anthropic spend.",
+   "sources": "<a href=\"https://claude.com/resources/articles/new-agents-and-products-claude-marketplace\">Anthropic</a>"
+  },
+  {
+   "name": "AppLovin",
+   "text": "The marketing platform jumped 31% on Thursday after beating revenue and profit expectations, and approved up to $3.2 billion more in stock buybacks, while AI stocks fell.",
+   "sources": "<a href=\"https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e\">AP News</a>"
+  },
+  {
+   "name": "Mozilla",
+   "text": "Has released fixes for many of the Firefox weaknesses that OpenAI says GPT-6 Cyber found, according to OpenAI's announcement.",
+   "sources": "<a href=\"https://openai.com/index/introducing-gpt-6-cyber/\">OpenAI</a>"
+  }
+ ],
+ "quiz": {
+  "recap": [
+   "This week's prompt skills: show examples, tell the AI why, and now make it check its own work. Try the quiz."
+  ],
+  "questions": [
+   {
+    "question": "How many Uber rides were ordered through an AI agent in the Halloween week?",
+    "options": [
+     "4",
+     "500",
+     "320 million"
+    ],
+    "answer": 0,
+    "explain": "Four rides. The 500 was food orders, and 320 million was total trips and orders."
+   },
+   {
+    "question": "In the NBC News exit poll, what share of voters opposed a new data center in their community?",
+    "options": [
+     "24%",
+     "57%",
+     "76%"
+    ],
+    "answer": 2,
+    "explain": "76% opposed one. 57% was the share who expect AI to hurt society more."
+   },
+   {
+    "question": "How much faster does METR estimate Anthropic is improving its AI on well-specified tasks, compared with 2024 to 2025?",
+    "options": [
+     "About the same pace",
+     "About twice as fast",
+     "About ten times as fast"
+    ],
+    "answer": 1,
+    "explain": "About 2x, with a plausible range of roughly 1.3x to 3x."
+   }
+  ],
+  "sources": "<a href=\"https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/\">TechCrunch</a>, <a href=\"https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/\">BleepingComputer</a>, <a href=\"https://developer.apple.com/news/?id=gdk2umrf\">Apple Developer</a>, <a href=\"https://www.nbcnews.com/politics/2026-elections/exit-polls\">NBC News exit polls</a>, <a href=\"https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/\">METR</a>"
+ },
+ "subject_hook": "AI progress speeds up, AI stocks drop",
+ "subtitle": "Anthropic's AI progress may be twice as fast, OpenAI's hacking AI stays in bounds, and one prompt skill to practice.",
+ "your_turn": "What's one thing you'd ask AI to double-check in your own work?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-5-2026",
+ "prev_label": "Read yesterday's issue",
+ "slug": ""
+}

@@ -1,0 +1,237 @@
+{
+ "vol": 1,
+ "no": 4,
+ "date_long": "Monday, November 9, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "A startup says an unreleased Anthropic model proved a 2008 quantum conjecture.",
+   "line": "A computer proof checker accepted every step, and Stanford researchers called it huge."
+  },
+  {
+   "label": "Story 2",
+   "title": "Nvidia's board opens a probe into its own CEO.",
+   "line": "Congress wants a briefing, and the company reports earnings first."
+  },
+  {
+   "label": "Story 3",
+   "title": "Claude does better when it knows why memory matters.",
+   "line": "Anthropic's tests: 10 memory files beat 413 on a long game."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Give the AI a role and an audience.",
+   "line": "Plus a look at Claude Duet in Connectors and Claude."
+  }
+ ],
+ "stories": [
+  {
+   "hero": {
+    "headline": "An AI system proved a quantum puzzle that stood open for 18 years",
+    "svg": "",
+    "stats": [
+     {
+      "value": "2008",
+      "label": "year the open question was first posed"
+     },
+     {
+      "value": "Day 3",
+      "label": "when the system had a complete proof, per PSI"
+     },
+     {
+      "value": "2",
+      "label": "times the system then improved the result"
+     }
+    ]
+   },
+   "headline": "An AI system proved a quantum puzzle that stood open for 18 years",
+   "kicker": "PSI",
+   "paragraphs": [
+    "<strong>PSI.</strong> On November 6, a research company called Physical Superintelligence (PSI) posted a proof of the Aaronson-Ambainis conjecture, a question about when quantum computers can be exponentially faster than ordinary ones. PSI says a system it built, running copies of a non-public Anthropic model, had a full proof by the third day of one run. A proof checker called Lean then confirmed every step, and the system improved the result twice more.",
+    "The plain-English result: on random, patternless inputs, a normal computer can imitate a quantum one without needing wildly more peeks at the data. Quantum speedups seem to need structure. The limits matter, though. The Quantum Insider stresses that the proof counts data reads, not total computing time, so it does not show ordinary computers can copy everything quantum computers do. A human, David Turturean, picked the problem, ran the system and takes responsibility for the paper."
+   ],
+   "fig": null,
+   "means": "The useful lesson is the receipt. The AI's claim was trusted only because a strict checker verified it and a named person stood behind it. For marketing claims and case studies, that is a good habit: ask where the proof is, and who is accountable if the AI is wrong.",
+   "clip": "Take one statistic or claim an AI gave you recently. Ask it: \"Show me how I could check this in two minutes, with a link or a source I can open.\" Then actually open it.",
+   "deeper": [],
+   "sources": "<a href=\"https://psi.inc/research/aaronson-ambainis/\">PSI (primary source, company-reported)</a>, <a href=\"https://thequantuminsider.com/2026/11/06/ai-assisted-proof-settles-longstanding-question-about-quantum-speedups/\">The Quantum Insider</a>",
+   "teaser_title": "A startup says an unreleased Anthropic model proved a 2008 quantum conjecture.",
+   "teaser_line": "A computer proof checker accepted every step, and Stanford researchers called it huge."
+  },
+  {
+   "headline": "Nvidia's board launches an independent investigation of CEO Jensen Huang",
+   "kicker": "Nvidia",
+   "paragraphs": [
+    "<strong>Nvidia.</strong> On Sunday, November 8, Nvidia's board said a committee of independent directors, helped by outside lawyers, will investigate after reports that Jensen Huang was the target of a foreign intelligence effort. The board says it has \"no reason to believe\" national security or company secrets were compromised, and Huang says he supports the review. CNBC adds that Huang told staff in a memo he had a relationship with Alice Huang, a Megaspeed executive that U.S. intelligence reportedly assessed was recruited by China's spy agency. The board's own statement does not mention the relationship.",
+    "Politics is moving quickly. Three House Republican committee chairs asked Huang for a closed-door briefing on November 18, the day after Nvidia reports quarterly earnings, and Democrats are also calling for investigations or testimony. Nvidia says Huang will keep leading the company, and CNBC's headline noted the stock fell about 5% as attention turned to him. Nvidia had earlier described his contacts with her as ordinary customer meetings."
+   ],
+   "fig": null,
+   "means": "This is a live crisis communications case. One company supplies chips to much of the AI industry, so a question about its leader reaches well beyond Nvidia. Marketers watch for two things: what a company says first, and what it leaves out.",
+   "clip": "Read the board's six-sentence statement (linked below) and write two lines: what it promises, and what a skeptical reader would still want answered. It makes a sharp short case study.",
+   "deeper": [],
+   "sources": "<a href=\"https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors\">Nvidia board statement</a> (primary source), <a href=\"https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html\">CNBC</a>. Reporting on the spy claim comes from unnamed sources and is not confirmed by Nvidia.",
+   "teaser_title": "Nvidia's board opens a probe into its own CEO.",
+   "teaser_line": "Congress wants a briefing, and the company reports earnings first."
+  },
+  {
+   "headline": "Anthropic: Claude remembers better when you explain why, not what",
+   "kicker": "Anthropic",
+   "paragraphs": [
+    "<strong>Anthropic.</strong> In a research post on November 6, Anthropic described how Claude agents use memory, meaning notes saved as files and read back in later sessions. It also explained \"dreaming,\" where Claude reviews old session logs when idle to fix wrong notes and build better summaries. In one test, Claude had saved a wrong landmark location while playing Pokémon Red and kept walking into the same trap. After a dreaming pass corrected the note, Claude went straight back into the cave and reached the next city.",
+    "The main takeaway is about prompting. For newer models, telling Claude what memory is for worked better than telling it exactly what to write. When Anthropic added a rule to record only failures, the memory boost shrank sharply for two models. The numbers below are Anthropic's own tests."
+   ],
+   "fig": {
+    "title": "Fig. 1. Mean score on a database question task, without and with a memory folder",
+    "rows": [
+     {
+      "label": "Opus 5.5, none",
+      "pct": 65.5,
+      "value": "",
+      "hi": false
+     },
+     {
+      "label": "Opus 5.5, memory",
+      "pct": 83.8,
+      "value": "",
+      "hi": true
+     },
+     {
+      "gap": true
+     },
+     {
+      "label": "Opus 4.7, none",
+      "pct": 38.3,
+      "value": "",
+      "hi": false
+     },
+     {
+      "label": "Opus 4.7, memory",
+      "pct": 70.0,
+      "value": "",
+      "hi": true
+     },
+     {
+      "gap": true
+     },
+     {
+      "label": "Sonnet 4.6, none",
+      "pct": 33.0,
+      "value": "",
+      "hi": false
+     },
+     {
+      "label": "Sonnet 4.6, memory",
+      "pct": 36.4,
+      "value": "",
+      "hi": true
+     }
+    ],
+    "note": "Vendor-reported, from Anthropic's own chart, not an independent test. Bars share one zero-based scale from 0 to 1. Three of the six models Anthropic listed are shown."
+   },
+   "means": "If you use an AI assistant's memory or project feature for ongoing work, the same idea applies. One sentence about your goal, such as \"I write social posts for a small coffee shop, so keep my tone plain and friendly,\" will likely help more than a long rulebook. That is also today's prompt skill: say who and why.",
+   "clip": "Open Claude Projects or any assistant's custom instructions and replace a long list of rules with two sentences: what you are working on, and why it matters. Run one real task and compare the result.",
+   "deeper": [],
+   "sources": "<a href=\"https://www.anthropic.com/research/components-of-agent-memory\">Anthropic research post</a> (primary source, vendor-reported; no independent test was found).",
+   "teaser_title": "Claude does better when it knows why memory matters.",
+   "teaser_line": "Anthropic's tests: 10 memory files beat 413 on a long game."
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "New Nov 5",
+    "Try it on Tinker",
+    "Open weights promised"
+   ],
+   "title": "Inkling 2 Small: a new model from Thinking Machines Lab",
+   "paragraphs": [
+    "Thinking Machines Lab released Inkling 2 Small on November 5. It is a very large \"mixture of experts\" model, with 594 billion total parameters but only 17 billion active at a time, and it accepts images. The lab says it scores 31 on the Artificial Analysis Intelligence Index and is much better than its first model at coding and long, multi-step jobs.",
+    "<strong>Who can use it:</strong> anyone can try it in the Tinker Playground, and developers can fine-tune it there. The weights are closed for now. The lab says it plans to release them under the Apache 2.0 license next week, after outside safety testing.",
+    "<strong>Good for:</strong> following the open model race, and later, if you study machine learning, a real open model to read about. The Decoder reports it costs about $1.18 per task, around six times its predecessor, and that it is less polished for chat. At this size it is not something to run on a laptop (editor's take). Lab-reported scores, not an independent test."
+   ],
+   "sources": "<a href=\"https://thinkingmachines.ai/news/inkling-2-small/\">Thinking Machines Lab</a>, <a href=\"https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/\">The Decoder</a>"
+  },
+  {
+   "tags": [
+    "New Nov 5",
+    "$200 a month"
+   ],
+   "title": "Perplexity Teammates are always-on work agents",
+   "paragraphs": [
+    "Perplexity's new Teammates are agents that own an ongoing job and work on several tasks at once. You track each in its own thread and they talk to you in Slack. They are for subscribers to the $200 a month Max plan, and The Verge calls that much pricier than rival features. <strong>Good for:</strong> seeing where work agents are heading, likely too pricey for most students and early-career marketers. Claude's scheduled tasks and Duet (below) cover similar ground."
+   ],
+   "sources": "<a href=\"https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work\">The Verge</a> (single source)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [],
+   "title": "Claude Duet: message Claude like a person",
+   "paragraphs": [
+    "Duet is a research preview where you text or voice-message Claude, and it works in the apps you connect to it, such as Gmail, Google Calendar and Google Drive. It can send a morning brief from your email and calendar, draft replies, and finish bigger jobs as files. It is designed to ask before it sends a message, pays, signs or deletes. It is a US-only waitlist for Pro, Max and Ultra plans, runs on Claude Opus 5.5, and counts toward your usage limits.",
+    "<strong>How you might use it:</strong> if you get access, a morning brief across your email and calendar could help you keep track of follow-ups and deadlines. Check the tool's own setup page for steps, and check each draft before approving, since Anthropic warns it can misread threads or misjudge what is urgent."
+   ],
+   "sources": "<a href=\"https://support.claude.com/en/articles/17631495-get-started-with-claude-duet\">Claude Help Center</a> (primary source)"
+  },
+  {
+   "tags": [],
+   "title": "Tip: keep a swipe file of prompts that work",
+   "paragraphs": [
+    "No new connector was confirmed today. A useful habit: save each prompt that works in any notes app, then paste it into your AI assistant and swap in the new details. <strong>How you might use it:</strong> star the prompts you reuse most, so your best ones are one search away."
+   ],
+   "sources": ""
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Give the AI a role and an audience",
+  "intro": "Anthropic's prompting guide says setting a role focuses Claude's behavior and tone, and that even one sentence makes a difference. Add the reader (an addition, not from the guide) and the AI judges your draft the way that person would, not as a generic helper.",
+  "weak": "Review my Instagram caption.",
+  "strong": "You are [a role, for example: a social media manager who has grown small brand accounts].\n\nThe reader of my post is [who, for example: a busy customer who decides in about 2 seconds whether to keep scrolling].\n\nWhat I am promoting, in one line: [for example: a weekend sale at a local coffee shop]\n\nHere is my draft:\n[Paste your post]\n\nTask: Read it as that reader would. Give me:\n1. What the reader would think in the first 2 seconds, in one sentence.\n2. The 3 weakest lines and why, from the reader's point of view.\n3. A rewrite that keeps my facts and my voice.\n\nRules: Do not add any claim I did not make. Keep it under [number] words. No em dashes.",
+  "why": [
+   {
+    "title": "A clear lens",
+    "text": "The role tells the AI whose eyes to use, so feedback sounds like an experienced social media manager, not a cheerleader."
+   },
+   {
+    "title": "Real stakes",
+    "text": "\"2 seconds\" tells it what the reader has time for, which shapes every cut it suggests."
+   },
+   {
+    "title": "Ordered output",
+    "text": "First impression, weak lines, then a rewrite. You see the problem before the fix."
+   },
+   {
+    "title": "Honesty guardrail",
+    "text": "\"Do not add any claim I did not make\" keeps the rewrite true to you."
+   }
+  ],
+  "try": "Pick a real piece of marketing copy, such as a social post, an email subject line or a campaign tagline. Fill every bracket and run it. Then change only the role, for example from social media manager to brand copywriter, run it again and compare what each one flags.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic prompting best practices</a> (the \"Give Claude a role\" section). Adding an audience is an addition, not a quote from the guide."
+ },
+ "brief": [
+  {
+   "name": "Stanford",
+   "text": "Four researchers there proved a narrower version of the quantum result in August 2026, and are now writing a shorter explanation of PSI's full proof for experts.",
+   "sources": "<a href=\"https://psi.inc/research/aaronson-ambainis/\">PSI</a>"
+  },
+  {
+   "name": "Lean",
+   "text": "The proof checker behind the lead story. It confirms every logical step of a proof, whether a human or an AI wrote it, but only checks that the proof matches the statement someone typed in.",
+   "sources": "<a href=\"https://psi.inc/research/aaronson-ambainis/\">PSI</a>, <a href=\"https://thequantuminsider.com/2026/11/06/ai-assisted-proof-settles-longstanding-question-about-quantum-speedups/\">The Quantum Insider</a>"
+  },
+  {
+   "name": "New Matrix",
+   "text": "Sen. John Cornyn called \"outrageous\" a Times report that the administration cleared this Chinese firm to assemble Nvidia chips in Beijing.",
+   "sources": "<a href=\"https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html\">CNBC</a>"
+  }
+ ],
+ "quiz": null,
+ "subject_hook": "AI quantum proof, Nvidia probe",
+ "subtitle": "An AI-assisted quantum proof, a probe at Nvidia, and one prompt skill to practice.",
+ "your_turn": "When an AI makes a big claim, what would you want to see before you believed it?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-6-2026",
+ "prev_label": "Read Friday's issue",
+ "slug": ""
+}

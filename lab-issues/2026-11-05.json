@@ -1,0 +1,259 @@
+{
+ "vol": 1,
+ "no": 2,
+ "date_long": "Thursday, November 5, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "Almost nobody lets an AI agent book their Uber.",
+   "line": "Four rides and about 500 food orders in Uber's busiest week, out of roughly 320 million."
+  },
+  {
+   "label": "Story 2",
+   "title": "Voters turned on data centers.",
+   "line": "Three in four exit-poll voters oppose one in their town."
+  },
+  {
+   "label": "Story 3",
+   "title": "Google backs off on school Search.",
+   "line": "Gemini and Search now start switched off, school by school."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Tell the AI why.",
+   "line": "One sentence of purpose beats five of instructions."
+  }
+ ],
+ "stories": [
+  {
+   "hero": {
+    "headline": "The agent hype meets real checkout data: 4 rides in a week",
+    "svg": "<svg aria-label=\"Illustration of a large field of grey dots with only four coral dots highlighted, standing for four agent-booked rides among hundreds of millions of trips\" role=\"img\" viewbox=\"0 0 320 240\"><rect fill=\"rgba(255,255,255,.08)\" height=\"170\" rx=\"20\" stroke=\"rgba(255,255,255,.35)\" stroke-width=\"1.5\" width=\"292\" x=\"14\" y=\"14\"></rect><g fill=\"rgba(255,255,255,.38)\"><circle cx=\"40\" cy=\"40\" r=\"6\"></circle><circle cx=\"72\" cy=\"40\" r=\"6\"></circle><circle cx=\"104\" cy=\"40\" r=\"6\"></circle><circle cx=\"136\" cy=\"40\" r=\"6\"></circle><circle cx=\"168\" cy=\"40\" r=\"6\"></circle><circle cx=\"200\" cy=\"40\" r=\"6\"></circle><circle cx=\"232\" cy=\"40\" r=\"6\"></circle><circle cx=\"264\" cy=\"40\" r=\"6\"></circle><circle cx=\"40\" cy=\"72\" r=\"6\"></circle><circle cx=\"72\" cy=\"72\" r=\"6\"></circle><circle cx=\"104\" cy=\"72\" r=\"6\"></circle><circle cx=\"136\" cy=\"72\" r=\"6\"></circle><circle cx=\"168\" cy=\"72\" r=\"6\"></circle><circle cx=\"200\" cy=\"72\" r=\"6\"></circle><circle cx=\"232\" cy=\"72\" r=\"6\"></circle><circle cx=\"264\" cy=\"72\" r=\"6\"></circle><circle cx=\"40\" cy=\"104\" r=\"6\"></circle><circle cx=\"72\" cy=\"104\" r=\"6\"></circle><circle cx=\"104\" cy=\"104\" r=\"6\"></circle><circle cx=\"136\" cy=\"104\" r=\"6\"></circle><circle cx=\"168\" cy=\"104\" r=\"6\"></circle><circle cx=\"200\" cy=\"104\" r=\"6\"></circle><circle cx=\"232\" cy=\"104\" r=\"6\"></circle><circle cx=\"264\" cy=\"104\" r=\"6\"></circle><circle cx=\"40\" cy=\"136\" r=\"6\"></circle><circle cx=\"72\" cy=\"136\" r=\"6\"></circle><circle cx=\"104\" cy=\"136\" r=\"6\"></circle><circle cx=\"136\" cy=\"136\" r=\"6\"></circle><circle cx=\"168\" cy=\"136\" r=\"6\"></circle><circle cx=\"200\" cy=\"136\" r=\"6\"></circle><circle cx=\"232\" cy=\"136\" r=\"6\"></circle><circle cx=\"264\" cy=\"136\" r=\"6\"></circle><circle cx=\"40\" cy=\"162\" r=\"6\"></circle><circle cx=\"72\" cy=\"162\" r=\"6\"></circle><circle cx=\"104\" cy=\"162\" r=\"6\"></circle><circle cx=\"136\" cy=\"162\" r=\"6\"></circle><circle cx=\"168\" cy=\"162\" r=\"6\"></circle><circle cx=\"200\" cy=\"162\" r=\"6\"></circle></g><g fill=\"#FF8A5B\" stroke=\"#FFFFFF\" stroke-width=\"2\"><circle cx=\"232\" cy=\"162\" r=\"7\"></circle><circle cx=\"264\" cy=\"162\" r=\"7\"></circle><circle cx=\"232\" cy=\"136\" r=\"7\"></circle><circle cx=\"264\" cy=\"136\" r=\"7\"></circle></g><rect fill=\"#FFB020\" height=\"34\" rx=\"17\" width=\"196\" x=\"62\" y=\"198\"></rect><text fill=\"#2A1B00\" font-family=\"Figtree, Arial, sans-serif\" font-size=\"15\" font-weight=\"800\" text-anchor=\"middle\" x=\"160\" y=\"220\">4 rides in about 320M orders</text></svg>",
+    "stats": [
+     {
+      "value": "4",
+      "label": "rides ordered through an AI agent in Halloween week"
+     },
+     {
+      "value": "500",
+      "label": "Uber Eats orders placed by agents that week"
+     },
+     {
+      "value": "320M",
+      "label": "total trips and orders on Uber and Uber Eats that week"
+     }
+    ]
+   },
+   "headline": "The agent hype meets real checkout data: 4 rides in a week",
+   "kicker": "Uber",
+   "paragraphs": [
+    "<strong>Uber.</strong> On its third-quarter earnings call on November 4, Uber said that during its busiest week of October, the week of Halloween, only four rides were ordered through an AI agent. Agents did place about 500 Uber Eats orders, but the company handled roughly 320 million trips and orders in total. CEO Dara Khosrowshahi called the traction \"very, very early and very limited.\"",
+    "His explanation is simple. Booking a ride in the Uber app takes about 50 seconds, and reordering a favorite meal takes about 90. If telling an agent takes as long as tapping a few buttons, the agent saves nothing. DoorDash told investors a week earlier that it had received only a few hundred agent orders so far, so this looks like a pattern and not a one-company problem."
+   ],
+   "fig": {
+    "title": "Fig. 1. Orders placed by AI agents on Uber, Halloween week",
+    "rows": [
+     {
+      "label": "Rides",
+      "pct": 0.8,
+      "value": "4",
+      "hi": true
+     },
+     {
+      "label": "Uber Eats orders",
+      "pct": 100.0,
+      "value": "500",
+      "hi": false
+     }
+    ],
+    "note": "Company-reported on its earnings call. Bars share one zero-based scale. For scale, 504 agent orders out of about 320 million is roughly 0.00016%, my arithmetic."
+   },
+   "means": "For marketing, this is a useful reality check. Customers still choose apps, brands and search results themselves, so your brand's own site and listings matter more than a pitch about \"agent-ready\" commerce. Be skeptical of any deck that treats agents as a mass channel today.",
+   "clip": "Pick one routine task you do online and time it by hand, start to finish. Then guess how long explaining it to an AI, checking the answer and fixing mistakes would take. If the second number is bigger, keep doing it yourself.",
+   "deeper": [
+    "Uber's chief financial officer gave the 320 million figure and said the 500 food orders were all that agents placed on Uber Eats that week.",
+    "Khosrowshahi still called agents \"a net positive\" for demand over time, and said every major AI assistant company is talking to Uber. He counted about eight major assistants today and expects more than ten.",
+    "The same article notes the hype around personal agents: Instinct raised money at a reported $10 billion valuation, and Meta says its Muse app passed 10 million users (company-reported, with shopping a top activity)."
+   ],
+   "sources": "<a href=\"https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/\">TechCrunch</a>",
+   "teaser_title": "Almost nobody lets an AI agent book their Uber.",
+   "teaser_line": "Four rides and about 500 food orders in Uber's busiest week, out of roughly 320 million."
+  },
+  {
+   "headline": "Voters said no to data centers, and a majority fear AI will do more harm",
+   "kicker": "Midterms",
+   "paragraphs": [
+    "<strong>Midterms.</strong> In the November 3 midterm election exit poll run by NBC News and partners, 76% of voters said they would oppose a new data center in their community, and 57% said they expect AI to do more to hurt society than to help. About 56% called AI and data centers a crucial or major factor in their congressional vote.",
+    "Local ballot results pointed the same way. Trackers show measures to restrict data centers winning in nearly every town that voted, from Ohio to Maine to California. Exact counts differ between sources and were still being finalized, so treat the tally as approximate. One tracker listed restrictions winning 39 of 40 completed counts."
+   ],
+   "fig": {
+    "title": "Fig. 2. Share of voters, NBC News exit poll",
+    "rows": [
+     {
+      "label": "Oppose local data center",
+      "pct": 76.0,
+      "value": "76%",
+      "hi": true
+     },
+     {
+      "label": "Favor local data center",
+      "pct": 24.0,
+      "value": "24%",
+      "hi": false
+     },
+     {
+      "gap": true
+     },
+     {
+      "label": "AI hurts society more",
+      "pct": 57.0,
+      "value": "57%",
+      "hi": true
+     },
+     {
+      "label": "AI helps society more",
+      "pct": 24.0,
+      "value": "24%",
+      "hi": false
+     },
+     {
+      "label": "Neither",
+      "pct": 18.0,
+      "value": "18%",
+      "hi": false
+     }
+    ],
+    "note": "Exit polls are surveys of voters, not vote counts. Bars share one zero-based scale from 0% to 100%."
+   },
+   "means": "AI is now a political issue, not just a tech one. Brands that talk about AI will face an audience that is more skeptical than the headlines suggest. In marketing cases, plan for trust: say what AI did, what people reviewed, and why it helps the customer.",
+   "clip": "Open any brand's recent AI announcement and write two lines: what the company promised, and what a skeptical customer might worry about. It is good practice for interviews and class case discussions.",
+   "deeper": [
+    "Opposition was not purely partisan: among voters who oppose a local data center, 64% voted Democratic for the House and 34% Republican.",
+    "Of voters who rated AI data centers as crucial to their vote (23%), 69% backed Democrats. Among those who said it was not a factor (13%), 67% backed Republicans.",
+    "One tracker page carried a banner about a simulated display mode, so rely on the exit poll above for hard numbers and check the county sites for exact tallies."
+   ],
+   "sources": "<a href=\"https://www.nbcnews.com/politics/2026-elections/exit-polls\">NBC News exit polls</a>, <a href=\"https://datacentersontheballot.com/\">Data Centers on the Ballot tracker</a>, <a href=\"https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/\">TechCrunch</a>",
+   "teaser_title": "Voters turned on data centers.",
+   "teaser_line": "Three in four exit-poll voters oppose one in their town."
+  },
+  {
+   "headline": "Google changes course: school Search and Gemini now start switched off",
+   "kicker": "Google",
+   "paragraphs": [
+    "<strong>Google.</strong> Yesterday's issue covered Google's plan to cost schools their Search if they turned off AI. What is new: after backlash, Google clarified that Gemini, Gemini Notebook and Search will all be off by default for school accounts, and schools can turn each on individually. Google calls it \"more choice, not less.\"",
+    "The problem Google has not solved is that Search itself now leans on AI Overviews and AI Mode. DuckDuckGo jumped in with a pitch to schools and instructions for changing the default search engine, and its chief public affairs officer accused Google of \"forcing AI on school children.\" DuckDuckGo also sells itself on offering AI off switches, though that claim is the company's own."
+   ],
+   "fig": null,
+   "means": "The default search engine in millions of classrooms is now up for grabs. For marketers, that is a reminder that search is not one channel any more. Test how a brand appears in classic results, in AI answers, and in privacy-focused engines.",
+   "clip": "Search one brand you follow in Google and in DuckDuckGo. Note whether an AI answer appears, which sources it uses, and whether the brand is named. Save a screenshot for your portfolio notes.",
+   "deeper": [
+    "Google's earlier figures put about 50 million Chromebooks in schools and more than 150 million Google Classroom users worldwide, which is why the default matters.",
+    "Google built a feature called Guided Learning that walks students through steps instead of giving answers, but educators are still asking for a way to remove AI entirely.",
+    "DuckDuckGo said in May that its app installs were up 30% as users rejected AI-heavy search (company-reported).",
+    "TechCrunch notes that voters also rejected AI data centers in Tuesday's election, so the school fight is part of a wider push for more control over AI."
+   ],
+   "sources": "<a href=\"https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/\">TechCrunch</a>",
+   "teaser_title": "Google backs off on school Search.",
+   "teaser_line": "Gemini and Search now start switched off, school by school."
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "New Nov 4",
+    "ChatGPT, all tiers",
+    "API for developers"
+   ],
+   "title": "ChatGPT Images 2.6 makes GIFs and remembers your references",
+   "paragraphs": [
+    "OpenAI released Images 2.6 on November 4 in ChatGPT and Codex for every subscription tier, plus two API models called GPT-Image-2.6 Flare and Sunburst. It can turn a prompt, sketch, mascot or product shot into a short looping GIF, and you can save reference pictures of a person, pet or character so you do not re-upload them.",
+    "<strong>Good for:</strong> campaign mockups, social reactions and animated storyboards. OpenAI itself pitches animating a brand mascot or turning a product shot into a loop. Vendor-reported: images are 50% faster than before, as little as six seconds at low quality in the API, and people make about 4 billion images a week across its products.",
+    "<strong>Worth knowing:</strong> the API adds image markup, SVG export and a \"complexity\" setting. A simple test is to put one character in five scenes with edits in between. If scene five still looks like scene one, the consistency claim holds."
+   ],
+   "sources": "<a href=\"https://openai.com/index/introducing-images-2-6/\">OpenAI</a>, <a href=\"https://www.testingcatalog.com/openai-launches-images-2-6-with-gifs-and-image-reference/\">TestingCatalog</a>"
+  },
+  {
+   "tags": [
+    "Announced Oct 25",
+    "Live Nov 4"
+   ],
+   "title": "Grok Bot can now make phone calls for you",
+   "paragraphs": [
+    "SpaceXSI's agent can call a person or business, make a request, take notes and send you a summary. Elon Musk described the feature on October 25, and Tesla North reports the official Grok Bot account said it went live on November 4. The post did not say who can use it, whether it costs extra, or whether the bot tells the other person it is an AI.",
+    "<strong>Good for:</strong> understanding where agents are heading. For outreach and sales work, be careful, since calling rules vary by place."
+   ],
+   "sources": "<a href=\"https://teslanorth.com/2026/10/25/grok-bot-phone-calls-elon-musk/\">Tesla North, Oct 25</a>, <a href=\"https://teslanorth.com/2026/11/04/grok-bot-phone-calls-live/\">Tesla North, Nov 4</a>"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [],
+   "title": "Keep your best prompts in one place",
+   "paragraphs": [
+    "Save each prompt that works in any notes app, such as Notion, Apple Notes or Google Docs, so a proven prompt is one paste away. <strong>How you might use it:</strong> before a new task, paste your best-performing prompt into Claude or ChatGPT and swap in the new details, such as a campaign brief or a content calendar."
+   ],
+   "sources": ""
+  },
+  {
+   "tags": [],
+   "title": "Pair Images 2.6 ideas with Canva",
+   "paragraphs": [
+    "Images 2.6 makes quick GIF and mockup drafts in ChatGPT. <strong>How you might use it:</strong> if you use Canva, take the drafts there for layout, brand colors and final text, and treat any AI-made image as a rough draft for a campaign. Check each tool's rules before using AI images in client or portfolio work."
+   ],
+   "sources": ""
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Tell the AI why, not just what",
+  "intro": "Anthropic's prompting guide says adding the reason behind an instruction helps Claude aim at your real goal, and that Claude can generalize from the explanation. \"No ellipses\" is a rule. \"This will be read aloud, so avoid ellipses\" is a reason, and the reason covers cases the rule never mentioned.",
+  "weak": "Write the opening of a launch email for our new product.",
+  "strong": "I need the opening of a launch email for [Product], sent to [Audience].\n\nWhy this matters: most readers decide in the first two lines whether to keep reading, so the opening must show the benefit fast and give one real detail.\n\nContext:\n- What we sell: [One line]\n- Who the audience is: [One line]\n- One real proof point: [A result, a number or a customer quote]\n- How I want to sound: [Example: friendly, confident, plain-spoken]\n\nTask: Write 3 versions of the opening, each under 60 words.\n\nRules, and the reason for each:\n- Skip \"We are excited to announce.\" Readers have seen it a thousand times.\n- Use one concrete detail instead of adjectives, because specifics are easier to believe.\n- No em dashes, because I want it to read like a person wrote it.\n\nFinish with 2 sentences on which version is strongest and why.",
+  "why": [
+   {
+    "title": "Purpose",
+    "text": "The AI knows the opening exists to earn a second look, so it judges every sentence by that goal."
+   },
+   {
+    "title": "Audience",
+    "text": "Saying readers skim tells it how short and punchy to be, without a long list of style rules."
+   },
+   {
+    "title": "Reasons on rules",
+    "text": "Each rule comes with a because, so the AI applies the idea to cases you did not list."
+   },
+   {
+    "title": "Your facts",
+    "text": "Placeholders make you supply real results, which keeps the draft true to your brand."
+   }
+  ],
+  "try": "Pick a real email, post or ad you need to write this week. Fill every bracket, run the prompt, then change one reason, like swapping \"readers skim\" for \"the buyer is a busy finance director,\" and compare the two sets of openings. Keep the one that sounds most like your brand.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic prompting best practices</a> (sections on being clear and direct and adding context)"
+ },
+ "brief": [
+  {
+   "name": "OpenAI",
+   "text": "Agreed on November 4 to acquire Pierre, the startup behind the file-browsing and code-diff tools inside Codex. The deal still needs regulatory approval, and Pierre's open-source projects stay open.",
+   "sources": "<a href=\"https://openai.com/index/openai-to-acquire-pierre/\">OpenAI</a>"
+  },
+  {
+   "name": "Meta",
+   "text": "Conductor, a tool for running several coding agents at once, is joining Meta. No new sign-ups since Nov 4, the cloud version goes read-only Nov 13 and shuts down Nov 20, and the local app keeps working into early 2027.",
+   "sources": "<a href=\"https://www.conductor.build/announcement\">Conductor</a>"
+  },
+  {
+   "name": "Meta Muse",
+   "text": "Meta says its Muse app passed 10 million users, with shopping a top activity (company-reported). It is one of the agent apps Uber's low numbers have to compete with.",
+   "sources": "<a href=\"https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/\">TechCrunch</a>"
+  }
+ ],
+ "quiz": null,
+ "subject_hook": "agent rides flop, data centers lose votes",
+ "subtitle": "Almost nobody lets an AI agent book their Uber, and voters turned on data centers.",
+ "your_turn": "Would you let an AI agent book your next ride or order your dinner?",
+ "prev_url": "",
+ "prev_label": "Read yesterday's issue",
+ "slug": "",
+ "interactive_url": "https://claude.ai/artifact/TzYe8ECTrn81omp8kJep9T"
+}

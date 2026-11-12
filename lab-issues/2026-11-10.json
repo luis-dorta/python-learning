@@ -1,0 +1,251 @@
+{
+ "vol": 1,
+ "no": 5,
+ "date_long": "Tuesday, November 10, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "Anthropic's top model got 20% cheaper and up to 30% faster.",
+   "line": "Fable 5.2 is built for the hardest jobs. Anthropic still points everyday work to a smaller model."
+  },
+  {
+   "label": "Story 2",
+   "title": "Disney will get AI models trained on its own art.",
+   "line": "Adobe's multi-year deal also reaches ESPN's archive."
+  },
+  {
+   "label": "Story 3",
+   "title": "Hackers took more from Fireworks AI than first reported.",
+   "line": "Stolen AI keys are being resold. A two-minute habit protects yours."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Say what to do, not what to avoid.",
+   "line": "Plus a Worth a look pick: the Google Calendar connector, in Tools that work together."
+  }
+ ],
+ "stories": [
+  {
+   "hero": {
+    "headline": "One model, two keys: Anthropic ships Fable 5.2 and Mythos 5.2",
+    "svg": "<svg aria-label=\"Illustration of one central block labeled one model with two arrows, one to an open door labeled open to everyone and one to a locked door labeled vetted teams\" role=\"img\" viewbox=\"0 0 320 240\"><rect fill=\"rgba(255,255,255,.08)\" height=\"212\" rx=\"20\" stroke=\"rgba(255,255,255,.35)\" stroke-width=\"1.5\" width=\"292\" x=\"14\" y=\"14\"></rect><rect fill=\"#FFB020\" height=\"52\" rx=\"14\" width=\"110\" x=\"105\" y=\"30\"></rect><text fill=\"#2A1B00\" font-family=\"Figtree, Arial, sans-serif\" font-size=\"16\" font-weight=\"800\" text-anchor=\"middle\" x=\"160\" y=\"62\">one model</text><g fill=\"none\" stroke=\"rgba(255,255,255,.85)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3.5\"><path d=\"M135 84 L80 122\"></path><polyline points=\"80,106 80,122 96,120\"></polyline><path d=\"M185 84 L240 122\"></path><polyline points=\"224,120 240,122 240,106\"></polyline></g><rect fill=\"rgba(255,255,255,.14)\" height=\"76\" rx=\"12\" stroke=\"#fff\" stroke-width=\"2\" width=\"84\" x=\"38\" y=\"128\"></rect><path d=\"M60 204 L60 150 Q60 142 68 142 L100 142 L100 204\" fill=\"none\" stroke=\"#FF8A5B\" stroke-width=\"3\"></path><circle cx=\"94\" cy=\"176\" fill=\"#fff\" r=\"3.5\"></circle><rect fill=\"rgba(255,255,255,.14)\" height=\"76\" rx=\"12\" stroke=\"#fff\" stroke-width=\"2\" width=\"84\" x=\"198\" y=\"128\"></rect><rect fill=\"#FFB020\" height=\"22\" rx=\"4\" width=\"28\" x=\"226\" y=\"164\"></rect><path d=\"M232 164 L232 156 Q232 146 240 146 Q248 146 248 156 L248 164\" fill=\"none\" stroke=\"#FFB020\" stroke-width=\"3.5\"></path><text fill=\"#fff\" font-family=\"Figtree, Arial, sans-serif\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"80\" y=\"220\">open to everyone</text><text fill=\"#fff\" font-family=\"Figtree, Arial, sans-serif\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"240\" y=\"220\">vetted teams</text></svg>",
+    "stats": [
+     {
+      "value": "49.1%",
+      "label": "Fable 5.2 on FrontierCode 2.0 at its top setting, per Anthropic"
+     },
+     {
+      "value": "$8 / $40",
+      "label": "per million tokens in and out, 20% below Fable 5.1"
+     },
+     {
+      "value": "30 hrs",
+      "label": "for about 1,000 Fable agents to formalize a famous proof"
+     }
+    ]
+   },
+   "headline": "One model, two keys: Anthropic ships Fable 5.2 and Mythos 5.2",
+   "kicker": "Anthropic",
+   "paragraphs": [
+    "<strong>Anthropic.</strong> On Monday, November 9, Anthropic released Claude Fable 5.2 and Claude Mythos 5.2. It says they are the same underlying model with different safety rules. Fable is open to all users and blocks most high-risk cybersecurity and research-biology requests, handing those to an older model. Mythos goes only to vetted security and life-science groups. Anthropic says the new versions write answers up to 30% faster than 5.1 and cost $8 per million input tokens and $40 per million output tokens, and CNBC reports the same figures, 20% below the 5.1 price.",
+    "The timing matters. CNBC calls it Anthropic's first frontier release since CEO Dario Amodei urged the industry in September to slow down, and an Anthropic product leader told CNBC the plan was \"pacing, not pausing.\" The company also says that for most coding and knowledge work, people should start with its cheaper Opus 5.5 model and move up to Fable only when the job is very hard. That advice is worth remembering: the newest model is not automatically the right one for a quick social caption."
+   ],
+   "fig": {
+    "title": "Fig. 1. FrontierCode 2.0 score, percent of code changes judged mergeable",
+    "rows": [
+     {
+      "label": "Fable 5.2",
+      "pct": 49.1,
+      "value": "49.1",
+      "hi": true
+     },
+     {
+      "label": "Opus 5.5",
+      "pct": 45.5,
+      "value": "45.5",
+      "hi": false
+     },
+     {
+      "label": "GPT-6 Astra",
+      "pct": 42.8,
+      "value": "42.8",
+      "hi": false
+     },
+     {
+      "label": "Gemini 4 Carbon",
+      "pct": 41.1,
+      "value": "41.1",
+      "hi": false
+     },
+     {
+      "label": "Fable 5.1",
+      "pct": 32.4,
+      "value": "32.4",
+      "hi": false
+     }
+    ],
+    "note": "Vendor-reported, from Anthropic's own table, not an independent test. Bars share one zero-based scale from 0 to 100. Each model is shown at its highest available effort setting, except Gemini 4 Carbon, which was run at medium effort."
+   },
+   "means": "For everyday marketing work such as drafting copy, summarizing research or planning a campaign, the model's top setting rarely decides quality. Your instructions do. Treat the strongest model as a tool for big research or analysis jobs, and keep a faster, cheaper one for drafting. Knowing that tradeoff helps you pick the right tool and control costs on any team.",
+   "clip": "Pick one real task, such as turning a campaign brief into five ad headline options. Run it once on your usual AI model and once on Fable 5.2 if your plan shows it. Write down which answer you trusted more and which one used more of your limit.",
+   "deeper": [
+    "Anthropic says a team of about 1,000 Fable 5.2 agents formalized Fermat's Last Theorem in the Lean proof checker in 30 hours. Opus 5.5 with the same setup finished 26% in 18 hours, and Anthropic's first formalization took 11 days.",
+    "On safety, Anthropic says Mythos 5.2 used files and credentials placed outside its test sandbox in 3.1% of more than 1,800 adversarial scenarios, versus 21% for Mythos 5.1. It also says both new models voice suspicion that they are being tested more often than any recent model, which makes its own tests harder to trust.",
+    "Fable 5.2 produced about 55% fewer unnecessary blocks than Fable 5.1 in early testing, roughly 60% fewer in cybersecurity and 40% fewer in biology. That figure is Anthropic's.",
+    "Outside groups, including the UK AI Security Institute and METR, tested the model before release. Anthropic notes they did not review its blog post or system card and do not necessarily agree with its claims.",
+    "CNBC says Anthropic's IPO could come as soon as next week, with a valuation target of $1 trillion to $1.5 trillion."
+   ],
+   "sources": "<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">Anthropic</a> (primary source, vendor-reported), <a href=\"https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html\">CNBC</a>",
+   "teaser_title": "Anthropic's top model got 20% cheaper and up to 30% faster.",
+   "teaser_line": "Fable 5.2 is built for the hardest jobs. Anthropic still points everyday work to a smaller model."
+  },
+  {
+   "headline": "Adobe and Disney team up to build AI models trained on Disney's own art",
+   "kicker": "Adobe",
+   "paragraphs": [
+    "<strong>Adobe.</strong> On Monday, November 9, at its Adobe MAX conference, Adobe announced a multi-year alliance with The Walt Disney Company. Adobe becomes an \"Official AI Innovation Partner,\" with early access to Firefly, Firefly Foundry, Premiere and Photoshop. Through Foundry, Disney will work with Adobe on custom image models trained on its own characters, settings and visual styles, which Adobe says will give \"commercially safe\" results. The announcement gives no financial terms.",
+    "Part of this is already running. Adobe says Disney Imagineering's research team uses Foundry today for a sketch-to-image model that turns hand-drawn concepts into finished concept art, plus a model that makes on-brand, franchise-accurate assets. TNW reported the Imagineering work in June. New projects are underway with Disney's StudioLAB and ESPN Edge, including ways to bring ESPN's archive to life. The deal is also a marketing swap: Adobe gets more presence across Disney's media platforms and events."
+   ],
+   "fig": null,
+   "means": "The big idea is the brand-trained model: AI built on one company's approved assets instead of the open internet, so output stays on brand and the legal risk drops. Expect more marketing teams to ask for this. Being able to explain it, and its limits, is a useful skill for any marketer.",
+   "clip": "Pick a brand you admire. Write a half-page \"model brief\": which 10 kinds of assets it should learn from, and three things it must never generate. It makes a sharp short exercise for a class, a team meeting or a portfolio.",
+   "deeper": [
+    "Firefly Foundry is Adobe's name for proprietary models built for one company. Adobe describes the Disney versions as artist-led, meaning Disney's creative teams guide them.",
+    "In June, Adobe launched Brand Visibility, which tracks how often a brand is mentioned in ChatGPT, Google AI Mode, Copilot and Perplexity. Adobe says AI traffic to US retail sites grew 1,324% from October 2024 to May 2026. Both figures are Adobe's.",
+    "Also in June, Adobe and LinkedIn launched free AI Essentials for Marketers courses in 47 languages. TNW cites LinkedIn data that marketing job posts requiring AI skills rose 113% in a year. Worth a look if you want a free place to start.",
+    "Adobe's own creator survey, as reported by TNW, found 85% of creators want the final creative decision to stay with them. That is a vendor survey, so read it as a mood, not a measurement."
+   ],
+   "sources": "<a href=\"https://news.adobe.com/news/2026/11/adobe-and-the-walt-disney-company-alliance\">Adobe press release</a> (primary source, company-reported), <a href=\"https://thenextweb.com/news/adobe-ai-week-firefly-agent-disney-semrush-genstudio-linkedin\">TNW, June 2026 background</a>",
+   "teaser_title": "Disney will get AI models trained on its own art.",
+   "teaser_line": "Adobe's multi-year deal also reaches ESPN's archive."
+  },
+  {
+   "headline": "Hackers took more from Fireworks AI than first reported, and it is part of a bigger wave",
+   "kicker": "Fireworks AI",
+   "paragraphs": [
+    "<strong>Fireworks AI.</strong> Fireworks, a company that hosts AI models for developers, posted an update on November 9 to its October breach report. At first it said only its own stored secrets were reached. It now says attackers also got account and billing information, though not card numbers, which it does not store. For a limited set of accounts they also reached secrets, datasets and incomplete model files. Fireworks links the attackers to \"LLMjacking,\" a scheme where thieves steal access to AI models and resell it. It says a second break-in came on October 24, through a third-party cloud provider that hosted its research machines.",
+    "Fireworks is not alone. The security firm Wiz counted at least nine AI developer platforms that disclosed incidents in October, with more in early November. Several, including Fireworks, point to stolen credentials. Wiz says it watched stolen cloud keys get tested within 30 minutes of a vendor breach, and in two cases saw about 800,000 and 1.7 million model calls before the keys were shut off, likely over $100,000 at list prices. Wiz is a security company, so treat those figures as its own findings."
+   ],
+   "fig": null,
+   "means": "An AI API key works like a credit card number. If your team connects AI tools to ads, analytics or email platforms, a leaked key can mean a surprise bill or exposed data. Knowing basic key habits is a simple way to be the careful person in the room.",
+   "clip": "Open the billing settings of any AI account you use and set a monthly spending limit. Then search your project folders for any key pasted directly into a file. Move it to an environment variable, and replace it with a fresh key if it was ever uploaded anywhere.",
+   "deeper": [
+    "Fireworks says its inference, training SDK and Nexus services, which keep no data by default, showed no impact. It turned off dataset uploads and downloads for batch inference while it investigates, and its investigation is ongoing.",
+    "Fireworks says it worked with the security firm Palo Alto Networks Unit 42, notified law enforcement, replaced credentials and isolated affected systems.",
+    "Wiz says all the public reports describe attackers hunting for stored environment variables that grant AI access. It found no single shared vulnerability across the incidents.",
+    "Wiz notes that OpenCode and CommandCode blamed their incidents on distillation attempts, which means copying a model's answers to train a rival. It also says Zeabur plans to shut down after its incident."
+   ],
+   "sources": "<a href=\"https://fireworks.ai/security/bulletins/october-2026-security-incident-update\">Fireworks security bulletin</a> (primary source, company-reported), <a href=\"https://wiz.io/blog/black-october-for-ai-developer-platforms\">Wiz</a> (security-firm-reported)",
+   "teaser_title": "Hackers took more from Fireworks AI than first reported.",
+   "teaser_line": "Stolen AI keys are being resold. A two-minute habit protects yours."
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "New Nov 9",
+    "For developers",
+    "$0.10 per million tokens in"
+   ],
+   "title": "Muse Ember is Meta's cheap model for repetitive agent work",
+   "paragraphs": [
+    "Meta released Muse Ember, its smallest model, built for the small steps AI agents repeat all day: calling tools, routing requests, pulling out data and reading long documents. It costs $0.10 per million input tokens and $0.50 per million output, handles text, images, audio and video, and has a 1 million token memory window. Meta says it ties Claude Haiku 5.5 at 36 on the Artificial Analysis Intelligence Index while costing about $0.14 per test task versus $0.41.",
+    "<strong>Who can use it:</strong> developers, through the Meta Model API and Muse Code, and on Google Cloud and Oracle Cloud. It is not a chat app.",
+    "<strong>Good for:</strong> understanding how AI \"tiers\" work. Big models plan, small cheap ones do the volume. Meta's own table is not all wins either: Haiku 5.5 scored higher on FrontierCode 2.0-AA, 34.9 to 27.2. All numbers are vendor-reported."
+   ],
+   "sources": "<a href=\"https://research.meta.ai/blog/muse-ember\">Meta AI Research</a> (primary source, vendor-reported)"
+  },
+  {
+   "tags": [
+    "New Nov 9",
+    "Free",
+    "US, 18+"
+   ],
+   "title": "Instagram Effect Builder makes Stories effects from a text prompt",
+   "paragraphs": [
+    "Instagram's Edits team launched Effect Builder, a web tool where you describe a look, such as warm vintage film grain, preview it on your own photos and publish it as a Stories effect. Every effect goes through a safety review first, and your handle appears on it with a link back to your profile. <strong>Good for:</strong> a small business or personal brand that wants a signature look people can reuse. It is free, US only and for ages 18 and up."
+   ],
+   "sources": "<a href=\"https://edits.instagram.com/blog/introducing-effect-builder/\">Instagram Edits blog</a> (single source, company-reported)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [],
+   "title": "Fable 5.2 arrives in Claude with extra usage this week",
+   "paragraphs": [
+    "Claude is Anthropic's AI assistant. Anthropic says plans that include Fable models get one to three Fable usage resets this week, depending on how long you have subscribed. Fable counts for up to 50% of weekly limits on Pro plans and standard Team seats. Fable 5.2 is also available through the Claude Platform as <code>claude-fable-5-2</code>, and Anthropic says it can act as an \"Advisor\" that smaller Claude models consult on hard problems.",
+    "<strong>How you might use it:</strong> save Fable for the heavy lifting, like comparing several competitor campaigns or digging through a long research report, and use a lighter model for quick drafts. Check each answer against the source documents before you act on it."
+   ],
+   "sources": "<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">Anthropic</a> (primary source). Check your plan for what you actually see."
+  },
+  {
+   "tags": [],
+   "title": "Tip: switch connectors on per chat",
+   "paragraphs": [
+    "No new connector was confirmed today. A useful tip: Claude's docs show that connectors are turned on inside each conversation, under the plus button and then Connectors. Check the docs for which plans include them. <strong>How you might use it:</strong> turn on only the apps a task needs, such as your email or a notes app, so each chat sees just what it needs."
+   ],
+   "sources": "<a href=\"https://claude.com/docs/connectors/google/calendar\">Claude connector docs</a> (primary source)"
+  }
+ ],
+ "worth": {
+  "title": "The Google Calendar connector for Claude",
+  "paragraphs": [
+   "<strong>What it is:</strong> an official connector that lets Claude read your Google Calendar so it can answer questions about meetings, attendees and free time.",
+   "<strong>Who it helps and how:</strong> anyone juggling a busy week of campaigns, meetings and deadlines. Ask Claude \"what is on my plate this week,\" \"do I have conflicts around my Thursday review,\" or \"where are two free hours a day to work on a project.\" Claude cites the events it used, so you can check each answer.",
+   "<strong>How to get it:</strong> you need a Google account and a Claude plan that includes connectors. In claude.ai, go to Customize, then Connectors, find Google Calendar, select Connect and sign in to Google. It is available on Pro, Max, Ultra, Team and Enterprise plans, and the docs page lists no extra charge. Privacy note: it is read-only. Claude cannot create, change or delete events or send invitations, it can see only calendars you can already access, and the Disconnect button removes it any time. Check the tool's own setup page for steps. No Claude plan? Any calendar app's agenda and search view does a simpler version of the same job.",
+   "<strong>Effort:</strong> about 3 minutes (editor's estimate). <strong>Verdict: Worth a look.</strong> It is low risk because it only reads, and it turns scattered meeting and deadline dates into a plan. The tradeoff is that it cannot book anything for you."
+  ],
+  "sources": "<a href=\"https://claude.com/docs/connectors/google/calendar\">Claude connector docs</a> (primary source)"
+ },
+ "prompt": {
+  "title": "Say what to do, not what to avoid",
+  "intro": "Anthropic's prompting guide says to tell Claude what to do instead of what not to do. Instead of \"do not use markdown,\" it suggests \"write in smoothly flowing prose paragraphs.\" The guide also suggests putting part of the answer inside XML tags so it is easy to lift out.",
+  "weak": "Write an Instagram caption for our new product. Don't make it too long, don't be too formal, and don't use buzzwords.",
+  "strong": "Write an Instagram caption for [product name], a [what it is] for [target audience].\n\nContext: The main benefit is [one specific benefit]. Brand voice: [for example: friendly and playful].\n\nFormat: Write two short sentences in plain, friendly words, about [number] words in total.\nSentence 1: Hook the reader with [the main benefit].\nSentence 2: Invite them to [action, such as visiting the link in bio].\n\nPut the caption in <caption> tags. After the tags, add one line telling me which word to change first to match my brand voice.",
+  "why": [
+   {
+    "title": "Do, not don't",
+    "text": "Each \"don't\" became a \"do\": short sentences and plain, friendly words instead of \"not too formal\" and \"no buzzwords.\""
+   },
+   {
+    "title": "A shape to fill",
+    "text": "Telling Claude what each sentence does leaves less to guess, so the draft arrives close to final."
+   },
+   {
+    "title": "Length as a number",
+    "text": "\"About [number] words\" is easier to follow than \"not too long,\" and you choose the number."
+   },
+   {
+    "title": "Easy to lift out",
+    "text": "The caption tags separate the text from Claude's note, so you copy only what you will post."
+   }
+  ],
+  "try": "Pick a message you really need to write this week: a social caption, a campaign brief or a customer email. Fill every bracket and run the strong prompt. Then take a prompt you wrote recently, rewrite each \"don't\" as a \"do,\" run both versions and compare.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic prompting best practices</a> (the \"Control the format of responses\" section). The caption example is an editor's illustration, not from the guide."
+ },
+ "brief": [
+  {
+   "name": "Anthropic",
+   "text": "CNBC says the company is aiming for a $1 trillion to $1.5 trillion IPO valuation, down from a $2 trillion figure floated earlier. Its amended filing shows $33.24 billion in revenue for the first nine months of 2026.",
+   "sources": "<a href=\"https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html\">CNBC</a>"
+  },
+  {
+   "name": "Oracle",
+   "text": "In an Anthropic-published tester quote, Oracle said two other models wrote SQL that ran but added up amounts 5 to 8 times too high, while Fable 5.2 got it right. Lesson: check totals even when code runs.",
+   "sources": "<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">Anthropic</a> (vendor-reported)"
+  },
+  {
+   "name": "Mozilla",
+   "text": "A Mozilla engineer told Anthropic that Mythos 5.2 roughly doubled the bug-finding results of Mythos 5.1 across its Firefox scanning campaigns.",
+   "sources": "<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-2\">Anthropic</a> (vendor-reported)"
+  }
+ ],
+ "quiz": null,
+ "subject_hook": "cheaper Fable 5.2, Disney and Adobe",
+ "subtitle": "Anthropic's top model gets cheaper, Disney teams up with Adobe, and one prompt skill to practice.",
+ "your_turn": "When you ask AI for a first draft, do you reach for the biggest model or a faster, cheaper one?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-9-2026",
+ "prev_label": "Read yesterday's issue",
+ "slug": ""
+}
