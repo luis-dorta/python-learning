@@ -672,7 +672,7 @@ def cmd_verify(d, U, saved):
         want += [s["teaser_title"], s["means"], s["clip"], s["sources"]] + s["paragraphs"] + s.get("deeper", [])
     want += [d["prompt"]["title"], d["prompt"]["weak"], d["your_turn"], FOOTER, "Subscribe for free", "Get the next one in your inbox"]
     want += [x["title"] for x in d["newai"] + d["connectors"]] + [b["text"] for b in d["brief"]]
-    want += [l for l in d["prompt"]["strong"].split("\n") if l.strip()]
+    want += [l for l in d["prompt"]["strong"].split("\n") if l.strip() and "<" not in l]
     for w in want:
         k = re.sub(r"\s+", " ", plain(w)).strip()
         k = re.sub(r"^[-*•]\s+", "", k)[:60]
