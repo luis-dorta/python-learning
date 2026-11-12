@@ -1,0 +1,243 @@
+{
+ "vol": 1,
+ "no": 7,
+ "date_long": "Thursday, November 12, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "United tells outside AI agents to stay out of its booking system.",
+   "line": "It is the first U.S. airline to say so plainly. Its own app stays open to you."
+  },
+  {
+   "label": "Story 2",
+   "title": "Google's Decisions API scores up to 1,000 questions at once.",
+   "line": "Built for sorting and grading, at $0.10 per million input tokens."
+  },
+  {
+   "label": "Story 3",
+   "title": "AlphaGenome 2 predicts DNA effects cell type by cell type.",
+   "line": "Research use only. DeepMind reports nearly double the hits."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Do big jobs one step at a time.",
+   "line": "Split one long request into three checked steps."
+  }
+ ],
+ "stories": [
+  {
+   "kicker": "United",
+   "headline": "United closes the door on outside AI booking agents",
+   "teaser_title": "United tells outside AI agents to stay out of its booking system.",
+   "teaser_line": "It is the first U.S. airline to say so plainly. Its own app stays open to you.",
+   "hero": {
+    "headline": "United closes the door on outside AI booking agents",
+    "svg": "<svg viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"Illustration of a small robot assistant holding a ticket, stopped at a gate with a closed barrier, while a person with a phone walks through a second open gate\"><rect x=\"14\" y=\"14\" width=\"292\" height=\"176\" rx=\"20\" fill=\"rgba(255,255,255,.08)\" stroke=\"rgba(255,255,255,.35)\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"60\" width=\"10\" height=\"100\" rx=\"4\" fill=\"rgba(255,255,255,.6)\"/><rect x=\"40\" y=\"104\" width=\"112\" height=\"12\" rx=\"6\" fill=\"#FFB020\"/><rect x=\"40\" y=\"104\" width=\"22\" height=\"12\" rx=\"6\" fill=\"#2A1B00\" opacity=\".35\"/><rect x=\"74\" y=\"104\" width=\"22\" height=\"12\" rx=\"6\" fill=\"#2A1B00\" opacity=\".35\"/><rect x=\"108\" y=\"104\" width=\"22\" height=\"12\" rx=\"6\" fill=\"#2A1B00\" opacity=\".35\"/><rect x=\"40\" y=\"132\" width=\"10\" height=\"28\" rx=\"4\" fill=\"rgba(255,255,255,.5)\"/><rect x=\"56\" y=\"150\" width=\"54\" height=\"40\" rx=\"10\" fill=\"rgba(255,255,255,.2)\" stroke=\"#fff\" stroke-width=\"2\"/><rect x=\"66\" y=\"158\" width=\"34\" height=\"16\" rx=\"5\" fill=\"rgba(255,255,255,.35)\"/><circle cx=\"75\" cy=\"166\" r=\"3\" fill=\"#fff\"/><circle cx=\"91\" cy=\"166\" r=\"3\" fill=\"#fff\"/><line x1=\"83\" y1=\"150\" x2=\"83\" y2=\"140\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"83\" cy=\"137\" r=\"4\" fill=\"#FF8A5B\"/><path d=\"M118 168 h26 v12 h-26 z\" fill=\"#fff\" opacity=\".9\"/><path d=\"M126 174 h10\" stroke=\"#B42318\" stroke-width=\"2\" stroke-linecap=\"round\"/><rect x=\"186\" y=\"104\" width=\"100\" height=\"12\" rx=\"6\" fill=\"rgba(255,255,255,.18)\" stroke=\"rgba(255,255,255,.5)\" stroke-width=\"1.5\"/><circle cx=\"236\" cy=\"130\" r=\"12\" fill=\"#00B88C\"/><rect x=\"222\" y=\"146\" width=\"28\" height=\"36\" rx=\"12\" fill=\"#00B88C\"/><rect x=\"262\" y=\"144\" width=\"14\" height=\"24\" rx=\"3\" fill=\"#fff\"/><rect x=\"265\" y=\"148\" width=\"8\" height=\"14\" rx=\"1.5\" fill=\"#0A6CFF\"/><rect x=\"44\" y=\"202\" width=\"232\" height=\"34\" rx=\"17\" fill=\"#FFB020\"/><text x=\"160\" y=\"224\" text-anchor=\"middle\" font-family=\"Figtree, Arial, sans-serif\" font-weight=\"800\" font-size=\"15\" fill=\"#2A1B00\">your app: open</text></svg>",
+    "stats": [
+     {
+      "value": "1st",
+      "label": "U.S. airline to say it out loud, per AP"
+     },
+     {
+      "value": "2",
+      "label": "paths closed: United's own app and site, and travel agencies"
+     },
+     {
+      "value": "0",
+      "label": "details on start date or how agents get detected, per AP"
+     }
+    ]
+   },
+   "paragraphs": [
+    "<strong>United.</strong> On Wednesday, November 11, United Airlines said it will restrict \"unauthorized, third-party personal AI agents or assistants\" from its app and website, and from booking through travel agencies and ticket aggregators. Its reasons: handing your login to an outside assistant can expose sensitive information, an agent can make purchases, account changes or MileagePlus mile spends you did not intend, and automated actions could clash with FAA and Transportation Department rules. The example United gives is check-in, where a person must confirm that bags hold no banned items such as explosives.",
+    "The announcement leaves gaps. AP notes the release did not say when the limits start, how United will spot an agent, or which AI products are covered. The Wall Street Journal quotes CEO Scott Kirby saying he does not want \"another middleman,\" and names agents such as Meta's Muse and OpenAI's Dots as part of the wave that banks and retailers are also grappling with. AP adds that other carriers differ: Southwest, for one, has made its flight inventory viewable through ChatGPT. So the industry is split between locking the front door and putting a shop window in the assistant."
+   ],
+   "means": "This is a brand strategy choice, not just a security rule. Whoever owns the moment a trip or purchase starts owns the loyalty program, the upsell and the data. An assistant that shops on a customer's behalf can compare prices and skip the sales pitch, which is why a brand might block it, or invite it. That is our reading, and it is a good frame for any marketing discussion about who controls distribution.",
+   "clip": "Pick a brand you like and look on its help pages for any rule about bots or AI assistants. Write two sentences: would you welcome agents or block them if you ran that brand, and why? It makes a sharp talking point for a team meeting or a class.",
+   "deeper": [
+    "United says leaders in banking and retail have taken similar steps and encourages other companies to consider their own measures.",
+    "United says it will update its Digital Trust Center so customers can see what the restrictions mean and where to get help if an agent takes an action they did not want.",
+    "The Journal's piece says early adopters often use agents to comparison shop and hunt for the lowest prices. That is the tension for any brand that earns money from the browsing experience.",
+    "United frames this as an evaluation, saying it will keep reviewing how personal assistants interact with its services.",
+    "The Journal details here come from the free preview of its article."
+   ],
+   "sources": "<a href=\"https://www.united.com/en/us/newsroom/announcements/cision-125496\">United</a> (primary source, company statement), <a href=\"https://www.wusa9.com/article/news/nation-world/united-ai-agents-blocked-booking-systems-flights/507-77415d11-2322-4590-8789-5eaac986892a\">AP via WUSA9</a>, <a href=\"https://www.wsj.com/tech/ai/united-airlines-is-banning-ai-bots-from-booking-flights-5b514b38\">The Wall Street Journal</a> (preview only)",
+   "fig": null
+  },
+  {
+   "kicker": "Google",
+   "headline": "Google's Decisions API answers pick-one questions without writing a word",
+   "teaser_title": "Google's Decisions API scores up to 1,000 questions at once.",
+   "teaser_line": "Built for sorting and grading, at $0.10 per million input tokens.",
+   "paragraphs": [
+    "<strong>Google.</strong> On November 11, Google introduced the Gemini Decisions API, powered by a new model called Gemini Decision 1. Most AI models write text one piece at a time. This one scores choices you give it. You send one input, such as text, an image, audio, video or a PDF of up to 256,000 tokens, plus as many as 1,000 separate questions. The questions can be yes or no, pick one of 2 to 255 options, or a grade on an ordered rubric. Every answer comes with a confidence score from 0 to 1, so a program can hand shaky cases to a person.",
+    "Google says an answer comes back in 150 to 250 milliseconds, and pricing is $0.10 per million input tokens with no charge for output. A no-cost tier in Google AI Studio is there for prototyping. Google also says the API is nearly 5 times cheaper than Gemini 3.5 Flash-Lite on its own benchmark mix. That figure is vendor-reported, and we found no independent test yet. Inside Google, it routes questions to the right model in Gemini Notebook, with up to 40 percent lower delay, and helps screen tool use in Search."
+   ],
+   "means": "Most marketers will never call this API, but the pattern is useful. Marketing work is full of checks: does this post follow the brand voice, does this ad break a platform rule, is this lead worth a call. A written rubric plus a confidence level plus a human review for the unsure ones is a repeatable system, and that is the idea to borrow.",
+   "clip": "Write a 5-question rubric for a social post, such as \"Is the first line a hook?\" Paste three of your own drafts into any AI chat tool and ask for a yes or no and a confidence from 0 to 100 on each question. Look at which answers are shaky.",
+   "deeper": [
+    "The shared input is billed once per request no matter how many questions you ask. Each question adds only its own instruction and answer options.",
+    "Google lists other uses: a design tool called Stitch uses it to build playable wireframes in seconds, and a Google Labs app uses it to pick emoji reactions.",
+    "It plugs into OpenRouter, LangChain, Vercel, LiteLLM and other tools, per Google. Support in Google Cloud is listed as coming soon.",
+    "It only makes bounded choices. It does not write essays, emails or ad copy.",
+    "Only one primary source is available so far, so every figure here is Google's own."
+   ],
+   "sources": "<a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\">Google</a> (primary source, vendor-reported). No independent test found yet.",
+   "fig": null
+  },
+  {
+   "kicker": "DeepMind",
+   "headline": "DeepMind's AlphaGenome 2 reads DNA one cell type at a time",
+   "teaser_title": "AlphaGenome 2 predicts DNA effects cell type by cell type.",
+   "teaser_line": "Research use only. DeepMind reports nearly double the hits.",
+   "paragraphs": [
+    "<strong>DeepMind.</strong> On November 11, Google DeepMind announced AlphaGenome 2, a model that predicts how small DNA changes affect specific kinds of human cells. The first version gave results for broad tissues. The new one takes a stretch of 1 million DNA letters plus one \"condition,\" meaning a tissue, a cell type or a cell state, and predicts what that cell does with it. DeepMind says it learned from more than 100 million single-cell profiles across 68 tissues. It is open now for non-commercial research through an API and in private preview for commercial research. DeepMind says it is for research only and not validated for medical diagnosis.",
+    "The headline results come from DeepMind's own tests on 28 kinds of immune cells. It found 30 percent of the causal variants against 16 percent for the earlier approach, and got the direction of the effect right 43 percent of the time against 23 percent. It also reproduced a known gut-disease finding, tying a distant DNA switch to a gene called ETS2 in gut immune cells. These are company-run benchmarks, and outside labs have not yet reported whether they hold up on cells the model never saw."
+   ],
+   "fig": {
+    "title": "Fig. 1. Share of true effects found on 28 immune cell types, percent",
+    "rows": [
+     {
+      "label": "Causal variants, AlphaGenome 1",
+      "pct": 16,
+      "value": "16%",
+      "hi": false
+     },
+     {
+      "label": "Causal variants, AlphaGenome 2",
+      "pct": 30,
+      "value": "30%",
+      "hi": true
+     },
+     {
+      "gap": true
+     },
+     {
+      "label": "Effect direction, AlphaGenome 1",
+      "pct": 23,
+      "value": "23%",
+      "hi": false
+     },
+     {
+      "label": "Effect direction, AlphaGenome 2",
+      "pct": 43,
+      "value": "43%",
+      "hi": true
+     }
+    ],
+    "note": "Vendor-reported by Google DeepMind on the TenK10K dataset, compared with the original AlphaGenome fine-tuned on single-cell data and other tools. Bars share one zero-based scale from 0 to 100 percent."
+   },
+   "means": "The core idea will sound familiar from marketing: stop averaging and split by segment. The old model blurred whole tissues, the new one separates cell types, and results improved. Averages hide who is really responding, whether the data is cells or customers. It also shows why a specialist model can beat a general chatbot, which is a fair point to bring to any conversation about AI at work.",
+   "clip": "Take any average result you know, like a 3 percent click rate. Ask an AI chat tool for three ways to split it by audience, channel or time, and what you would expect to see in each. Then ask what data would prove it.",
+   "deeper": [
+    "DeepMind also precomputed predictions for variants linked to traits, from height to type 2 diabetes, across hundreds of cell and tissue conditions.",
+    "A scientist can feed in a snapshot of gene activity from just a few dozen cells, such as after a vaccine, and get predictions without retraining.",
+    "An \"AlphaGenome 2 Skills\" release for Google Antigravity is promised soon, and DeepMind is collecting community use cases until November 30.",
+    "The model adds DNA methylation, a widely requested readout, to the outputs the first version produced.",
+    "Every figure here comes from DeepMind's own post."
+   ],
+   "sources": "<a href=\"https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\">Google DeepMind</a> (primary source, vendor-reported). No independent replication found yet."
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "Waitlist",
+    "Google Labs",
+    "Announced Nov 11"
+   ],
+   "title": "Tabletop turns a pile of group links and notes into a shared planning space",
+   "paragraphs": [
+    "Tabletop is a new Google Labs experiment for groups. You add links, files and ideas, then ask @tabletop or pick a starter template, and it builds an interactive page such as a trip itinerary, a dinner poll, an expense splitter or a tournament bracket. Share the invite link and everyone can use it at the same time, like a Google Doc.",
+    "<strong>Who can use it:</strong> people in the U.S. who are 18 or older, through a waitlist at labs.google/tabletop.",
+    "<strong>Good for:</strong> group projects and event planning where one messy chat thread is the only record. Try it for a team schedule or a poll on meeting times. It is an experiment, so keep your real plans backed up somewhere else."
+   ],
+   "sources": "<a href=\"https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/\">Google blog</a> (primary source, company-reported)"
+  },
+  {
+   "tags": [
+    "Speech to text",
+    "ElevenLabs"
+   ],
+   "title": "Scribe v3 transcribes 102 languages and labels who is talking",
+   "paragraphs": [
+    "ElevenLabs says Scribe v3 makes 27 percent fewer word errors than its previous version across 102 languages, and labels speakers better in meetings with three or more people. You can feed it up to 1,000 key terms, such as brand names, to get them right. A live version for real-time audio is aimed at voice agents.",
+    "<strong>Who can use it:</strong> it is the default in the ElevenLabs app and also available through its API. The post does not state plan or price.",
+    "<strong>Good for:</strong> turning recorded interviews or calls into notes you can search. All figures come from ElevenLabs' own tests, so check a sample of your own audio before you trust it."
+   ],
+   "sources": "<a href=\"https://elevenlabs.io/blog/scribe-v3\">ElevenLabs</a> (primary source, vendor-reported)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [],
+   "title": "A quiet day for Claude updates",
+   "paragraphs": [
+    "Claude is Anthropic's AI assistant. The latest entries in its official release notes are from November 5 and 6. They cover a Personal Finance beta for U.S. Pro, Max and Ultra plans, new Enterprise security controls, and cost-code tags for Enterprise projects.",
+    "<strong>How you might use it:</strong> nothing here changes how Claude connects to everyday work apps such as email, documents or design tools. If you use Claude at work, the release notes page is the place to check before you count on a feature someone mentioned."
+   ],
+   "sources": "<a href=\"https://support.claude.com/en/articles/12138966-release-notes\">Claude Help Center release notes</a> (primary source)"
+  },
+  {
+   "tags": [],
+   "title": "Tip: let an AI assistant search your saved notes",
+   "paragraphs": [
+    "Notion is a notes and project app. Claude has a Notion connector that lets it search and update a workspace you link. If you keep saved prompts or campaign notes there, try asking: \"Look in my saved prompts page and pick one I have not used lately. Give me a five-minute task for today.\"",
+    "<strong>How you might use it:</strong> it turns a pile of notes into a small practice habit without opening the app. Check the connector's own page for setup steps and which plans include it. No Notion? Paste notes from any notes app into the chat and ask the same question."
+   ],
+   "sources": "<a href=\"https://claude.com/marketplace/connectors/notion\">Claude connector directory, Notion</a>"
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Do big jobs one step at a time",
+  "intro": "Anthropic's prompting guide says breaking a task into a sequence of steps is useful when you want to inspect the middle results. Its most common pattern is draft, then review against criteria, then refine. In a chat, you can do the same by telling the AI to complete one step and wait for you. That wait is the checkpoint. Applying it to chat is our adaptation of the guide's idea.",
+  "weak": "Read this case and tell me the problems and write my recommendation and make it good. [long paste]",
+  "strong": "I am working on a marketing case about [Company or brand]. We will do this in three steps. Do Step 1 only, then stop and wait for me to type \"next\".\n\n<case_facts>\n[Paste the case facts, numbers and quotes you were given]\n</case_facts>\n\n<my_goal>\n[What the assignment asks, for example: recommend a launch plan for [product]]\n</my_goal>\n\nStep 1: List the facts that matter most for my goal, with the number or quote for each. Mark anything the case does not tell us as \"missing\".\nStep 2: Using only Step 1, name [number] problems or opportunities, and give the evidence for each.\nStep 3: Using only Step 2, write a [number]-sentence recommendation for [audience, for example: my manager] that names the one next action.\n\nAt the end of each step, ask me: \"Anything to change before we move on?\"",
+  "why": [
+   {
+    "title": "One job per turn",
+    "text": "The AI finishes a small task well instead of juggling facts, problems and a recommendation at once."
+   },
+   {
+    "title": "You can steer early",
+    "text": "If Step 1 picks the wrong facts, you fix it before it spoils Steps 2 and 3."
+   },
+   {
+    "title": "Evidence carries forward",
+    "text": "\"Using only Step 1\" ties each answer to the one before it, so claims stay tied to the case."
+   },
+   {
+    "title": "Gaps get flagged",
+    "text": "Marking facts as \"missing\" gives the AI a safe option other than making something up."
+   }
+  ],
+  "try": "Take a short case or campaign you already know well and fill every bracket. Run Step 1, then fix one fact before typing \"next.\" After Step 3, compare the result with what you would have gotten from the weak prompt.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic prompting best practices</a> (the \"Chain complex prompts\" section). The marketing case example and the chat version are our own illustration."
+ },
+ "brief": [
+  {
+   "name": "AI agents",
+   "text": "A Wall Street Journal item asks who pays for AI agents. Its summary says they need so much computing power that companies offer them only to premium customers or limit who can use them.",
+   "sources": "<a href=\"https://www.wsj.com/tech/ai/ai-agent-users-compute-costs-41a5db30\">WSJ</a> (summary only)"
+  },
+  {
+   "name": "ElevenLabs",
+   "text": "Energy supplier Eneco tested Scribe v3 Live on its voice agent. It says Dutch postcodes were recognized correctly on the first try 40 percent more often.",
+   "sources": "<a href=\"https://elevenlabs.io/blog/scribe-v3\">ElevenLabs</a> (company-reported)"
+  },
+  {
+   "name": "Southwest",
+   "text": "Not every airline is shutting AI out. AP reports that Southwest has made its flight inventory viewable through ChatGPT, the opposite bet to United's.",
+   "sources": "<a href=\"https://www.wusa9.com/article/news/nation-world/united-ai-agents-blocked-booking-systems-flights/507-77415d11-2322-4590-8789-5eaac986892a\">AP via WUSA9</a>"
+  }
+ ],
+ "quiz": null,
+ "subject_hook": "United blocks AI agents, Google's Decisions API",
+ "subtitle": "United shuts outside AI agents out of booking, Google launches an API that only makes choices, and one prompt skill to practice.",
+ "your_turn": "Would you let an AI assistant book a flight for you, or do you want to tap the final button yourself?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-10-2026",
+ "prev_label": "Read the previous issue",
+ "slug": ""
+}

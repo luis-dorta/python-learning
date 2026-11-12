@@ -316,7 +316,7 @@ def inline(s):
 def sec(body, bg=None, fg=None, radius=0, mt=14, pad=(0, 0, 0, 0), web=True, border=None, anchor=None):
     a = []
     if anchor:
-        a.append('data-anchor-id="%s" data-anchor-title="%s"' % (anchor[0], e(anchor[1])))
+        a.append('data-anchor="true" data-anchor-id="%s" data-anchor-title="%s"' % (anchor[0], e(anchor[1])))
     if bg:
         a.append('data-background-color="%s"' % bg)
     if radius:
