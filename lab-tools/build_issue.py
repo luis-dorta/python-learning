@@ -4,7 +4,7 @@
   python3 build_issue.py check  issue.json            validate text (dashes, privacy words, required fields)
   python3 build_issue.py images issue.json OUTDIR     render the issue's JPG images into OUTDIR
   python3 build_issue.py static OUTDIR                render the six section-header images (only needed once)
-  python3 build_issue.py html   issue.json urls.json OUTDIR
+  python3 build_issue.py html   issue.json urls.json OUTDIR [both|web|email]
                                                       write part1.html, part2.html ... (beehiiv editor HTML)
   python3 build_issue.py verify issue.json urls.json SAVED_POST_FILE
                                                       check a saved post (get_post_content editor_html output)
@@ -259,9 +259,17 @@ DEFAULT_ART = ('<svg viewBox="0 0 320 150" role="img" aria-label="Abstract chart
                          for i, h in enumerate([24, 36, 30, 48, 58, 52, 88]))
                + '<circle cx="273" cy="22" r="6" fill="#D8F86C"/></svg>')
 
-def first_sentence(s):
-    m = re.match(r"(.{20,170}?[.!?])(\s|$)", s)
-    return m.group(1) if m else s[:160]
+def cap(s):
+    return s[:1].upper() + s[1:]
+
+def first_sentence(s, lo=45, hi=240):
+    """First full sentence. Adds the next one when the first is very short. Never cuts mid-sentence."""
+    s = re.sub(r"^(What it is|Who can use it|Good for):\s*", "", s.strip())
+    ends = [m.end() for m in re.finditer(r"[.!?](?=\s|$)", s)]
+    for x in ends:
+        if x >= lo:
+            return s[:x] if x <= hi else s[:hi].rsplit(" ", 1)[0] + "..."
+    return s if len(s) <= hi else s[:hi].rsplit(" ", 1)[0] + "..."
 
 STATIC = [
     ("h_stories", "Top stories", "#D14B2F", "#fff", "What <span class='hl' style='background:#D14B2F'>moved</span> today"),
@@ -311,9 +319,9 @@ def sec(body, bg=None, fg=None, radius=0, mt=14, pad=(0, 0, 0, 0), web=True, bor
         a.append('data-anchor-id="%s" data-anchor-title="%s"' % (anchor[0], e(anchor[1])))
     if bg:
         a.append('data-background-color="%s"' % bg)
-    for corner in ("bottom-left", "bottom-right", "top-left", "top-right"):
-        a.append('data-border-%s-radius="%d"' % (corner, radius))
-    a.append('data-use-individual-border-radius="false"')
+    if radius:
+        for corner in ("bottom-left", "bottom-right", "top-left", "top-right"):
+            a.append('data-border-%s-radius="%d"' % (corner, radius))
     if border:
         a.append('data-border-style="solid" data-border-color="%s" data-border-width-top="1" data-border-width-right="1" '
                  'data-border-width-bottom="1" data-border-width-left="1"' % border)
@@ -445,7 +453,8 @@ def email_layer(d, U):
     if d.get("worth"):
         out.append(sec(
             label("Worth a look", "#2A1B00")
-            + p(run("%s. %s" % (d["worth"]["title"].rstrip("."), first_sentence(plain(d["worth"]["paragraphs"][0]))), "#2A1B00", 16))
+            + "<h2>%s</h2>" % run(d["worth"]["title"], "#2A1B00", 24, bold=True)
+            + p(run(cap(first_sentence(plain(d["worth"]["paragraphs"][0]))), "#2A1B00", 16))
             + p(link("See the details →", url + "#conn", "#2A1B00")),
             bg="#FFC043", fg="#2A1B00", **CARD8))
     pr = d["prompt"]
@@ -609,7 +618,7 @@ def load_static():
     f = os.path.join(HERE, "static_urls.json")
     return json.load(open(f)) if os.path.exists(f) else {}
 
-def build_blocks(d, U):
+def build_blocks(d, U, layer="both"):
     S = load_static()
     for n in [s[0] for s in STATIC]:
         if n not in S:
@@ -617,12 +626,16 @@ def build_blocks(d, U):
     for n in image_names(d):
         if n != "thumb" and n not in U:
             raise SystemExit("urls.json is missing %s" % n)
+    if layer == "web":
+        return web_layer(d, U, S)
+    if layer == "email":
+        return email_layer(d, U)
     return email_layer(d, U) + web_layer(d, U, S)
 
-def cmd_html(d, U, outdir, limit=14000):
+def cmd_html(d, U, outdir, limit=14000, layer="both"):
     if check(d):
         raise SystemExit("fix the errors above first")
-    blocks = build_blocks(d, U)
+    blocks = build_blocks(d, U, layer)
     os.makedirs(outdir, exist_ok=True)
     for f in os.listdir(outdir):
         if re.match(r"part\d+\.html$", f):
@@ -697,7 +710,7 @@ def main(a):
             raise SystemExit("fix the errors above first")
         shoot(cards_html(d), image_names(d), a[3]); return 0
     if c == "html":
-        cmd_html(d, json.load(open(a[3])), a[4]); return 0
+        cmd_html(d, json.load(open(a[3])), a[4], layer=a[5] if len(a) > 5 else "both"); return 0
     if c == "verify":
         return cmd_verify(d, json.load(open(a[3])), a[4])
     raise SystemExit(__doc__)
