@@ -1,0 +1,296 @@
+{
+ "vol": 1,
+ "no": 8,
+ "date_long": "Friday, November 13, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "Nvidia's founder is out, and its CFO is now running the company.",
+   "line": "Jensen Huang resigned after 33 years. Earnings come Tuesday with an interim CEO."
+  },
+  {
+   "label": "Story 2",
+   "title": "Google's Gemini 4 Hydrogen is the fast, cheaper model for everyday work.",
+   "line": "$1.50 per million input tokens, and it reaches the Gemini app today."
+  },
+  {
+   "label": "Story 3",
+   "title": "Google's AI glasses open for pre-order from $395.",
+   "line": "They ship December 10 in the U.S. and South Korea."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Make the AI quote first, then answer.",
+   "line": "A trick for long reports, briefs and articles."
+  }
+ ],
+ "stories": [
+  {
+   "kicker": "Nvidia",
+   "headline": "Nvidia loses its founder CEO, days before earnings",
+   "teaser_title": "Nvidia's founder is out, and its CFO is now running the company.",
+   "teaser_line": "Jensen Huang resigned after 33 years. Earnings come Tuesday with an interim CEO.",
+   "hero": {
+    "headline": "Nvidia loses its founder CEO, days before earnings",
+    "svg": "<svg viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"Illustration of a boardroom table seen from above with five filled seats and one empty seat marked with a dashed outline at the head of the table, and a small chip drawing on the table\"><rect x=\"14\" y=\"14\" width=\"292\" height=\"212\" rx=\"22\" fill=\"rgba(255,255,255,.07)\" stroke=\"rgba(255,255,255,.3)\" stroke-width=\"1.5\"/><ellipse cx=\"160\" cy=\"124\" rx=\"96\" ry=\"52\" fill=\"rgba(255,255,255,.14)\" stroke=\"#fff\" stroke-width=\"2\"/><rect x=\"136\" y=\"104\" width=\"48\" height=\"40\" rx=\"8\" fill=\"none\" stroke=\"#FFB020\" stroke-width=\"2.5\"/><rect x=\"148\" y=\"116\" width=\"24\" height=\"16\" rx=\"3\" fill=\"#FFB020\" opacity=\".85\"/><g stroke=\"#FFB020\" stroke-width=\"2.5\" stroke-linecap=\"round\"><line x1=\"144\" y1=\"98\" x2=\"144\" y2=\"104\"/><line x1=\"160\" y1=\"98\" x2=\"160\" y2=\"104\"/><line x1=\"176\" y1=\"98\" x2=\"176\" y2=\"104\"/><line x1=\"144\" y1=\"144\" x2=\"144\" y2=\"150\"/><line x1=\"160\" y1=\"144\" x2=\"160\" y2=\"150\"/><line x1=\"176\" y1=\"144\" x2=\"176\" y2=\"150\"/><line x1=\"130\" y1=\"112\" x2=\"136\" y2=\"112\"/><line x1=\"130\" y1=\"124\" x2=\"136\" y2=\"124\"/><line x1=\"130\" y1=\"136\" x2=\"136\" y2=\"136\"/><line x1=\"184\" y1=\"112\" x2=\"190\" y2=\"112\"/><line x1=\"184\" y1=\"124\" x2=\"190\" y2=\"124\"/><line x1=\"184\" y1=\"136\" x2=\"190\" y2=\"136\"/></g><circle cx=\"92\" cy=\"86\" r=\"14\" fill=\"#00B88C\"/><circle cx=\"228\" cy=\"86\" r=\"14\" fill=\"#0A6CFF\"/><circle cx=\"92\" cy=\"164\" r=\"14\" fill=\"#FF8A5B\"/><circle cx=\"228\" cy=\"164\" r=\"14\" fill=\"#C6F432\"/><circle cx=\"160\" cy=\"196\" r=\"14\" fill=\"#fff\"/><circle cx=\"160\" cy=\"52\" r=\"18\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-dasharray=\"6 5\"/><text x=\"160\" y=\"57\" text-anchor=\"middle\" font-family=\"Figtree, Arial, sans-serif\" font-weight=\"800\" font-size=\"16\" fill=\"#fff\">?</text></svg>",
+    "stats": [
+     {
+      "value": "33",
+      "label": "years Huang led the company he co-founded, per Nvidia"
+     },
+     {
+      "value": "~60",
+      "label": "direct reports, as Huang has described it, per TechCrunch"
+     },
+     {
+      "value": "Nov 17",
+      "label": "earnings report, still on schedule, per Nvidia"
+     }
+    ]
+   },
+   "paragraphs": [
+    "<strong>Nvidia.</strong> On Thursday, November 12, Nvidia announced that Jensen Huang resigned as president, CEO and board member, effective immediately. CFO Colette Kress, who joined in 2013, is interim CEO and keeps her finance job too. Director Harvey Jones becomes the board's first-ever chair, and the board will look at both inside and outside candidates for a permanent CEO. The board promised \"operations, customer commitments and product roadmap\" would continue without interruption. TechCrunch, citing the company's SEC filing, says the board accepted the resignation on Wednesday.",
+    "This follows the independent board review covered in our November 9 issue. The exit came after days of news reports about Huang's personal conduct that Nvidia has not confirmed, so we leave those details out. TechCrunch reports that Huang has agreed to testify to Congress before Thanksgiving, probably behind closed doors. The scheduled earnings report on November 17 is now the first look at how customers react."
+   ],
+   "means": "This is a clean example of key-person risk: when one famous leader is the brand, his exit becomes the brand's biggest story. For marketing, it shows why companies build a bench of leaders people trust. Nvidia's customers and partners will be asked \"what happens now?\" all week, and the companies with a calm, short answer will look strongest. That is our read, not a forecast.",
+   "clip": "Pick one company you follow. Find who leads it and who is next in line. Write two sentences on what would happen to its brand if that leader left tomorrow. It makes a sharp talking point for a team meeting or a class.",
+   "deeper": [
+    "Kress spent nearly 25 years in finance at Cisco and Microsoft before Nvidia, per the company. Nvidia says earnings are at about 1:20 p.m. PT on November 17, with a call at 2 p.m. PT.",
+    "TechCrunch notes the company had no obvious successor or public succession plan, and that Huang delegated very little.",
+    "TechCrunch reported about an 8% after-hours stock drop on Wednesday."
+   ],
+   "sources": "<a href=\"https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\">NVIDIA Newsroom</a> (primary source), <a href=\"https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/\">TechCrunch</a>. Details beyond Nvidia's announcement come from TechCrunch's reporting and are not confirmed by Nvidia.",
+   "fig": null
+  },
+  {
+   "kicker": "Google",
+   "headline": "Gemini 4 Hydrogen: Google's fast, cheaper model for everyday work",
+   "teaser_title": "Google's Gemini 4 Hydrogen is the fast, cheaper model for everyday work.",
+   "teaser_line": "$1.50 per million input tokens, and it reaches the Gemini app today.",
+   "paragraphs": [
+    "<strong>Google.</strong> On November 12, Google launched Gemini 4 Hydrogen, a lower-cost model aimed at coding and agent tasks, sitting below its bigger Carbon and Argon models. It costs $1.50 per million input tokens and $7.50 per million output tokens, flat across its 1 million token window. Google says it scores 51 on the Artificial Analysis Intelligence Index at its default \"high\" thinking level, just above Argon's 50, and 54 at a new top \"xhigh\" level. LiteLLM, a tool that routes between models, lists the same prices.",
+    "Compared with Google's older Gemini 3.8 Flash, Google says Hydrogen finishes tasks 2.5 times faster at default, more than triples a coding benchmark score (57% vs. 18.2%) and cuts made-up claims more than 5 times. Those are Google's own numbers. Anyone can use it: it is in the Gemini app model menu, and free users get it through automatic model selection. It is also in Google Search, AI Studio, the API, and Gemini in Sheets for Pro and Ultra subscribers."
+   ],
+   "fig": {
+    "title": "Fig. 1. Artificial Analysis Intelligence Index score, as reported by Google",
+    "rows": [
+     {
+      "label": "Gemini 4 Argon",
+      "pct": 83.3,
+      "value": "50",
+      "hi": false
+     },
+     {
+      "label": "Hydrogen, high",
+      "pct": 85,
+      "value": "51",
+      "hi": true
+     },
+     {
+      "label": "Hydrogen, xhigh",
+      "pct": 90,
+      "value": "54",
+      "hi": true
+     }
+    ],
+    "note": "Vendor-reported: Google's post cites the Artificial Analysis index, and we did not find an independent re-run of these exact numbers. Bars start at zero and the full track equals 60."
+   },
+   "means": "The pattern is \"right-size the tool.\" Big models for hard thinking, a cheaper fast one for routine work. That is also how marketing teams budget: premium effort for the strategy, cheap and fast for the first drafts. It also means free Gemini users now get a stronger everyday model without paying, which raises the baseline for everyday marketing work.",
+   "clip": "Take one routine task, such as turning meeting notes into a clean summary. Run it in the Gemini app with Hydrogen if you see it in the model menu, and in the AI tool you usually use. Spend 5 minutes comparing which one followed your format rules better.",
+   "deeper": [
+    "Hydrogen has four thinking levels: low, medium, high (default) and a new xhigh. Google says you only wait and pay for the depth a task needs.",
+    "In Google Antigravity, an Orchestrator can switch between Carbon and Hydrogen in one session. Google says it reached near-Carbon results with 24% less quota and 19% faster completion on Terminal-Bench 4.0.",
+    "Google lists Hydrogen at 58.8% on HLE-Diamond and 71.6% on Agents' Last Exam v1.1. All benchmark numbers in the post are Google-run or Google-reported.",
+    "Google says it reduces overreach in agent tasks by up to 81% and is more than 2.3 times more resilient to prompt-injection attacks on one benchmark. Treat both as unverified until outside testers weigh in."
+   ],
+   "sources": "<a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\">Google</a> (primary source, vendor-reported), <a href=\"https://docs.litellm.ai/blog/gemini-4-hydrogen\">LiteLLM</a> (pricing), <a href=\"https://artificialanalysis.ai/\">Artificial Analysis</a> (the index Google cites)"
+  },
+  {
+   "kicker": "Google",
+   "headline": "Google's Gemini glasses go on pre-order, and privacy is the pitch",
+   "teaser_title": "Google's AI glasses open for pre-order from $395.",
+   "teaser_line": "They ship December 10 in the U.S. and South Korea.",
+   "paragraphs": [
+    "<strong>Google.</strong> On November 12, Google and Samsung opened pre-orders for smart glasses with Gemini built in, designed with Warby Parker and Gentle Monster. Warby Parker styles start at $395. Gentle Monster styles run $449 to $489, according to Quartz. They go on sale December 10 and work with Pixel, Samsung and iPhone devices. Google lists a 12-megapixel camera, open-ear speakers, about 41 grams of weight and up to nine hours of battery. You say \"Hey Gemini\" for directions, calendar checks and live translation across 70-plus languages.",
+    "Google leans hard on privacy. It says the glasses are designed to blur out bystanders' faces before Gemini processes images, show a light when recording, stop recording if that light is covered, and include an off switch. It also says camera visuals are not saved in Gemini History or used to train AI or target ads. Those are Google's design claims, not tested ones. The glasses are limited to U.S. and South Korean Google accounts for adults, and Bloomberg, as relayed by Quartz, says Google will not sell them directly at launch."
+   ],
+   "fig": {
+    "title": "Fig. 2. Launch prices, in U.S. dollars",
+    "rows": [
+     {
+      "label": "Warby Parker, from",
+      "pct": 79,
+      "value": "$395",
+      "hi": true
+     },
+     {
+      "label": "Gentle Monster, from",
+      "pct": 89.8,
+      "value": "$449",
+      "hi": false
+     },
+     {
+      "label": "Gentle Monster, top",
+      "pct": 97.8,
+      "value": "$489",
+      "hi": false
+     }
+    ],
+    "note": "Prices from Google and Quartz. Bars start at zero and the full track equals $500."
+   },
+   "means": "A camera you wear changes marketing in two ways. First, hands-free search could shift how people discover products, since they ask while looking at something. Second, trust becomes a feature: any brand or store using cameras will need clear rules about recording. If you build a social or retail campaign, ask what customers will accept in front of a camera. That is our reading.",
+   "clip": "Write a three-line \"recording policy\" for a small store that welcomes customers wearing smart glasses. Then ask any AI chat tool what a customer might misunderstand. It is a quick brand-trust exercise.",
+   "deeper": [
+    "Warby Parker offers guided demos at more than 360 stores. Prescription options exist for most frames.",
+    "Google says Guided Vision, an audio description feature, and the Aira human-interpreter link are Android-only at launch, and Guided Vision is not a medical or mobility aid.",
+    "Quartz reports 30 designs across nine frame styles, per Samsung.",
+    "Supported phones include Pixel 7 and newer, recent Galaxy phones, and iPhone 13 Pro and newer, per Google's footnotes. We did not see independent testing yet."
+   ],
+   "sources": "<a href=\"https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/\">Google</a> (primary source, vendor-reported), <a href=\"https://qz.com/google-samsung-preorders-ai-smart-glasses-111226\">Quartz</a>, <a href=\"https://www.thurrott.com/a-i/343794/first-android-xr-smart-glasses-from-warby-parker-gentle-monster-are-launching-in-december\">Thurrott</a>"
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "Browser",
+    "Google",
+    "Announced Nov 12"
+   ],
+   "title": "Gemini now sits in a Chrome side panel next to any web page",
+   "paragraphs": [
+    "Google says you can get quick answers from Gemini on any website, for example to summarize a dense report, compare product details or explain a hard topic in plain language, without leaving the page.",
+    "<strong>Who can use it:</strong> Google's short post does not say which countries, platforms or plans, so check for the Gemini icon in your own Chrome toolbar.",
+    "<strong>Good for:</strong> skimming a long industry report, comparing two competitors' product pages, or making sense of a dense brief. It reads the page you are on, so skip it for pages with private information."
+   ],
+   "sources": "<a href=\"https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/\">Google blog</a> (primary source, company-reported)"
+  },
+  {
+   "tags": [
+    "Free",
+    "Open source",
+    "Desktop"
+   ],
+   "title": "Yogurt writes call notes without a bot joining the call",
+   "paragraphs": [
+    "Yogurt is a free, open-source app (MIT license) that records your microphone and your computer's sound, then writes AI notes. Its page says recordings, transcripts and notes stay saved on your own computer. It runs on macOS 14.4 or newer on Apple Silicon, Windows 10 and Ubuntu 22.04 or similar, and wants at least 8 GB of memory.",
+    "<strong>Good for:</strong> team calls and customer interviews you have permission to record. Its page says to tell people you are recording, and that is the rule to follow. We have not tested it."
+   ],
+   "sources": "<a href=\"https://github.com/FrigadeHQ/yogurt\">Yogurt on GitHub</a> (primary source)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [
+    "Beta",
+    "Team and Enterprise"
+   ],
+   "title": "Claude can now join video calls",
+   "paragraphs": [
+    "Anthropic put Claude Meetings in beta on November 12. Claude joins as a visible participant, takes notes and action items, answers questions out loud or in chat, and can build docs or whiteboards while people talk. It saves a transcript, a summary and screen descriptions, not audio.",
+    "It is on Claude's Team and Enterprise plans only, and works with Google Meet for now. By default it stays out of calls with outside guests. It uses each person's connected tools only with that person's permission.",
+    "<strong>How you might use it:</strong> if your company uses Claude on a Team or Enterprise plan, it could turn a campaign kickoff call into notes and a task list. Check that everyone is fine with transcription first. Check the tool's own setup page for steps."
+   ],
+   "sources": "<a href=\"https://claude.com/resources/articles/claude-meetings\">Claude article</a> (primary source), <a href=\"https://support.claude.com/en/articles/18325154-use-claude-meetings\">Claude Help Center</a>"
+  },
+  {
+   "tags": [],
+   "title": "Tip: ask for quotes when an AI reads your files",
+   "paragraphs": [
+    "Many AI assistants, including Claude and ChatGPT, can read documents you upload or connect from a drive. When you ask about a long file, today's prompt skill helps: ask it to quote the lines it is using before it answers.",
+    "<strong>How you might use it:</strong> upload a campaign brief and a results report, then ask which goals were met, with a quote for each. No connected apps? Paste the text into the chat and ask the same way."
+   ],
+   "sources": "A tip built on today's prompt skill. No outside claim."
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Make the AI quote first, then answer",
+  "intro": "Anthropic's prompting guide says that for long documents, you should ask Claude to quote the relevant parts first, before it does the task. That helps it focus on what matters and ignore the rest. The numbered-quote version below is our adaptation for everyday chats.",
+  "weak": "Summarize this report and tell me the main problem. [long paste]",
+  "strong": "I am working on [what you are working on, for example: a campaign brief for a brand's product launch].\n\n<document>\n[Paste the long text: report, brief, article or customer feedback]\n</document>\n\nStep 1: Find the [number] quotes in <document> that matter most for my question below. Copy them word for word into <quotes> tags and number them. If nothing in the document speaks to my question, say \"no relevant quote\" instead of guessing.\n\nStep 2: Using only those quotes, answer my question. After each claim, put the quote number in brackets, like [2].\n\nMy question: [What you want to know, for example: What is the main problem this brand has to solve?]\n\nIf an answer needs something the quotes do not show, list it under \"Not in the document\" instead of filling the gap.",
+  "why": [
+   {
+    "title": "Proof comes first",
+    "text": "The AI must pull exact words from your text before it explains anything, so the answer starts from the source."
+   },
+   {
+    "title": "Easy to check",
+    "text": "Numbered brackets let you jump from each claim to its quote in seconds."
+   },
+   {
+    "title": "A safe exit",
+    "text": "\"No relevant quote\" gives the AI a way to admit the text does not cover your question."
+   },
+   {
+    "title": "Gaps stay visible",
+    "text": "The \"Not in the document\" list separates what the text says from what the AI is adding."
+   }
+  ],
+  "try": "Paste a real campaign brief, customer feedback summary or industry article. Fill every bracket. Check two bracketed numbers against the original text, then ask a second question about the same document and see what changes.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic prompting best practices</a> (the \"Ground responses in quotes\" part). The numbered brackets and the \"Not in the document\" list are our own additions."
+ },
+ "brief": [
+  {
+   "name": "Meta",
+   "text": "Since November 12, a new Meta Pixel setting that counts conversions on the customer's device is on by default, per PPC Land. Meta says it recovers purchases that never reached its reports. It skips the EU and UK, so compare reported sales with real orders.",
+   "sources": "<a href=\"https://ppc.land/meta-pixel-counts-more-sales-from-nov-12-as-ai-ads-go-undisclosed/\">PPC Land</a> (one outlet, reported before the change)"
+  },
+  {
+   "name": "Resemble AI",
+   "text": "A scan of 37,768 Meta ad files flagged 3,379 as AI-made, and only 2 of those said so in the ad copy. Resemble sells detection software and did not publish error rates, so read it as a signal.",
+   "sources": "<a href=\"https://ppc.land/meta-pixel-counts-more-sales-from-nov-12-as-ai-ads-go-undisclosed/\">PPC Land</a> (vendor-reported)"
+  },
+  {
+   "name": "Cerebras",
+   "text": "The AI chip company says its third quarter core revenue was $230.9 million, up 70% from a year ago, and it raised its full-year outlook. The GAAP figure was $210.8 million, up 55%.",
+   "sources": "<a href=\"https://cerebras.gcs-web.com/news-releases/news-release-details/cerebras-systems-delivers-record-revenue-third-quarter-2026\">Cerebras</a> (company-reported)"
+  }
+ ],
+ "quiz": {
+  "recap": [
+   "<strong>The week in brief.</strong> Monday: an AI system helped prove a long-open quantum puzzle, and Nvidia's board opened a review. Tuesday: Anthropic's top model got cheaper. Thursday: United told outside AI agents to stay out of its booking system. Friday: Nvidia's founder resigned, Google launched Gemini 4 Hydrogen, and Google's AI glasses opened for pre-order.",
+   "This week's prompt skills: say who and why, one step at a time, and now quote first. Try the quiz."
+  ],
+  "questions": [
+   {
+    "question": "How many years did Jensen Huang lead Nvidia as CEO before he resigned?",
+    "options": [
+     "13",
+     "23",
+     "33"
+    ],
+    "answer": 2,
+    "explain": "33 years, per Nvidia. CFO Colette Kress is interim CEO."
+   },
+   {
+    "question": "What did United Airlines say it will restrict from its app and website?",
+    "options": [
+     "Its own mobile app",
+     "Unauthorized third-party personal AI agents",
+     "Every AI chatbot"
+    ],
+    "answer": 1,
+    "explain": "Unauthorized third-party personal AI agents. Its own app stays open to customers."
+   },
+   {
+    "question": "What does Google charge per million input tokens for Gemini 4 Hydrogen?",
+    "options": [
+     "$0.10",
+     "$1.50",
+     "$7.50"
+    ],
+    "answer": 1,
+    "explain": "$1.50 for input. $7.50 is output, and $0.10 was Thursday's Decisions API."
+   }
+  ],
+  "sources": "<a href=\"https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\">NVIDIA</a>, <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\">Google</a>, <a href=\"https://www.united.com/en/us/newsroom/announcements/cision-125496\">United</a>"
+ },
+ "subject_hook": "Nvidia CEO exits, Google's Gemini 4 Hydrogen",
+ "subtitle": "Nvidia's founder CEO resigns, Google launches a faster, cheaper Gemini and opens AI glasses pre-orders, plus the Friday quiz.",
+ "your_turn": "Would you wear AI glasses with a camera in public, or would they make you uneasy?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-12-2026",
+ "prev_label": "Read yesterday's issue",
+ "interactive_url": "",
+ "slug": ""
+}
