@@ -392,7 +392,8 @@ def strong_prompt_html(text):
         else:
             flush()
             # beehiiv rejects bare entity-encoded tags, so XML-style tag lines go in a code mark
-            out.append(p("<code>%s</code>" % e(s)) if re.match(r"^</?[\w-]+>$", s) else p(e(s)))
+            out.append(p("<code>%s</code>" % e(s)) if re.match(r"^</?[\w-]+>$", s)
+                       else p(re.sub(r"(&lt;/?[\w-]+&gt;)", r"<code>\1</code>", e(s))))
     flush()
     return "".join(out)
 
