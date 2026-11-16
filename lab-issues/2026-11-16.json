@@ -1,0 +1,219 @@
+{
+ "vol": 1,
+ "no": 9,
+ "date_long": "Monday, November 16, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "A petition to bring Jensen Huang back to Nvidia passes 170,000 signatures.",
+   "line": "Earnings land Tuesday, with an interim CEO on the call."
+  },
+  {
+   "label": "Story 2",
+   "title": "ChatGPT Wallet lets an AI agent pay, but only after you approve.",
+   "line": "Pro plan, U.S. credit cards, and a Face ID check on every purchase."
+  },
+  {
+   "label": "Story 3",
+   "title": "Oakland's tentative city contract includes AI job protections.",
+   "line": "Workers displaced by AI would be retrained or reassigned, per reports."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Tell the AI to ask you questions first.",
+   "line": "It fixes vague requests before they turn into bad drafts."
+  }
+ ],
+ "stories": [
+  {
+   "kicker": "Nvidia",
+   "headline": "Backers want Huang back as Nvidia's CEO",
+   "teaser_title": "A petition to bring Jensen Huang back to Nvidia passes 170,000 signatures.",
+   "teaser_line": "Earnings land Tuesday, with an interim CEO on the call.",
+   "hero": {
+    "headline": "Backers want Huang back as Nvidia's CEO",
+    "svg": "<svg viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"Illustration of a petition sheet with rows of signature lines and check marks, a counter badge reading 170K plus, and an empty chair outlined with a dashed line beside it\"><rect x=\"14\" y=\"14\" width=\"292\" height=\"212\" rx=\"22\" fill=\"rgba(255,255,255,.07)\" stroke=\"rgba(255,255,255,.3)\" stroke-width=\"1.5\"/><rect x=\"40\" y=\"38\" width=\"130\" height=\"164\" rx=\"12\" fill=\"rgba(255,255,255,.14)\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"58\" y1=\"64\" x2=\"152\" y2=\"64\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><g stroke=\"rgba(255,255,255,.6)\" stroke-width=\"2\" stroke-linecap=\"round\"><line x1=\"76\" y1=\"92\" x2=\"152\" y2=\"92\"/><line x1=\"76\" y1=\"116\" x2=\"152\" y2=\"116\"/><line x1=\"76\" y1=\"140\" x2=\"152\" y2=\"140\"/><line x1=\"76\" y1=\"164\" x2=\"152\" y2=\"164\"/></g><g fill=\"none\" stroke=\"#C6F432\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M58 92 l5 5 l9 -10\"/><path d=\"M58 116 l5 5 l9 -10\"/><path d=\"M58 140 l5 5 l9 -10\"/><path d=\"M58 164 l5 5 l9 -10\"/></g><rect x=\"190\" y=\"46\" width=\"92\" height=\"40\" rx=\"20\" fill=\"#FFB020\"/><text x=\"236\" y=\"72\" text-anchor=\"middle\" font-family=\"Figtree, Arial, sans-serif\" font-weight=\"800\" font-size=\"19\" fill=\"#2A1B00\">170K+</text><g fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" stroke-dasharray=\"6 5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M206 112 h50 v44 h-50 z\"/><path d=\"M206 156 v38 M256 156 v38\"/><path d=\"M196 156 h70\"/></g><text x=\"231\" y=\"140\" text-anchor=\"middle\" font-family=\"Figtree, Arial, sans-serif\" font-weight=\"800\" font-size=\"22\" fill=\"#fff\">?</text></svg>",
+    "stats": [
+     {
+      "value": "170K+",
+      "label": "petition signatures, per CNBC"
+     },
+     {
+      "value": "~175K",
+      "label": "Fortune's count of signatures on Monday"
+     },
+     {
+      "value": "Nov 17",
+      "label": "Nvidia earnings, with Colette Kress as interim CEO, per CNBC"
+     }
+    ]
+   },
+   "paragraphs": [
+    "<strong>Nvidia.</strong> Friday's issue covered Jensen Huang's resignation as Nvidia's CEO. What changed over the weekend: calls for him to come back grew. CNBC reports that a petition asking for his return has passed 170,000 signatures, and Fortune put it at about 175,000 on Monday. CNBC says the backers include well-known tech founders and investment firms, and notes that the petition site's labels for current and former Nvidia employees are self-reported and not verified.",
+    "The board is moving the other way for now. CNBC says it is still weighing inside and outside candidates, is picking a search firm, and has not formally engaged anyone. Nvidia reports earnings on Tuesday, November 17, and that call is the first time interim CEO Colette Kress speaks to investors in the role."
+   ],
+   "means": "A petition is public sentiment you can count. It shows how loyal a brand's fans and partners can be to one person, and how little that loyalty guarantees. For marketers, this is a live case of a brand and its leader being tied together, and a ready example when a team talks through how it would handle a brand crisis. That is our read, not a forecast.",
+   "clip": "Make a three-column list: who wants Huang back, who wants an outside CEO, and who is waiting for facts. Write one sentence for each group on what they would want to hear from Nvidia on Tuesday. It is a quick stakeholder-map exercise you can reuse for any brand.",
+   "deeper": [
+    "Nvidia says it is continuing an independent investigation into the conduct that led to the departure, per CNBC. Nvidia has not confirmed the reported details, so we leave them out.",
+    "Fortune's count of about 175,000 is a little above CNBC's 170,000. Petition totals move quickly, so treat both as snapshots.",
+    "The board's search details come from CNBC's reporting. Nvidia has not confirmed them.",
+    "Tuesday's earnings call is the first public test of how customers and investors react to the change at the top."
+   ],
+   "sources": "<a href=\"https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html\">CNBC</a>, <a href=\"https://fortune.com/2026/11/16/war-room-jensen-huang-nvidia-treasury-scott-bessent/\">Fortune</a>. Both are news reports. Nvidia has not confirmed the search details.",
+   "fig": null
+  },
+  {
+   "kicker": "OpenAI",
+   "headline": "ChatGPT Wallet: an AI agent can buy things, with your approval",
+   "teaser_title": "ChatGPT Wallet lets an AI agent pay, but only after you approve.",
+   "teaser_line": "Pro plan, U.S. credit cards, and a Face ID check on every purchase.",
+   "paragraphs": [
+    "<strong>OpenAI.</strong> On Friday, November 13, OpenAI launched ChatGPT Wallet for its ChatGPT assistant. You add a card once. When an agent in ChatGPT Work, Codex or dots wants to buy something, you see the merchant, items, total and card, then approve with a security check such as Face ID. OpenAI says the store receives a payment token, not your real card number, and that your card's rewards and dispute protections stay in place. It was built with American Express, Mastercard and Visa.",
+    "The limits matter. OpenAI's help page says it is for ChatGPT Pro users who are 18 or older and live in the U.S. It supports eligible U.S.-issued American Express, Chase, Mastercard and Visa credit cards. Debit cards and virtual cards are not supported. OpenAI's launch post says it is initially available through dots, and that over time you will be able to pre-approve purchases within limits you set. That last part is a plan, not a feature today."
+   ],
+   "means": "The pattern to notice is \"the human approves, the agent does the legwork.\" For marketing, an agent that compares products and checks out changes what a good product page needs: clear specs and prices an AI can read. It also shows why approval steps and clear records are becoming part of how AI products earn customer trust. That is our reading.",
+   "clip": "Pick a product your brand sells, or one you know well. Ask any AI chat tool to list the five facts it would need from a store page to recommend it with confidence. Then check whether the real product page shows all five.",
+   "deeper": [
+    "OpenAI says a bank may ask you to verify the card at setup with a code or in its app. Chase cardholders must be the primary cardholder, not an authorized user, per the help page.",
+    "The approval screen also shows shipping and recurring-payment terms, per the help page.",
+    "The help page does not describe spending limits yet.",
+    "New Orleans CityBusiness also covered the launch. Most details here come from OpenAI's own pages.",
+    "No independent testing of the security claims yet. Treat them as OpenAI's design claims."
+   ],
+   "sources": "<a href=\"https://openai.com/index/introducing-chatgpt-wallet/\">OpenAI</a> (primary source, vendor-reported), <a href=\"https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet\">OpenAI Help Center</a>, <a href=\"https://neworleanscitybusiness.com/blog/2026/11/13/openai-chatgpt-wallet-ai-payments/\">New Orleans CityBusiness</a>",
+   "fig": null
+  },
+  {
+   "kicker": "Oakland",
+   "headline": "Oakland's tentative city contract adds AI job protections",
+   "teaser_title": "Oakland's tentative city contract includes AI job protections.",
+   "teaser_line": "Workers displaced by AI would be retrained or reassigned, per reports.",
+   "paragraphs": [
+    "<strong>Oakland.</strong> On October 31, the City of Oakland announced a tentative three-year agreement with IFPTE Local 21, the union for many of its professional and technical workers. The city's release mentions \"AI usage protections\" but does not list the terms. It does give the money terms: a 9% raise over three years, in steps of 2.5%, 2.5% and 4%, plus transit benefits and pay adjustments for lower-paid jobs. The union dropped its strike notice for November 5.",
+    "The AI terms come from reporting. The Guardian, in a November 12 story on public workers pushing for AI safeguards, reports that the city would have to retrain or reassign workers displaced by AI. The deal is not final: the union holds a ratification vote, then the City Council votes. We did not find the contract text itself, so the exact wording is unconfirmed."
+   ],
+   "means": "This is one of the first concrete examples of AI rules written into a work contract. It covers public-sector workers, not private companies, so it does not apply to every job. Still, it shows that how AI changes roles is becoming something teams negotiate, not only a tool choice. Marketing teams rolling out AI tools will face the same question: which tasks change, and who decides. That is our read.",
+   "clip": "Write a three-line note a marketing team could share before adopting a new AI tool: what the tool will do, what stays with people, and who to ask with concerns. Then ask any AI chat tool what a team member might still worry about.",
+   "deeper": [
+    "Under the city's release, final approval needs the full City Council. It says no pension or health care contributions were included.",
+    "The Guardian also describes other unions seeking AI terms, including a Transport Workers Union contract in Columbus, Ohio that gives the union veto power over autonomous vehicle plans.",
+    "Because the city page has no AI details, treat the retrain-or-reassign wording as secondhand until the contract is public."
+   ],
+   "sources": "<a href=\"https://www.oaklandca.gov/News-Releases/Oakland-Reaches-Tentative-3-Year-Agreement-with-IFPTE-Local-21\">City of Oakland</a> (primary source), <a href=\"https://www.theguardian.com/technology/2026/nov/12/us-workers-governments-unions-ai\">The Guardian</a>",
+   "fig": null
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "Apple",
+    "Research study",
+    "Launched Nov 15"
+   ],
+   "title": "Apple's new study app answers health questions and studies how people use AI",
+   "paragraphs": [
+    "Apple and OpenEvidence, a healthcare AI company, launched an app that answers everyday medical questions with answers grounded in sources such as medical journals. Users can rate answers, take monthly surveys and, if they choose, share Apple Health data. Apple plans to run the study for more than 12 months, per TechCrunch.",
+    "<strong>Who can join:</strong> U.S. users over 21 with an iPhone 15 or later, iOS 26 or later and Apple Intelligence turned on. <strong>Privacy, as reported:</strong> data is anonymized before it goes to a secure cloud provider, is not used to train AI models, and the question and answer text is deleted after 24 hours.",
+    "<strong>Good for:</strong> seeing how a major brand tests AI trust in public. Do not treat it as medical advice."
+   ],
+   "sources": "<a href=\"https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/\">TechCrunch</a> (one outlet read, privacy details are Apple's as relayed)"
+  },
+  {
+   "tags": [
+    "Alibaba",
+    "Preview",
+    "Ends Nov 25"
+   ],
+   "title": "Qwen4-Max-Preview offers a 1 million token window, with strings attached",
+   "paragraphs": [
+    "Alibaba's first Qwen4 model is open only to paid Token Plan subscribers until November 25 at 11:00 a.m. ET, per Tech Times. Alibaba has published no benchmarks, model card or per-token price, so there is nothing to compare yet. Access is limited to interactive developer tools, not automation.",
+    "<strong>Good for:</strong> a heads-up only. Skip it unless you already use those tools, and do not rely on a model that retires in nine days. We have not tested it."
+   ],
+   "sources": "<a href=\"https://www.techtimes.com/articles/330536/20261112/alibaba-qwen4-max-preview-retires-november-25-no-benchmarks-model-card-price.htm\">Tech Times</a> (one outlet read)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [
+    "Nothing new"
+   ],
+   "title": "No new Claude connectors since last week",
+   "paragraphs": [
+    "Connectors are add-ons that let Claude, Anthropic's AI assistant, work with other apps. Claude's release notes list nothing new for connectors since the Claude Meetings beta on November 12, and Anthropic's pages show no new connector announcements.",
+    "We would rather say so than pad the section."
+   ],
+   "sources": "<a href=\"https://support.claude.com/en/articles/12138966-release-notes\">Claude release notes</a> (primary source, latest entry Nov 12)"
+  },
+  {
+   "tags": [],
+   "title": "Tip: turn a pasted brief into a tracker row",
+   "paragraphs": [
+    "Paste a campaign brief into any AI chat tool and ask: \"Pull out the goal, audience, deadline, channels and the three messages this brief stresses most. Give them to me as one row I can paste into a spreadsheet.\"",
+    "<strong>How you might use it:</strong> it saves the copy-and-paste step and keeps every campaign in one place, in any spreadsheet or notes app. Read the row before relying on it, since an AI can misread a brief."
+   ],
+   "sources": "A tip with no outside claim."
+  }
+ ],
+ "worth": {
+  "title": "The Microsoft 365 connector for Claude",
+  "paragraphs": [
+   "It lets Claude search and read files in OneDrive and SharePoint, and work with Outlook and Teams, according to Claude's Help Center. For marketing teams that keep briefs, decks and reports in Microsoft's tools, it means Claude can work with those files directly.",
+   "<strong>The catch:</strong> a Microsoft Entra Global Administrator has to approve the integration for the whole organization before anyone can connect, per the setup page. So a work account may need an admin's yes first, and a plain personal account may not have that option. Check with your IT team before you spend time on it. No admin approval? Download the file and upload it to any AI chat tool instead. We did not connect or test anything.",
+   "<strong>A first request, once connected:</strong> \"Find the most recent campaign brief in OneDrive and list three places it could be clearer.\" Check the tool's own setup page for steps."
+  ],
+  "sources": "<a href=\"https://support.claude.com/en/articles/12542951-set-up-the-microsoft-365-connector\">Claude Help Center, setup</a> (primary source), <a href=\"https://support.claude.com/en/articles/12684923-microsoft-365-connector-security-guide\">Security guide</a>, <a href=\"https://office365itpros.com/2026/04/08/microsoft-365-connector-for-claude/\">Office 365 IT Pros</a>"
+ },
+ "prompt": {
+  "title": "Tell the AI to ask you questions first",
+  "intro": "Anthropic's prompting guide compares Claude to a brilliant new employee who lacks your context, so the clearer you are, the better the result. The \"ask questions first\" move below is our own way of applying that idea: let the AI find the missing context before it writes anything.",
+  "weak": "Write me a LinkedIn post about our product launch.",
+  "strong": "I want help with this task: [what you want, for example: a LinkedIn post announcing a product launch].\n\nBefore you write anything, ask me up to 5 questions about the things you would need to do this well, such as audience, goal, tone and facts. Ask them all at once, numbered, and keep each one short.\n\nWait for my answers. Do not start the draft yet. If I answer \"skip\" to a question, tell me what you will assume instead.\n\nAfter I answer, write the first version. Then list any assumptions you made.",
+  "why": [
+   {
+    "title": "Gaps get found early",
+    "text": "The AI names what it does not know before it guesses."
+   },
+   {
+    "title": "You stay in charge",
+    "text": "A cap of 5 questions keeps it short, and you decide which details matter."
+   },
+   {
+    "title": "No wasted draft",
+    "text": "\"Do not start yet\" stops the AI from writing a generic version you would only throw away."
+   },
+   {
+    "title": "Assumptions show",
+    "text": "The closing list tells you what the AI filled in on its own, so you can fix it."
+   }
+  ],
+  "try": "Use it on something real, such as a campaign brief, a social post or a content calendar. Answer the questions in one short message, then compare the result with what a one-line request would have given you. About 5 minutes.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic prompting best practices</a> (the \"Be clear and direct\" part, which gives the new-employee comparison). The questions-first steps and the assumptions list are our own adaptation."
+ },
+ "brief": [
+  {
+   "name": "GPT-6 Astra",
+   "text": "OpenAI says its model helped build a candidate way to define the Standard Model of physics on a lattice. Three physicists reviewed it, and OpenAI itself calls it \"much more a beginning than an end.\" Experts still need to check it.",
+   "sources": "<a href=\"https://openai.com/index/step-toward-defining-the-standard-model/\">OpenAI</a> (vendor-reported, Nov 15)"
+  },
+  {
+   "name": "AI Mode ads",
+   "text": "Google is showing sponsored products from local retailers under some AI Mode answers, plus a second set of paid listings in the product panel. Existing Search, Shopping and Performance Max campaigns are eligible automatically.",
+   "sources": "<a href=\"https://ppc.land/google-ai-mode-gains-local-retailer-ads-after-search-growth-slows-to-12/\">PPC Land</a> (one outlet, Nov 12)"
+  },
+  {
+   "name": "Meta debt",
+   "text": "PPC Land counts $15 billion of Meta dollar notes sold Nov 5 and a 9 billion euro bond sale completed Nov 12, with one slice running to 2065. It reads as a sign of how much AI spending is being borrowed.",
+   "sources": "<a href=\"https://ppc.land/ais-debt-bill-the-ad-giants-borrow-to-2065-and-others-pay-the-price/\">PPC Land</a> (one outlet, citing Meta filings)"
+  }
+ ],
+ "quiz": null,
+ "subject_hook": "Huang petition, ChatGPT Wallet",
+ "subtitle": "Backers push for Jensen Huang's return to Nvidia, ChatGPT Wallet lets AI agents pay with your approval, and Oakland's city contract adds AI job protections.",
+ "your_turn": "Would you let an AI agent buy things for you if you had to approve every purchase?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-13-2026",
+ "prev_label": "Read Friday's issue",
+ "interactive_url": "",
+ "slug": ""
+}
