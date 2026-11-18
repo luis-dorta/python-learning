@@ -1,1 +1,10 @@
-{"mast":"https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/4daa9647-27bb-4ac2-ab8d-dd5c2f6f18ed/mast.jpg","thumb":"https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/e24c07a3-7413-4849-84c9-86a4be3af496/thumb.jpg","bento":"https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/9e76adfd-6f01-4122-a080-91d07812966e/bento.jpg","hero":"https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/d9411461-4795-4d0d-81e4-9dbf9d4e1ad3/hero.jpg","fig1":"https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/685b891b-664b-4f7e-be5c-f470d5b89fc3/fig1.jpg","fig2":"https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/90204940-eed6-4c33-85bf-7abccee69fb3/fig2.jpg","newai":"https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/e3e59428-9fce-4d9c-a166-59100af10b08/newai.jpg","prompt":"https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/559f8332-273e-4eaa-b628-7367539c110c/prompt.jpg"}
+{
+ "mast": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/4bcd7263-2599-4115-9579-4141e5fe1e8e/mast.jpg",
+ "thumb": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/2375776e-a6d1-498f-8a32-10a29c727d47/thumb.jpg",
+ "bento": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/18b0266b-e641-4c35-8d86-1f521da7dc10/bento.jpg",
+ "hero": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/3715925d-584f-4239-9b7c-2b49ab777fc4/hero.jpg",
+ "fig1": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/18c403f1-3515-4fba-a4cd-dc74cb380174/fig1.jpg",
+ "fig2": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/d3d6afd1-4a9d-4b43-9c25-2b626a15bdb4/fig2.jpg",
+ "newai": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/19b88f63-bb42-4fe9-8956-f954a2ce373d/newai.jpg",
+ "prompt": "https://beehiiv-images-production.s3.amazonaws.com/uploads/asset/file/d978dd3e-ac1b-4af9-b6e4-4b99176f6264/prompt.jpg"
+}
