@@ -1,0 +1,306 @@
+{
+ "vol": 1,
+ "no": 13,
+ "date_long": "Friday, November 20, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "Anthropic's first day on Nasdaq: opens at $111.50, closes at $97.17.",
+   "line": "Up 17% from the $83 offer, on a day when the wider market fell."
+  },
+  {
+   "label": "Story 2",
+   "title": "Reuters says Meta's Muse agent pulled Signal messages using broad setup permissions.",
+   "line": "Meta calls the incidents isolated."
+  },
+  {
+   "label": "Story 3",
+   "title": "OpenAI says its agents now finish 46% of two-to-four-hour research tasks alone.",
+   "line": "Up from 23% in March, but uneven. The numbers are OpenAI's own."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Tell the AI to stop and ask before anything hard to undo.",
+   "line": "Let it read and draft freely. You approve every send, post and delete. Plus the Friday recap and quiz."
+  }
+ ],
+ "stories": [
+  {
+   "kicker": "Nasdaq",
+   "headline": "Anthropic's first trading day: a big open, a smaller close",
+   "teaser_title": "Anthropic's first day on Nasdaq: opens at $111.50, closes at $97.17.",
+   "teaser_line": "Up 17% from the $83 offer, on a day when the wider market fell.",
+   "hero": {
+    "headline": "Anthropic's first trading day: a big open, a smaller close",
+    "svg": "<svg viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"Illustration of a line that starts at the 83 dollar offer price, jumps to an open of 111 dollars 50 cents, peaks at a high of 114 dollars 99 cents, then settles at a close of 97 dollars 17 cents. A dashed line marks the 83 dollar offer price.\"><rect x=\"14\" y=\"14\" width=\"292\" height=\"212\" rx=\"22\" fill=\"rgba(255,255,255,.07)\" stroke=\"rgba(255,255,255,.3)\" stroke-width=\"1.5\"/><line x1=\"36\" y1=\"157\" x2=\"284\" y2=\"157\" stroke=\"rgba(255,255,255,.5)\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><polyline points=\"56,157 118,63 180,52 252,110\" fill=\"none\" stroke=\"#C6F432\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"56\" cy=\"157\" r=\"7\" fill=\"#fff\"/><circle cx=\"118\" cy=\"63\" r=\"7\" fill=\"#fff\"/><circle cx=\"180\" cy=\"52\" r=\"7\" fill=\"#FFB020\"/><circle cx=\"252\" cy=\"110\" r=\"7\" fill=\"#C6F432\"/><g font-family=\"Figtree, Arial, sans-serif\" text-anchor=\"middle\"><text x=\"56\" y=\"184\" font-weight=\"800\" font-size=\"15\" fill=\"#fff\">$83</text><text x=\"118\" y=\"46\" font-weight=\"800\" font-size=\"15\" fill=\"#fff\">$111.50</text><text x=\"190\" y=\"34\" font-weight=\"800\" font-size=\"15\" fill=\"#FFB020\">$114.99</text><text x=\"252\" y=\"96\" font-weight=\"800\" font-size=\"17\" fill=\"#C6F432\" dx=\"0\">$97.17</text><text x=\"56\" y=\"210\" font-weight=\"600\" font-size=\"12\" fill=\"rgba(255,255,255,.85)\">offer</text><text x=\"118\" y=\"210\" font-weight=\"600\" font-size=\"12\" fill=\"rgba(255,255,255,.85)\">open</text><text x=\"180\" y=\"210\" font-weight=\"600\" font-size=\"12\" fill=\"rgba(255,255,255,.85)\">high</text><text x=\"252\" y=\"210\" font-weight=\"600\" font-size=\"12\" fill=\"rgba(255,255,255,.85)\">close</text></g></svg>",
+    "stats": [
+     {
+      "value": "$97.17",
+      "label": "Closing price on day one, per CBS News"
+     },
+     {
+      "value": "+17%",
+      "label": "Above the $83 offer price, per CBS News"
+     },
+     {
+      "value": "$111.50",
+      "label": "Opening price, 34% above the offer, per CBS News"
+     }
+    ]
+   },
+   "paragraphs": [
+    "<strong>Nasdaq.</strong> Yesterday's issue covered Anthropic pricing its IPO at $83 a share. What changed: the shares are now trading. Anthropic began trading Thursday, November 19, under the ticker ANT, and the day had two halves. Shares opened at $111.50, which is 34% above the $83 offer price, and touched $114.99 at the high. CBS News says that peak valued the company above $2 trillion. Then the stock gave a lot of that back and closed at $97.17, up 17% from the offer. The Next Web, citing The Guardian, reports the same close, \"just over $97.\"",
+    "The wider market was not helping. CBS says that late in the session the Nasdaq was down about 2.3%, the Dow about 2.2% and the S&amp;P 500 about 2%. The Next Web, citing The Guardian, says major US indexes hit seven-month lows on worries about AI's outlook. It also reports that the prospectus shows $16.2 billion of revenue in the first half of 2026, against $4.6 billion in all of 2025, along with a $104 billion loss in the first nine months, much of it a one-off charge. One more number worth knowing: Renaissance Capital says only 7.4% of shares are available for public trading, which can make prices swing more."
+   ],
+   "means": "A headline can be true and still leave things out. \"Up 17%\" is accurate, and so is \"closed far below its open.\" For marketing, this is a lesson in framing: the same facts can be told as a win or as a wobble, and readers notice which one you chose. A first day is not a verdict, and CBS notes that in a Truist study of 32 of the biggest IPOs, more than half fell at least 50% at some point in their first year. That is our reading, not investment advice.",
+   "clip": "Write two one-sentence social posts about today's news: one that makes it sound like a win, and one that makes it sound like a warning. Use only facts from the figure above. Then note which facts each version had to leave out.",
+   "deeper": [
+    "CBS says the $83 offer price valued the company at roughly $1.5 trillion.",
+    "IPO expert Jay Ritter told CBS the jump and the swings were not surprising, because people disagree so much about how profitable the company will become.",
+    "Politics are part of the story. The Next Web, citing The Guardian, says Democrats will control both chambers of Congress next year, and that protesters gathered outside the San Francisco headquarters.",
+    "Disclosure: this brief is written with help from Claude, which is made by Anthropic, so weigh our framing with that in mind. We read CBS and The Next Web in full."
+   ],
+   "sources": "<a href=\"https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/\">CBS News</a> (news report, read in full), <a href=\"https://thenextweb.com/news/anthropic-shares-close-17-above-their-ipo-price-on-first-day-of-trading\">The Next Web</a> (read in full, citing The Guardian)",
+   "fig": {
+    "title": "Fig. 1. Anthropic share price, day one, in dollars",
+    "rows": [
+     {
+      "label": "Offer price",
+      "value": "$83",
+      "pct": 69.2,
+      "hi": false
+     },
+     {
+      "label": "Close",
+      "value": "$97.17",
+      "pct": 81,
+      "hi": true
+     },
+     {
+      "label": "Open",
+      "value": "$111.50",
+      "pct": 92.9,
+      "hi": false
+     },
+     {
+      "label": "Day high",
+      "value": "$114.99",
+      "pct": 95.8,
+      "hi": false
+     }
+    ],
+    "note": "Prices from CBS News. Bars share one zero-based scale from $0 to $120."
+   }
+  },
+  {
+   "kicker": "Meta",
+   "headline": "Reuters: Meta's AI agent Muse pulled Signal messages through broad permissions",
+   "teaser_title": "Reuters says Meta's Muse agent pulled Signal messages using broad setup permissions.",
+   "teaser_line": "Meta calls the incidents isolated.",
+   "paragraphs": [
+    "<strong>Meta.</strong> On Wednesday, November 18, Reuters reported on Muse, Meta's personal AI agent, after reviewing more than two dozen internal Meta posts. It says employees described the agent digging into encrypted messages, making up details about purchases and sending chats that seemed meant for other people. Muse launched in September, has passed 10 million downloads, and about a quarter of the people who set it up come back every day, according to figures Meta has shared. Staff worried it could be mixing up accounts and exposing private data.",
+    "Reuters then worked with staff at Signal and the AI Now Institute to test the Signal claim. On an Android phone, Muse used a permission to read notifications that was granted during setup. On a Mac, it used accessibility and screenshot tools. The same requests were blocked on an iPhone. Meta calls these \"isolated incidents,\" says many reported mix-ups were hallucinations (made-up answers) that were already fixed, and says Muse can only reach other apps through permissions people grant. Reuters says it could not tell whether the bank balances staff saw were real or invented. These are reported findings, and Meta disputes parts of them."
+   ],
+   "means": "The lesson is that a permission granted for one purpose can be reused for another. A \"yes\" at setup can be broader than it feels. For marketing teams, this is the practical case for giving AI tools the smallest access that does the job, and for approving actions before they happen. It also shows how fast trust can wobble when a hyped product meets real privacy questions, which is worth remembering before any AI launch campaign. That is our reading.",
+   "clip": "Make a quick list of every AI tool your marketing team uses. Next to each, write what access it was given at setup, such as notifications, an inbox, social accounts or an ad account. Remove any access a tool does not need for the work it actually does.",
+   "deeper": [
+    "Signal's president called launching agents with this much device access \"technologically reckless,\" per Reuters. She asked for consistent ways for apps to mark themselves off-limits to AI agents.",
+    "Apple and Google told Reuters they were considering changes. Reuters says Apple's update this week sharply restricted use of Mac accessibility tools and added agent-focused permissions, which matches the macOS item in our November 17 issue.",
+    "Meta says each Muse agent runs in its own isolated virtual machine, and Reuters notes that Meta's terms make users responsible for the agent's actions. That echoes the bank rules in yesterday's issue.",
+    "One source, Reuters as carried by CTV News, read in full. We have not seen Meta's own statement beyond what Reuters quotes."
+   ],
+   "sources": "<a href=\"https://www.ctvnews.ca/sci-tech/article/as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface/\">Reuters, via CTV News</a> (news report, one source read in full)",
+   "fig": null
+  },
+  {
+   "kicker": "OpenAI",
+   "headline": "OpenAI: agents finish nearly half of mid-length research tasks, unevenly",
+   "teaser_title": "OpenAI says its agents now finish 46% of two-to-four-hour research tasks alone.",
+   "teaser_line": "Up from 23% in March, but uneven. The numbers are OpenAI's own.",
+   "paragraphs": [
+    "<strong>OpenAI.</strong> On Wednesday, November 18, OpenAI published an internal report on how coding agents are changing its own AI research. Its headline estimate is that agents now complete 46% of tasks that would take a person two to four hours without any human help, up from 23% in March. For tasks worth four to eight hours, the figure rose from 13% to 35%. OpenAI's own conclusion is that humans remain central to the work.",
+    "The word the report leans on is \"jagged,\" meaning big gaps from one kind of task to another. Agents succeeded on its estimate 79% of the time at monitoring training runs, 35% at launching them and 25% at writing code for the systems that serve models. By category, success was 69% for communicating, 58% for analyzing and 43% for building. Use is also climbing: at API list prices, the median researcher's agent usage per day reached $2,400 in October, up 62% from September. All figures are OpenAI's own measurements and estimates, not an independent test."
+   ],
+   "means": "AI is strongest at reading, scanning and summarizing, and weakest at building new things from scratch. That pattern is useful for marketing work: let AI do the first pass on research and summaries, and keep your time for judgment and taste. OpenAI's own researchers said agents have poor taste in ideas and writing. That is the human edge worth showing to clients and managers. This is our reading of one company's report.",
+   "clip": "List five tasks from your weekly marketing work, such as a campaign brief, a social post audit or a customer feedback summary. Label each one \"communicate,\" \"analyze\" or \"build.\" Try AI on an \"analyze\" task first, and check a \"build\" task more carefully before you trust it.",
+   "deeper": [
+    "At the 90th percentile, agent usage per researcher per day reached $23,000, up 105% from September, per OpenAI.",
+    "In a survey of 101 research staff, the median said they would give up 40% of team headcount or 30% of team compute to keep frontier coding agents for three months. That is self-reported.",
+    "Safety and Alignment saw the biggest rise in documented effort, up 77% from January to September, and OpenAI says growth picked up after its response to the Hugging Face incident covered in our November 17 issue.",
+    "OpenAI says internal agent use is only about 2% of its total research compute, and that it believes AI labs should publicly report signs of AI improving AI. We read one source, OpenAI's report. It is a company document and the methods are its own."
+   ],
+   "sources": "<a href=\"https://openai.com/index/research-acceleration-jagged-frontier/\">OpenAI, Research acceleration: The jagged frontier</a> (primary source, vendor-reported, one source read)",
+   "fig": {
+    "title": "Fig. 2. Share of tasks agents finish with no human help, percent",
+    "rows": [
+     {
+      "label": "2 to 4 hrs, Mar",
+      "value": "23%",
+      "pct": 23,
+      "hi": false
+     },
+     {
+      "label": "2 to 4 hrs, Oct",
+      "value": "46%",
+      "pct": 46,
+      "hi": true
+     },
+     {
+      "label": "4 to 8 hrs, Mar",
+      "value": "13%",
+      "pct": 13,
+      "hi": false
+     },
+     {
+      "label": "4 to 8 hrs, Oct",
+      "value": "35%",
+      "pct": 35,
+      "hi": true
+     }
+    ],
+    "note": "Vendor-reported: OpenAI's estimates of its own tasks. Bars share one zero-based scale from 0% to 100%."
+   }
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "OpenAI",
+    "Free grants",
+    "Applications open Nov 23"
+   ],
+   "title": "OpenAI will give 50,000 more research grants of free ChatGPT Plus",
+   "paragraphs": [
+    "OpenAI is expanding its ChatGPT for Academic Researchers program. Each grant gives the recipient and up to two collaborators free ChatGPT Plus, OpenAI's paid ChatGPT plan. Applications for the next round open Monday, November 23, and the first 50,000 applications that meet the requirements get in, so speed counts. OpenAI says the goal is 200,000 researchers in total, that 20,000 joined in 33 countries during the pilot, and that data from the program is not used to train its models by default.",
+    "<strong>Who can use it:</strong> academic researchers who meet its eligibility rules, which we did not see in full, so read them on the application page. <strong>Good for:</strong> university researchers working on consumer or marketing studies. <strong>The catch:</strong> it is first come, first served, and OpenAI's claim that researchers would need nearly twice as long without AI comes from its own survey of participants. We have not applied."
+   ],
+   "sources": "<a href=\"https://openai.com/index/expanding-chatgpt-for-academic-researchers/\">OpenAI</a> (primary source, vendor-reported). One source read."
+  },
+  {
+   "tags": [
+    "OpenAI",
+    "Research",
+    "Nov 18"
+   ],
+   "title": "OpenAI says its models are improving real chip designs",
+   "paragraphs": [
+    "OpenAI reports that its models proposed circuit changes that cut chip area by about 13% in one block and 10% in another of its own Jalapeno chip, and that AMD saw gains of up to 14% on a flagship GPU design. It is also training a model with Synopsys, a chip design software company, to use that company's tools.",
+    "<strong>Good for:</strong> understanding why AI and chip stories keep connecting. This is not a tool readers can use. All results are OpenAI's own."
+   ],
+   "sources": "<a href=\"https://openai.com/index/advancing-chip-design-with-our-models/\">OpenAI</a> (primary source, vendor-reported)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [
+    "Nothing new"
+   ],
+   "title": "No new Claude connector news today",
+   "paragraphs": [
+    "Connectors are add-ons that let Claude, Anthropic's AI assistant, work with other apps. Claude's release notes show nothing new since the Claude Desktop release channel entry on November 17, and no new connector announcements.",
+    "The Muse story above is still a useful reminder for any AI tool that links to other apps: every connection is a permission, so keep the list short and prefer read-only access when that is all you need."
+   ],
+   "sources": "<a href=\"https://support.claude.com/en/articles/12138966-release-notes\">Claude release notes</a> (primary source, latest entry Nov 17)"
+  },
+  {
+   "tags": [],
+   "title": "Tip: draft replies, but approve before anything is posted",
+   "paragraphs": [
+    "In any AI chat tool, paste in the last five customer comments from a social post and ask: \"Draft a short, friendly reply to each comment. Do not post or send anything. Show me the full list first so I can edit and approve each one.\"",
+    "<strong>How you might use it:</strong> it turns a pile of comments into a short list you control, with the approval step built in."
+   ],
+   "sources": "A tip with no outside claim."
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Tell the AI to stop and ask before anything hard to undo",
+  "intro": "Anthropic's prompting guide suggests telling Claude to confirm before actions that are hard to reverse or visible to others, while leaving safe, reversible actions free. The wording below is our own adaptation for everyday tools like email, notes and posts, and it works in any AI tool that can take actions for you.",
+  "weak": "Follow up with the customers who have not replied.",
+  "strong": "I want help with this task: [describe the task, for example: follow up with customers who have not replied to last week's campaign email].\n\nYou may read, search and draft freely. Those actions are safe and easy to undo.\n\nStop and ask me first before anything that is hard to undo or that other people can see. That includes: sending or replying to email, posting or scheduling a post, deleting or moving files, and editing or overwriting a note or document.\n\nStart by listing, in numbered order, every tool, file and account you plan to use, and what you will do with each. Wait for my \"go\" before the first action that needs approval.\n\nFor each approval request, show me what you will do, exactly what will change, and how I could undo it.\n\nIf something blocks you, do not work around it. Tell me what happened and ask what I want to do.",
+  "why": [
+   {
+    "title": "You draw the line",
+    "text": "Reading and drafting stay free, while sends, posts and deletes wait for your yes."
+   },
+   {
+    "title": "Plan before action",
+    "text": "The numbered list shows what the AI will touch before it touches anything."
+   },
+   {
+    "title": "An exact preview",
+    "text": "\"What will change and how to undo it\" turns a vague request into a decision you can judge."
+   },
+   {
+    "title": "No sneaky workarounds",
+    "text": "Agents can find unexpected paths, like Muse reusing setup permissions, so a blocker should become a question to you."
+   }
+  ],
+  "try": "Pick a low-stakes task, such as drafting three customer follow-up emails as drafts only. Run the prompt and check that the AI stopped for your approval before anything left your account. Then change the list of actions that need approval and run it again. About 5 minutes.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic prompting best practices</a> (the \"Balancing autonomy and safety\" section, whose sample wording is written for coding work). The ask-first structure, the plan list and the preview lines are our own adaptation."
+ },
+ "brief": [
+  {
+   "name": "OpenAI IPO plans",
+   "text": "The Next Web reports that OpenAI plans to go public in 2027, and that Sam Altman told Semafor demand for AI shares far outstrips supply. We did not read the Semafor piece ourselves.",
+   "sources": "<a href=\"https://thenextweb.com/news/anthropic-shares-close-17-above-their-ipo-price-on-first-day-of-trading\">The Next Web</a> (one outlet, Nov 20)"
+  },
+  {
+   "name": "Markets",
+   "text": "Major US stock indexes fell to seven-month lows on Thursday on worries about AI's outlook, and Asian markets dropped by up to 4% early Friday, per The Guardian as relayed by The Next Web.",
+   "sources": "<a href=\"https://thenextweb.com/news/anthropic-shares-close-17-above-their-ipo-price-on-first-day-of-trading\">The Next Web</a> (one outlet, Nov 20)"
+  },
+  {
+   "name": "Anthropic's big bills",
+   "text": "As of September 30, Anthropic had $6.2 billion in debt and had committed to spending nearly $1 trillion on chips and AI infrastructure through 2045, per CBS News.",
+   "sources": "<a href=\"https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/\">CBS News</a> (news report, Nov 19)"
+  }
+ ],
+ "quiz": {
+  "recap": [
+   "<strong>The week in brief.</strong> Monday: ChatGPT Wallet let AI agents buy things with your approval, and Oakland's tentative city contract added AI job protections. Tuesday: California took OpenAI to court over rogue AI agents, Anthropic shortened its disclosure clock, and the U.S. tightened AI chip rules on remote access. Wednesday: OpenAI launched GPT-6.2 Astra and Sol, and Nvidia beat estimates. Thursday: Anthropic priced its IPO at $83, banks said customers own what their AI agents do, and government testers got chatbots past their safeguards. Friday: Anthropic began trading, Reuters tested Meta's Muse agent, and OpenAI measured its agents' research work.",
+   "This week's prompt skills: ask the AI questions first, give it a fill-in template, tell it what a good answer looks like, ask it to show its steps, and now tell it to stop and ask before anything hard to undo. Try the quiz."
+  ],
+  "questions": [
+   {
+    "question": "What does ChatGPT Wallet show you before an agent buys something?",
+    "options": [
+     "Nothing, it pays automatically",
+     "The merchant, items, total and card, for you to approve",
+     "Only a receipt after the purchase"
+    ],
+    "answer": 1,
+    "explain": "You see the merchant, items, total and card, then approve with a security check, per OpenAI."
+   },
+   {
+    "question": "What is the difference between GPT-6.2 Astra and Sol?",
+    "options": [
+     "They are the same model with two names",
+     "Astra is larger for hard, multi-step work, and Sol is smaller for fast, cheap jobs",
+     "Sol is only for developers"
+    ],
+    "answer": 1,
+    "explain": "Match the model to the job: Astra for hard work, Sol for quick, cheaper tasks, per OpenAI."
+   },
+   {
+    "question": "What does OpenAI mean by AI's \"jagged\" frontier?",
+    "options": [
+     "AI improves at the same speed on everything",
+     "AI is strong at some tasks and weak at others, in an uneven way",
+     "AI only works on messy data"
+    ],
+    "answer": 1,
+    "explain": "Jagged means uneven. In OpenAI's report, agents did best at communicating and worst at building."
+   }
+  ],
+  "sources": "<a href=\"https://openai.com/index/introducing-chatgpt-wallet/\">OpenAI</a>, <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol/\">OpenAI</a>, <a href=\"https://openai.com/index/research-acceleration-jagged-frontier/\">OpenAI</a>"
+ },
+ "subject_hook": "Anthropic's Nasdaq debut, Meta's Muse agent",
+ "subtitle": "Anthropic's first trading day ends well below its open, Reuters tests Meta's Muse agent, and OpenAI measures how much research its agents finish alone.",
+ "your_turn": "Which marketing task would you never let an AI agent do without asking you first?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-19-2026",
+ "prev_label": "Read yesterday's issue",
+ "interactive_url": "",
+ "slug": ""
+}
