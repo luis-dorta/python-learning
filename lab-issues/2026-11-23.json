@@ -1,0 +1,241 @@
+{
+ "vol": 1,
+ "no": 14,
+ "date_long": "Monday, November 23, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "A Claude-assisted proof of the Riemann hypothesis passes its first independent checks.",
+   "line": "The Lean and Mathlib communities certified it. A readable write-up and the prize rules are still ahead."
+  },
+  {
+   "label": "Story 2",
+   "title": "OpenAI's chief scientist wants labs to agree on shared limits.",
+   "line": "He published OpenAI's own scores first. It is a proposal, not a deal."
+  },
+  {
+   "label": "Story 3",
+   "title": "A hit game pulls AI music after players read the file metadata.",
+   "line": "Just 8% of recent Steam reviews were positive, per IGN via GamesHub."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Treat the first answer as a draft, then steer it in rounds.",
+   "line": "Ask for the problems first, pick what to fix, and rewrite only that."
+  }
+ ],
+ "stories": [
+  {
+   "kicker": "Lean",
+   "headline": "A Claude-assisted proof of the Riemann hypothesis gets its first checks",
+   "teaser_title": "A Claude-assisted proof of the Riemann hypothesis passes its first independent checks.",
+   "teaser_line": "The Lean and Mathlib communities certified it. A readable write-up and the prize rules are still ahead.",
+   "hero": {
+    "headline": "A Claude-assisted proof of the Riemann hypothesis gets its first checks",
+    "svg": "<svg viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"Illustration of one large block of code on the left sending arrows to three separate checker circles, each with a check mark, and a bar below showing that the theorem matches the library's own statement.\"><rect x=\"14\" y=\"14\" width=\"292\" height=\"212\" rx=\"22\" fill=\"rgba(255,255,255,.07)\" stroke=\"rgba(255,255,255,.3)\" stroke-width=\"1.5\"/><rect x=\"36\" y=\"62\" width=\"82\" height=\"96\" rx=\"14\" fill=\"rgba(255,255,255,.14)\" stroke=\"#fff\" stroke-width=\"2\"/><g stroke=\"rgba(255,255,255,.75)\" stroke-width=\"4\" stroke-linecap=\"round\"><line x1=\"50\" y1=\"84\" x2=\"104\" y2=\"84\"/><line x1=\"50\" y1=\"102\" x2=\"92\" y2=\"102\"/><line x1=\"50\" y1=\"120\" x2=\"100\" y2=\"120\"/><line x1=\"50\" y1=\"138\" x2=\"84\" y2=\"138\"/></g><g stroke=\"#FFB020\" stroke-width=\"3\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M120 96 L190 66\"/><path d=\"M120 110 L190 110\"/><path d=\"M120 124 L190 154\"/></g><g fill=\"#0B0B0F\" stroke=\"#C6F432\" stroke-width=\"3\"><circle cx=\"222\" cy=\"62\" r=\"24\"/><circle cx=\"222\" cy=\"110\" r=\"24\"/><circle cx=\"222\" cy=\"158\" r=\"24\"/></g><g fill=\"none\" stroke=\"#C6F432\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M210 62 L219 71 L235 52\"/><path d=\"M210 110 L219 119 L235 100\"/><path d=\"M210 158 L219 167 L235 148\"/></g><rect x=\"62\" y=\"184\" width=\"196\" height=\"14\" rx=\"7\" fill=\"rgba(255,255,255,.18)\"/><rect x=\"62\" y=\"184\" width=\"196\" height=\"14\" rx=\"7\" fill=\"none\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"62\" y=\"184\" width=\"196\" height=\"14\" rx=\"7\" fill=\"#C6F432\" opacity=\".85\"/></svg>",
+    "stats": [
+     {
+      "value": "17M",
+      "label": "Lines of Lean code in the released proof library, per the Lean and Mathlib statement"
+     },
+     {
+      "value": "175,187",
+      "label": "Compiled modules replayed through Lean's checker, per CryptoSlate citing an MIT mathematician's logs"
+     },
+     {
+      "value": "2 yrs",
+      "label": "Minimum wait after publication before Clay considers a prize, per CryptoSlate"
+     }
+    ]
+   },
+   "paragraphs": [
+    "<strong>Lean.</strong> On Friday, November 20, Anthropic mathematician Levent Alpöge released what he says is a proof of the Riemann hypothesis, found with Claude and written as code in Lean, a language that lets computers check every step of a proof. The hypothesis was posed in 1859 and is about the hidden pattern in prime numbers. Scientific American reports that his statement also claims the stronger \"generalized\" version, and that experts it spoke with saw no immediate real-world use, since it will not change banking or speed up the internet.",
+    "On Saturday, the Lean FRO and the Mathlib Initiative, the groups behind Lean and its main math library, said they have \"full confidence\" it is correct. Their checks: dozens of people rebuilt the library and got the same proof file, two separate tools confirmed that the theorem proved matches Mathlib's own wording of the hypothesis, and several independent proof checkers accepted the exported proof. Two limits remain. Alpöge still plans a write-up people can read, and CryptoSlate says the Clay Mathematics Institute still listed the problem as unsolved on November 22. Its prize rules require publication, two years, and broad acceptance. That is our summary of the reporting."
+   ],
+   "means": "The useful lesson is how a huge claim earns trust: not by the announcement, but by strangers reproducing it with their own tools. For marketing work, that habit is gold. When a stat or a result looks too good, ask who else checked it and how. When you share AI-assisted work with a client or manager, saying \"AI drafted it, and here is how we verified it\" is a stronger story than \"AI did it.\" This is our reading, not an expert's.",
+   "clip": "Pick one AI-written fact from a recent campaign brief or report, such as a market stat. Find a second independent source for it, then write \"checked against\" and the source next to it.",
+   "deeper": [
+    "A rival claim surfaced the same day. Per Scientific American, a Stanford mathematician may have a human-made proof. A mathematician told the magazine it is \"undergoing major revision,\" and no one has verified it.",
+    "An MIT mathematician reported that a clean rebuild with networking off matched the published proof file byte for byte, and that two independently written checkers accepted it. CryptoSlate says some of the extra runs were still going on November 22.",
+    "A University of Waterloo mathematician posted a guide to parts of the argument, but it still leans on the Lean code for a central step, per CryptoSlate.",
+    "Disclosure: Alpöge works at Anthropic, which makes Claude, and this brief is written with Claude, so weigh our framing with that in mind. We read the main sources below in full."
+   ],
+   "sources": "<a href=\"https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/\">Scientific American</a> (news report), <a href=\"https://leanprover-community.github.io/blog/posts/riemann-hypothesis/\">Lean FRO and Mathlib Initiative joint statement</a> (primary source), <a href=\"https://cryptoslate.com/claude-assisted-proof-of-riemann-hypothesis-validated-by-independent-checkers/\">CryptoSlate</a> (news report), <a href=\"https://www.scientificamerican.com/article/dueling-claims-of-riemann-hypothesis-proofs-emerge/\">Scientific American, rival claim</a>",
+   "fig": null
+  },
+  {
+   "kicker": "OpenAI",
+   "headline": "OpenAI's chief scientist proposes shared limits for AI labs, and shows his own numbers",
+   "teaser_title": "OpenAI's chief scientist wants labs to agree on shared limits.",
+   "teaser_line": "He published OpenAI's own scores first. It is a proposal, not a deal.",
+   "paragraphs": [
+    "<strong>OpenAI.</strong> On Sunday, November 22, OpenAI chief scientist Jakub Pachocki published an essay called \"Perplexity and Intelligence.\" He argues that labs should track perplexity, a score for how well a model predicts the next word piece of text it has never seen. Lower is better. He then proposes \"common limits\": capability levels that labs agree not to cross until they reach a concrete milestone in understanding and monitoring AI, for example a successor to tools that read a model's reasoning.",
+    "As a first step he published OpenAI's own scores, measured on an internal code dataset. GPT-3.5 sat near 0.99, and GPT-4 near 0.91. He says transformative abilities in cybersecurity and math appeared once scores fell below 0.8, and that math results began at about 0.76. He expects the next window, around 0.68 to 0.7, to bring more abilities, though he says he does not know which. This is a proposal, not an agreement, and every number is OpenAI's own. He lists the metric's weak spots himself, including that labs use different datasets, so scores are hard to compare."
+   ],
+   "means": "This is really a story about picking a shared metric. If every lab measures differently, nobody can compare. Marketing has the same problem: one channel's \"conversion\" is not another's. Being able to say what a metric shows, what it hides, and why you chose it is a skill clients and managers notice. Pachocki even lists his own metric's weak points, which is a habit worth copying. This is our reading of one company's essay.",
+   "clip": "Take one metric from a past campaign, such as engagement rate. Write one sentence on what it tells you and one on what it hides. Add a third naming a second metric that would fill the gap.",
+   "deeper": [
+    "Pachocki admits that publishing the scores gives competitors a clearer picture of where OpenAI stands, but argues the need for shared safety measures outweighs that.",
+    "Three more weak spots he names: perplexity does not match any single task people care about, reasoning step by step boosts ability without lowering the score, and nobody knows how low the score can go.",
+    "He says AI help on research into how models are first trained could trigger a burst of advances \"as soon as 2027.\" A footnote credits the steep 2026 drop mostly to long-term research and computing investment, and only partly to automation.",
+    "This follows his September 6 essay \"An Alien Mind,\" which said no lab had solved alignment and monitoring well enough to keep scaling at full speed \"for much longer,\" per OpenAI's site and The Next Web.",
+    "We found one primary source for the new post and no independent coverage yet. The post links to an essay on Dario Amodei's website about pacing AI progress. We did not read it."
+   ],
+   "sources": "<a href=\"https://openai.com/index/perplexity-and-intelligence/\">OpenAI, Perplexity and Intelligence</a> (primary source, vendor-reported), <a href=\"https://openai.com/index/an-alien-mind/\">OpenAI, An Alien Mind</a> (primary source), <a href=\"https://thenextweb.com/news/openai-slowdown-pachocki-alien-mind-research-intern-compute\">The Next Web</a> (background on the September essay)",
+   "fig": {
+    "title": "Fig. 1. OpenAI's log-perplexity scores (lower is better)",
+    "rows": [
+     {
+      "label": "GPT-3.5",
+      "value": "0.99",
+      "pct": 99,
+      "hi": false
+     },
+     {
+      "label": "GPT-4",
+      "value": "0.91",
+      "pct": 91,
+      "hi": false
+     },
+     {
+      "label": "Below this line",
+      "value": "0.80",
+      "pct": 80,
+      "hi": false
+     },
+     {
+      "label": "Math results",
+      "value": "0.76",
+      "pct": 76,
+      "hi": true
+     }
+    ],
+    "note": "Vendor-reported: OpenAI's own scores, rounded, on its internal codebase dataset. \"Below this line\" is the 0.8 mark OpenAI ties to cybersecurity and math abilities. Bars share one zero-based scale from 0 to 1."
+   }
+  },
+  {
+   "kicker": "Nicalis",
+   "headline": "A hit game pulls AI music after players read the file metadata",
+   "teaser_title": "A hit game pulls AI music after players read the file metadata.",
+   "teaser_line": "Just 8% of recent Steam reviews were positive, per IGN via GamesHub.",
+   "paragraphs": [
+    "<strong>Nicalis.</strong> The Binding of Isaac: Repentance+ launched an update on November 19 with new platforms. One day later, a Reddit user pointed out tracks in a challenge run themed after GTA 6 whose file metadata named Suno, an AI music tool, and linked to the tracks' pages on Suno's site. Series creator Edmund McMillen wrote on X that he \"had no idea\" the run used generated music. Publisher Nicalis shipped a patch confirming the \"removal of generated music files,\" live on PC and submitted to Microsoft, Nintendo and Sony, with no console dates yet.",
+    "The backlash was fast. IGN, as relayed by GamesHub, says only 8% of recent Steam reviews were positive. Valve requires developers to disclose how they use AI, and both GamesHub and ShiftDelete.Net report that the game's Steam page carried no such note. Nicalis has not explained how the music got into the build. We read GamesHub and ShiftDelete.Net in full, and both cite IGN, which we could not open directly."
+   ],
+   "means": "Two lessons for marketing. First, trust breaks when people feel surprised, not just when AI is used. Telling audiences up front is cheaper than apologizing later. Second, even the creator did not know what was in his own product, so know where every asset in your work came from. That includes anything a vendor, template or teammate gave you. This is our reading of the reports.",
+   "clip": "Pick three images, audio clips or text blocks from a recent campaign or social post. Write one line each: who made it, what tool, and whether AI was involved. Add a short \"How this was made\" note anywhere AI helped.",
+   "deeper": [
+    "GamesHub says much of the negative review traffic cites the unannounced AI material, and that the episode shows how generated content can reach a shipped game without even its creator knowing.",
+    "The update also brought the expansion to Nintendo Switch 2, PlayStation 5 and Xbox Series X and S, so the timing hurt more.",
+    "One reviewer argued that adding AI to a game people already paid for should allow refunds, per ShiftDelete.Net. That is one opinion, not a policy.",
+    "Our cross-check: two outlets agree on the dates, the Suno metadata, McMillen's reply and the patch. Neither says why the music was added."
+   ],
+   "sources": "<a href=\"https://www.gameshub.com/news/article/binding-of-isaac-ai-music-removed-2932137/\">GamesHub</a> (news report, read in full), <a href=\"https://shiftdelete.net/en/binding-of-isaac-ai-music-removed\">ShiftDelete.Net</a> (news report, read in full, citing IGN)",
+   "fig": null
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "Google",
+    "Gemini app",
+    "Nov 20"
+   ],
+   "title": "Gemini can now make looping GIFs from a text prompt",
+   "paragraphs": [
+    "Google's Gemini app, its AI assistant, now generates GIFs using its Gemini Omni 1.2 Flash video model. The loops last about three seconds. The Verge says support is rolling out to all users in the US, Canada, the UK, Japan, Korea, Australia, Germany and France. A search excerpt of a 9to5Google report (summary only) says you can pick GIF from the Format menu or type \"Create a GIF\" in the prompt box.",
+    "<strong>Who can use it:</strong> anyone with the Gemini app in those countries. <strong>Good for:</strong> reaction GIFs, looping photo effects and quick motion for social posts. <strong>The catch:</strong> three seconds is short, it is AI-made, so label it in client work, and we have not tested the quality. Today's third story is a reminder of why labels matter."
+   ],
+   "sources": "<a href=\"https://www.theverge.com/tech/1038771/googles-gemini-app-can-now-make-gifs\">The Verge</a> (news report), <a href=\"https://9to5google.com/2026/11/21/gemini-camera-redesign/\">9to5Google</a> (search excerpt only)"
+  },
+  {
+   "tags": [
+    "Google DeepMind",
+    "Ultra plan",
+    "Nov 18"
+   ],
+   "title": "Genie 4 lets you edit an AI-made 3D world while you walk through it",
+   "paragraphs": [
+    "Google is rolling out Genie 4 in Project Genie to Google AI Ultra subscribers, with a waitlist for AI Pro. While exploring, you type a new prompt to change the weather or add a character, and sound adapts in real time. Google says outputs carry SynthID watermarks.",
+    "<strong>Good for:</strong> prototyping worlds and moods before building anything. Vendor-reported, and an experimental research product."
+   ],
+   "sources": "<a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\">Google</a> (primary source, vendor-reported)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [
+    "No new connectors",
+    "Nov 20 notes"
+   ],
+   "title": "Claude's latest updates: computer use for work plans and a fresh mobile look",
+   "paragraphs": [
+    "Connectors are add-ons that let Claude, Anthropic's AI assistant, work with other apps. Claude's release notes list two entries for November 20. Computer use, which lets Claude see your screen and work in desktop apps you allow, is now in beta for Team and Enterprise plans. A refreshed look for Claude on iPhone is rolling out gradually and needs iOS 26 or later. The notes show no new connectors since Claude Meetings on November 12.",
+    "<strong>How you might use it:</strong> the notes say computer use reached Pro and Max plans in March, so the Team and Enterprise news matters mostly for workplaces. For any AI tool that links to other apps, keep the list of connections short, since each one is a permission."
+   ],
+   "sources": "<a href=\"https://support.claude.com/en/articles/12138966-release-notes\">Claude release notes</a> (primary source)"
+  },
+  {
+   "tags": [],
+   "title": "Tip: critique a post before it reaches your scheduler",
+   "paragraphs": [
+    "In any AI chat tool, ask: \"Here is my draft LinkedIn post: [paste it]. Round 1: list the 3 biggest problems and quote the words. Do not rewrite yet. After I pick, rewrite only those parts. Do not post or schedule anything.\"",
+    "<strong>How you might use it:</strong> if your AI tool can link to a social scheduling app, ask it to save the result as a draft only, so nothing goes public without you. Otherwise, paste the final version into any scheduler yourself. Check the tool's own setup page for steps."
+   ],
+   "sources": "A tip with no outside claim."
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Treat the first answer as a draft, then steer it in rounds",
+  "intro": "Anthropic's prompting guide says \"The first prompt rarely works perfectly,\" and lists iterating among the mistakes to avoid skipping. Its prompt chaining example has the AI draft, review that draft, then improve it. The round-by-round wording below is our own adaptation, and it works in any AI chat tool.",
+  "weak": "Make my campaign brief better.",
+  "strong": "I want to improve this: [Paste your draft, for example a campaign brief paragraph or a social post]\n\nGoal: [What it must achieve, for example: get the client to approve the campaign]\nReader: [Who will read it]\n\nRound 1. Do not rewrite anything yet. Give me the 3 biggest problems that hurt the goal, ranked from most to least important. For each one, quote the exact words it comes from and explain the problem in one sentence. Then stop and wait for me.\n\nRound 2. After I reply with the problems I want fixed and any notes, rewrite only those parts. Keep every other word exactly as it is. When you finish, list each change in one line.\n\nRound 3. Ask me whether we should do another round, and name the one thing you would fix next.",
+  "why": [
+   {
+    "title": "Problems before fixes",
+    "text": "Asking for a ranked list first shows you what is wrong, so you do not get a full rewrite you never asked for."
+   },
+   {
+    "title": "You steer",
+    "text": "You choose which problems to fix. The AI works for your judgment, not the other way around."
+   },
+   {
+    "title": "Nothing good gets lost",
+    "text": "\"Keep every other word exactly as it is\" protects the parts you already like."
+   },
+   {
+    "title": "Evidence, not vibes",
+    "text": "Quoting the exact words ties each comment to something you can see and check."
+   }
+  ],
+  "try": "Take one paragraph from a campaign brief or a social post. Run Round 1, pick one problem, then run Round 2. Compare the new paragraph with the old one and decide which words you keep. About 5 minutes.",
+  "sources": "<a href=\"https://claude.com/blog/best-practices-for-prompt-engineering\">Anthropic, Prompt engineering best practices</a> (the \"Common mistakes to avoid\" list and the prompt chaining example). The three-round structure, the quote requirement and the keep-everything-else line are our own adaptation."
+ },
+ "brief": [
+  {
+   "name": "Applied Compute",
+   "text": "Palo Alto Networks agreed on November 18 to buy the AI startup in an all-stock deal valued at $4.5 billion. An excerpt of a Wall Street Journal report (excerpt only) says it was founded last year by former OpenAI researchers and customizes open-weight models, so companies can deploy them more securely.",
+   "sources": "<a href=\"https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open\">Palo Alto Networks</a> (primary source, read as excerpt), <a href=\"https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611\">WSJ</a> (excerpt)"
+  },
+  {
+   "name": "Steam AI rules",
+   "text": "Valve requires developers selling games on Steam to disclose how they use AI, per GamesHub and ShiftDelete.Net, which report that The Binding of Isaac's Steam page carried no such note before its AI music was pulled.",
+   "sources": "<a href=\"https://www.gameshub.com/news/article/binding-of-isaac-ai-music-removed-2932137/\">GamesHub</a> (news report), <a href=\"https://shiftdelete.net/en/binding-of-isaac-ai-music-removed\">ShiftDelete.Net</a> (news report)"
+  },
+  {
+   "name": "Google",
+   "text": "For marketers: PPC Land reported on November 2 that Google moved AI Overviews for many brand searches into the right-hand column, where brand knowledge panels used to sit. Ahrefs found them on 63 of 100 brand names by September 30. This is earlier this month, not today's news.",
+   "sources": "<a href=\"https://ppc.land/google-moves-brand-ai-overviews-aside-as-buyers-question-search-budgets/\">PPC Land</a> (one outlet, Nov 3)"
+  }
+ ],
+ "quiz": null,
+ "subject_hook": "A checked Riemann proof, OpenAI's shared limits",
+ "subtitle": "A Claude-assisted Riemann hypothesis proof passes its first independent checks, OpenAI's chief scientist proposes shared limits for AI labs, and a hit game pulls its AI music.",
+ "your_turn": "Would you trust a big claim more if strangers had re-checked it, or if a famous expert vouched for it?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-20-2026",
+ "prev_label": "Read Friday's issue",
+ "interactive_url": "",
+ "slug": ""
+}
