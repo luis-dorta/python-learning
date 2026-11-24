@@ -1,0 +1,271 @@
+{
+ "vol": 1,
+ "no": 15,
+ "date_long": "Tuesday, November 24, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "Nvidia's board reversed itself in 10 days, and its CEO is back.",
+   "line": "Shares closed up 31% on the news. Congress wants answers on December 1 and 3."
+  },
+  {
+   "label": "Story 2",
+   "title": "Claude Ship lets AI agents review, fix and approve code changes.",
+   "line": "Code Review is live. The other two agents are in beta."
+  },
+  {
+   "label": "Story 3",
+   "title": "Two states sue SpaceX, saying its Grok safety claims were false.",
+   "line": "The suits are filed and still waiting on the courts."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Give the AI permission to say \"I don't know.\"",
+   "line": "Plus a closed-book prompt you can reuse on any brief or article."
+  }
+ ],
+ "stories": [
+  {
+   "kicker": "Nvidia",
+   "headline": "Nvidia's board brings its CEO back after 10 days",
+   "teaser_title": "Nvidia's board reversed itself in 10 days, and its CEO is back.",
+   "teaser_line": "Shares closed up 31% on the news. Congress wants answers on December 1 and 3.",
+   "hero": {
+    "headline": "Nvidia's board brings its CEO back after 10 days",
+    "svg": "<svg viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"Illustration of a line that falls steeply, bottoms out, then climbs back up toward an empty chair, with a dashed arrow showing the return.\"><rect x=\"14\" y=\"14\" width=\"292\" height=\"212\" rx=\"22\" fill=\"rgba(255,255,255,.07)\" stroke=\"rgba(255,255,255,.3)\" stroke-width=\"1.5\"/><line x1=\"36\" y1=\"196\" x2=\"284\" y2=\"196\" stroke=\"rgba(255,255,255,.35)\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M40 58 L112 168 L148 178 L214 104\" fill=\"none\" stroke=\"#C6F432\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"40\" cy=\"58\" r=\"6\" fill=\"#0B0B0F\" stroke=\"#fff\" stroke-width=\"3\"/><circle cx=\"148\" cy=\"178\" r=\"6\" fill=\"#0B0B0F\" stroke=\"#FFB020\" stroke-width=\"3\"/><circle cx=\"214\" cy=\"104\" r=\"6\" fill=\"#0B0B0F\" stroke=\"#C6F432\" stroke-width=\"3\"/><path d=\"M214 104 C 236 84, 244 70, 252 62\" fill=\"none\" stroke=\"#FFB020\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"2 8\"/><rect x=\"256\" y=\"40\" width=\"14\" height=\"52\" rx=\"6\" fill=\"rgba(255,255,255,.14)\" stroke=\"#fff\" stroke-width=\"2\"/><rect x=\"256\" y=\"84\" width=\"42\" height=\"12\" rx=\"6\" fill=\"rgba(255,255,255,.14)\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"264\" y1=\"96\" x2=\"264\" y2=\"122\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"290\" y1=\"96\" x2=\"290\" y2=\"122\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>",
+    "stats": [
+     {
+      "value": "+31%",
+      "label": "Nvidia's share price change on the day of the announcement, per CNBC"
+     },
+     {
+      "value": "10 days",
+      "label": "From the CEO leaving on Nov 13 to the board voting him back on Nov 23"
+     },
+     {
+      "value": "Dec 3",
+      "label": "Public Senate Banking hearing with Huang as the only witness, per CNBC"
+     }
+    ]
+   },
+   "paragraphs": [
+    "<strong>Nvidia.</strong> On Monday, November 23, Nvidia's board voted unanimously to make Jensen Huang president, CEO and a director again, effective immediately, according to the company's filing with the SEC. He had stepped down as CEO on November 13. Nvidia's release says an independent committee is still investigating, that senior US government officials gave the board input, and that the board is confident his return \"poses no national security risk.\" CFO Colette Kress, who served as interim CEO, goes back to her CFO duties.",
+    "The turnaround was quick. Axios notes the board chair had said six days earlier that the company did not plan to bring him back. CNBC, citing unnamed sources, reports that officials briefed the board late last week, talks with Huang started Saturday, and the decision came Sunday, with the falling stock speeding things up. Shares closed up 31% Monday, then CNBC shows them down more than 5% in early Tuesday trading. The story is not over: Huang faces a closed-door House interview on December 1 and a public Senate hearing on December 3, and Nvidia says it is adding a national security committee and hiring a chief compliance officer."
+   ],
+   "means": "This is a live crisis-communications case. A company's public position changed within days, and the stock price acted as a scoreboard. For marketing work, the lesson is to date-stamp what you cite, because a statement that was true on Monday can be reversed by Sunday. Also notice how the board's wording was written to reassure specific audiences: investors, government and staff. That is our reading, not a financial view.",
+   "clip": "Open Nvidia's release linked below. Underline the sentences that are facts and circle the ones meant to reassure. Write one line on who each reassurance is aimed at.",
+   "deeper": [
+    "Nvidia's release says the board formed a National Security and Export Control Committee made up only of independent directors, and is searching for a new Chief Compliance Officer.",
+    "Axios reports, citing Reuters, that the SEC is also looking at Nvidia's accounting practices. We did not read the Reuters piece.",
+    "President Trump told CNBC he had spoken with the board \"directly and indirectly.\"",
+    "Senator Elizabeth Warren called the decision reckless and said Congress still wants answers on export controls, per CNBC. Axios quotes governance experts who criticized the board.",
+    "We left personal details out of this summary on purpose. This brief is about the business and AI impact."
+   ],
+   "sources": "<a href=\"https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm\">Nvidia press release, SEC filing</a> (primary source, vendor-reported), <a href=\"https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html\">CNBC</a> (news report), <a href=\"https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo\">Axios</a> (news report)",
+   "fig": {
+    "title": "Fig. 1. Nvidia share price, in dollars",
+    "rows": [
+     {
+      "label": "Nov 6 close",
+      "value": "186.64",
+      "pct": 93.3,
+      "hi": false
+     },
+     {
+      "label": "Nov 21 close",
+      "value": "125.53",
+      "pct": 62.8,
+      "hi": false
+     },
+     {
+      "label": "Nov 23 close",
+      "value": "165.05",
+      "pct": 82.5,
+      "hi": true
+     },
+     {
+      "label": "Tue early",
+      "value": "155.85",
+      "pct": 77.9,
+      "hi": false
+     }
+    ],
+    "note": "Market data, not vendor-reported. The Nov 6 close comes from CNBC's article text. The other values are read from CNBC's quote box, and the Nov 21 close is implied by it (165.05 minus the 39.52 gain). Bars share one zero-based scale from 0 to 200. Prices move all day, so treat these as a snapshot."
+   }
+  },
+  {
+   "kicker": "Anthropic",
+   "headline": "Anthropic launches Claude Ship, a team of agents for reviewing and approving code",
+   "teaser_title": "Claude Ship lets AI agents review, fix and approve code changes.",
+   "teaser_line": "Code Review is live. The other two agents are in beta.",
+   "paragraphs": [
+    "<strong>Anthropic.</strong> On November 23, Anthropic launched Claude Ship, a bundle of three agents that work on GitHub pull requests, which are proposed code changes waiting for review. Code Review, already generally available, finds problems and posts them on the request. PR Steward, in beta, works on failing checks, merge conflicts and reviewer comments, and is designed not to approve or merge. Claude Approvals, also in beta, applies a policy file the team writes, which Anthropic describes as a \"smarter CODEOWNERS file.\" Developers can also type /ship in Claude Code to push a change, open the request and have Claude watch the feedback.",
+    "It is for Claude Team and Enterprise plans on GitHub, and it is billed by usage, so turning it on can raise costs. Orgs with zero data retention, the HIPAA setup or customer-managed keys cannot use it. Anthropic recommends starting Approvals in observe-only mode and warns the tool may miss bugs and security holes. The results below come from Anthropic's own team and were never independently tested."
+   ],
+   "means": "You do not need to write code to use the idea. The pattern is: AI drafts, AI checks, and a human writes the rules for what can ship without a second look. A policy file is basically a brand guideline for code. In marketing, the same habit means writing down which posts or edits can go out alone and which need a reviewer. Disclosure: this brief is written with Claude's help, so weigh our framing. This is our reading of the launch.",
+   "clip": "Write a 5-line \"approval policy\" for your team's content. Name what can ship alone, what needs a second pair of eyes, and which role reviews it.",
+   "deeper": [
+    "Eligible Enterprise organizations can claim at least $10,000 in Claude Ship credits by January 15, 2027, and the credits expire 30 days after claiming, per Anthropic.",
+    "MarkTechPost says Anthropic published no public benchmark and no precision or recall figures, only internal results.",
+    "When Claude acts alone, Claude Code blocks merge, approve, auto-merge and force-push commands, per MarkTechPost. A /ship watch ends after 7 days.",
+    "Anthropic's post quotes TELUS and Carvana as customers. Those are the company's chosen examples."
+   ],
+   "sources": "<a href=\"https://claude.com/resources/articles/introducing-claude-ship\">Anthropic, Introducing Claude Ship</a> (primary source, vendor-reported), <a href=\"https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/\">MarkTechPost</a> (news report)",
+   "fig": {
+    "title": "Fig. 2. Anthropic's internal pull requests, before and after (percent)",
+    "rows": [
+     {
+      "label": "Real comments, before",
+      "value": "16%",
+      "pct": 16,
+      "hi": false
+     },
+     {
+      "label": "Real comments, after",
+      "value": "54%",
+      "pct": 54,
+      "hi": true
+     },
+     {
+      "label": "Pass in 1 round, before",
+      "value": "65%",
+      "pct": 65,
+      "hi": false
+     },
+     {
+      "label": "Pass in 1 round, after",
+      "value": "78%",
+      "pct": 78,
+      "hi": true
+     }
+    ],
+    "note": "Vendor-reported by Anthropic for its own team, as relayed by MarkTechPost from Anthropic's engineering blog, which we did not open directly. \"Real comments\" means internal pull requests with substantive review comments. Anthropic's launch post separately says merged requests on that team more than doubled from June to September. Bars share one zero-based scale from 0 to 100."
+   }
+  },
+  {
+   "kicker": "SpaceX",
+   "headline": "Oregon and Virginia sue SpaceX over Grok and what it said about safety",
+   "teaser_title": "Two states sue SpaceX, saying its Grok safety claims were false.",
+   "teaser_line": "The suits are filed and still waiting on the courts.",
+   "paragraphs": [
+    "<strong>SpaceX.</strong> Oregon Attorney General Dan Rayfield filed a complaint on Sunday night, and Virginia Attorney General Jay Jones filed one Monday morning, both in state court. They are the first states to sue SpaceX over Grok, per CNBC. SpaceX owns xAI, which makes Grok, and the social network X, and The Hill says it bought xAI in February. The states allege the company did not put enough safeguards in place against sexualized deepfakes made from real photos, including of children, and that it falsely presented Grok and X as generally safe. That, they say, breaks their consumer protection laws. These are allegations, not findings.",
+    "Both states want court orders, civil penalties, repayment of profits and legal costs, and Virginia also seeks money back for consumers. As of early Monday the courts had not yet accepted the filings. SpaceX says it takes action on accounts that try to break its safeguards and notifies law enforcement, and its X Safety account called sexual content involving minors \"abhorrent.\" The Hill adds that the complaints cite Grok's \"spicy mode\" and the way it was marketed, and a research group's count in the Virginia filing of about 3 million sexualized images posted by Grok's X account from late December to early January."
+   ],
+   "means": "These suits are as much about words as about technology: what the company said was safe versus what happened. The lesson for marketers is that a claim like \"safe,\" \"private\" or \"secure\" is a legal promise, and regulators now test it. If you ever write copy for an AI product, keep proof behind each claim. This is our reading of the filings as reported.",
+   "clip": "Find one claim on a product page, such as \"safe,\" \"best\" or \"private.\" Write the evidence that would back it up. If you cannot, write a softer version of the claim.",
+   "deeper": [
+    "SpaceX already faces other Grok-related suits and probes in the UK, Spain, Ireland, France and California, per CNBC.",
+    "In Baltimore's case, the company argued that Section 230, a law that largely shields platforms from liability for user content, protects it. In a suit it filed against a user, it called Grok a \"neutral tool,\" per CNBC.",
+    "CNBC points to Meta's August settlement with states, about $17 billion over 10 years plus app changes, as a sign these state cases can succeed.",
+    "The Hill reports that a bill called the Defiance Act, which would let deepfake victims sue, has passed the Senate but faces headwinds in the House.",
+    "We left out graphic detail on purpose. The linked reports cover the allegations in full."
+   ],
+   "sources": "<a href=\"https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html\">CNBC</a> (news report), <a href=\"https://thehill.com/regulation/court-battles/6237551-virginia-oregon-lawsuit-spacex-ai/amp/\">The Hill</a> (news report)",
+   "fig": null
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "Z.ai",
+    "GLM-5.4",
+    "Nov 23"
+   ],
+   "title": "GLM-5.4 gets smarter by running the same layers twice",
+   "paragraphs": [
+    "Z.ai's new flagship model reuses one block of 28 layers two times per answer, a design called a loop transformer. Z.ai says it matches models three to four times its size, but it has not published a score table for the full model. Its evidence is a test on a smaller 30B version, where one math benchmark (AIME25) rose from 19.17 to 30.42. All of this is vendor-reported.",
+    "<strong>Who can use it:</strong> anyone, through Z.ai Chat, the ZCode desktop app or the GLM Coding Plan, listed at $12.6, $56 and $117.6 a month, per MarkTechPost. The API and downloadable weights come later. <strong>Good for:</strong> coding, small games and 3D scenes. <strong>The catch:</strong> no independent scores yet, Z.ai itself flags overly long \"marathon thinking\" loops, and we have not tested it."
+   ],
+   "sources": "<a href=\"https://www.marktechpost.com/2026/11/23/zai-glm-5-4-loop-transformer/\">MarkTechPost</a> (read in full, relays Z.ai's blog; one outlet, vendor numbers)"
+  },
+  {
+   "tags": [
+    "AWS",
+    "Open models",
+    "Nov 23"
+   ],
+   "title": "AWS releases models that pick an answer instead of writing one",
+   "paragraphs": [
+    "Strands Decider v2 is a family of five open models, from 2B to 31B parameters, built on Google's Gemma 4. Given a situation like a support ticket and a fixed list of choices, it returns a probability for each choice. AWS says the 31B model averages 82.1 across six public benchmarks (vendor-reported).",
+    "<strong>Good for:</strong> developers routing tickets or agent steps. It is free under the Apache 2.0 license but not on Amazon Bedrock yet."
+   ],
+   "sources": "<a href=\"https://thenewstack.io/aws-strands-decider-v2/\">The New Stack</a> (news report, vendor-reported numbers)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [
+    "Nothing new",
+    "Notes checked today"
+   ],
+   "title": "No new connectors today, and Claude's release notes are unchanged since Nov 20",
+   "paragraphs": [
+    "Connectors are add-ons that let Claude, Anthropic's AI assistant, work with other apps. Claude's release notes still show November 20 as the newest entries: computer use in beta for Team and Enterprise plans, and a refreshed iPhone look. The only Claude launch today is Claude Ship, which is covered above.",
+    "<strong>How you might use it:</strong> nothing to switch on. Claude Ship needs a Team or Enterprise plan and a GitHub repository, so check the plan before planning around it."
+   ],
+   "sources": "<a href=\"https://support.claude.com/en/articles/12138966-release-notes\">Claude release notes</a> (primary source), <a href=\"https://claude.com/resources/articles/introducing-claude-ship\">Anthropic launch post</a>"
+  },
+  {
+   "tags": [],
+   "title": "Tip: a closed-book check of a draft against its brief",
+   "paragraphs": [
+    "In any AI chat tool, paste a campaign brief and a draft, then ask: \"List each requirement in the brief that the draft does not clearly cover. If it is not in the draft, write NOT FOUND. Do not guess and do not edit anything.\"",
+    "<strong>How you might use it:</strong> if your AI tool can read files from a cloud drive such as Google Drive, point it at the document instead of pasting. This pairs with today's prompt. Check the tool's own setup page for steps."
+   ],
+   "sources": "A tip with no outside claim."
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Give the AI permission to say \"I don't know\"",
+  "intro": "Anthropic's guide on reducing hallucinations lists this first: explicitly let Claude admit uncertainty, which it says can \"drastically reduce false information.\" It also suggests limiting Claude to the documents you provide. The exact rules below are our own adaptation, and they work in any AI chat tool.",
+  "weak": "Tell me what this client wants from the campaign.",
+  "strong": "I am preparing for [What you are preparing for, for example: a client meeting, a campaign brief, or a competitor review].\n\nUse only the material below.\n<material>\n[Paste the campaign brief, article, or customer feedback here]\n</material>\n\nQuestions:\n1. [Your first question]\n2. [Your second question]\n3. [Your third question]\n\nRules:\n- Use only the material above. Do not use outside knowledge.\n- For each answer, point to the sentence in the material that supports it.\n- If the material does not say, write \"NOT IN THE MATERIAL\" instead of guessing, and tell me what I would need to look up.\n- At the end, list anything you were unsure about and why.",
+  "why": [
+   {
+    "title": "An honest way out",
+    "text": "When \"I don't know\" is an allowed answer, the AI has no reason to invent one."
+   },
+   {
+    "title": "Closed book",
+    "text": "\"Use only the material\" keeps it from mixing in half-remembered outside facts."
+   },
+   {
+    "title": "Gaps become a to-do list",
+    "text": "Every \"NOT IN THE MATERIAL\" tells you exactly what to research next."
+   },
+   {
+    "title": "You can check it",
+    "text": "Pointing to the supporting sentence lets you verify each answer in seconds."
+   }
+  ],
+  "try": "Paste a campaign brief or a page of customer feedback into the prompt. Ask three questions, and make one of them something the text surely does not say, like the budget or the launch date. Check that the AI answers \"NOT IN THE MATERIAL\" for that one. About 5 minutes.",
+  "sources": "<a href=\"https://docs.claude.com/en/docs/test-and-evaluate/strengthen-guardrails/reduce-hallucinations\">Anthropic, Reduce hallucinations</a> (the \"Allow Claude to say I don't know\" and \"External knowledge restriction\" tips). The rule wording, the NOT IN THE MATERIAL label and the closing uncertainty list are our own adaptation."
+ },
+ "brief": [
+  {
+   "name": "Congress",
+   "text": "The Defiance Act, a bill that would let deepfake victims sue, has already passed the Senate but faces headwinds in the House during the lame-duck session, per The Hill.",
+   "sources": "<a href=\"https://thehill.com/regulation/court-battles/6237551-virginia-oregon-lawsuit-spacex-ai/amp/\">The Hill</a> (news report)"
+  },
+  {
+   "name": "Code review",
+   "text": "Claude Ship has rivals. Per MarkTechPost's check of each vendor's own docs, they include GitHub Copilot code review, Cursor Bugbot and CodeRabbit, which lists $24, $48 and $72 per developer per month on annual billing.",
+   "sources": "<a href=\"https://www.marktechpost.com/2026/11/23/anthropic-claude-ship-pull-request-agents/\">MarkTechPost</a> (news report, citing vendor docs)"
+  },
+  {
+   "name": "Meta",
+   "text": "In August, Meta agreed to pay states about $17 billion over 10 years and change its apps, per CNBC. It is background for the Grok suits, not news from today.",
+   "sources": "<a href=\"https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html\">CNBC</a> (one outlet, background)"
+  }
+ ],
+ "quiz": null,
+ "subject_hook": "Nvidia's CEO returns, Claude Ship launches",
+ "subtitle": "Nvidia's board brings its CEO back after 10 days, Anthropic launches Claude Ship agents for code review, and two states sue SpaceX over Grok's safety claims.",
+ "your_turn": "When a company reverses a big decision within days, does that make you trust it more or less?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-23-2026",
+ "prev_label": "Read yesterday's issue",
+ "interactive_url": "",
+ "slug": ""
+}
