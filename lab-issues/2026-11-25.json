@@ -1,0 +1,267 @@
+{
+ "vol": 1,
+ "no": 16,
+ "date_long": "Wednesday, November 25, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "Google says AI agents must use its MCP servers to reach Gmail and Drive.",
+   "line": "The rule is enforced from February 1, 2027. Billing for agent usage starts April 1."
+  },
+  {
+   "label": "Story 2",
+   "title": "DeepMind's new exam asks if AI gets easy questions right every time.",
+   "line": "The top score was 92.4% when all 16 tries had to be correct."
+  },
+  {
+   "label": "Story 3",
+   "title": "CrowdStrike will buy Zscaler for $43.9 billion.",
+   "line": "The pitch is security for the age of AI agents."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Write the prompt in the style you want back.",
+   "line": "A campaign-email prompt you can reuse in any AI chat tool."
+  }
+ ],
+ "stories": [
+  {
+   "kicker": "Google",
+   "headline": "Google puts a front door on Gmail and Drive for AI agents",
+   "teaser_title": "Google says AI agents must use its MCP servers to reach Gmail and Drive.",
+   "teaser_line": "The rule is enforced from February 1, 2027. Billing for agent usage starts April 1.",
+   "hero": {
+    "headline": "Google puts a front door on Gmail and Drive for AI agents",
+    "svg": "<svg viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"Illustration of three agents lining up at one gate with a check mark, on their way to a grid of eight app tiles. A dashed side route that skips the gate is crossed out.\"><rect x=\"14\" y=\"14\" width=\"292\" height=\"212\" rx=\"22\" fill=\"rgba(255,255,255,.07)\" stroke=\"rgba(255,255,255,.3)\" stroke-width=\"1.5\"/><circle cx=\"52\" cy=\"82\" r=\"14\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3\"/><circle cx=\"52\" cy=\"122\" r=\"14\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3\"/><circle cx=\"52\" cy=\"162\" r=\"14\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3\"/><path d=\"M70 82 L128 116\" stroke=\"#C6F432\" stroke-width=\"3\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M70 122 L128 122\" stroke=\"#C6F432\" stroke-width=\"3\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M70 162 L128 130\" stroke=\"#C6F432\" stroke-width=\"3\" stroke-linecap=\"round\" fill=\"none\"/><rect x=\"128\" y=\"76\" width=\"46\" height=\"94\" rx=\"12\" fill=\"rgba(255,176,32,.16)\" stroke=\"#FFB020\" stroke-width=\"3.5\"/><path d=\"M141 170 L141 134 A10 10 0 0 1 161 134 L161 170\" fill=\"none\" stroke=\"#FFB020\" stroke-width=\"3\"/><circle cx=\"151\" cy=\"94\" r=\"10\" fill=\"#0B0B0F\" stroke=\"#C6F432\" stroke-width=\"3\"/><path d=\"M146 94 L150 98 L157 90\" fill=\"none\" stroke=\"#C6F432\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M174 122 L206 122\" stroke=\"#C6F432\" stroke-width=\"3\" stroke-linecap=\"round\" fill=\"none\"/><rect x=\"214\" y=\"70\" width=\"34\" height=\"34\" rx=\"9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"/><rect x=\"256\" y=\"70\" width=\"34\" height=\"34\" rx=\"9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"/><rect x=\"214\" y=\"110\" width=\"34\" height=\"34\" rx=\"9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"/><rect x=\"256\" y=\"110\" width=\"34\" height=\"34\" rx=\"9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"/><rect x=\"214\" y=\"150\" width=\"34\" height=\"34\" rx=\"9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"/><rect x=\"256\" y=\"150\" width=\"34\" height=\"34\" rx=\"9\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"/><path d=\"M60 52 C 120 28, 210 28, 250 54\" fill=\"none\" stroke=\"rgba(255,255,255,.55)\" stroke-width=\"2.5\" stroke-dasharray=\"3 7\" stroke-linecap=\"round\"/><path d=\"M146 30 L162 46 M162 30 L146 46\" stroke=\"#FF6B5E\" stroke-width=\"4\" stroke-linecap=\"round\"/></svg>",
+    "stats": [
+     {
+      "value": "8",
+      "label": "Google apps with managed MCP servers, including Gmail, Drive and Calendar"
+     },
+     {
+      "value": "Feb 1",
+      "label": "2027 date when technical enforcement of the MCP requirement begins"
+     },
+     {
+      "value": "Apr 1",
+      "label": "2027 date when billing for agent usage quotas begins"
+     }
+    ]
+   },
+   "paragraphs": [
+    "<strong>Google.</strong> On November 24, Google made its Workspace MCP servers and its command-line tool generally available. MCP, short for Model Context Protocol, is a standard way for an AI app to talk to another app. Google's servers cover Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat and Tasks. The news is the rule that came with them: Google's new AI Tools Addendum says AI agents must connect through these servers or the command-line tool instead of Google's older REST APIs, and technical enforcement begins February 1, 2027. Regular apps that are not AI agents can keep using the older APIs.",
+    "Google says every agent request is then checked against an organization's permissions, data loss prevention rules and labels. External agents must use their own OAuth client IDs, which mark an app as an agent, with narrow permissions. Risky actions, such as sending an email outside the company, changing Drive sharing or making bulk edits, need a person to confirm. Admins can see, audit and cut off agents in the admin console, and controls for regular users to review agents and block them from chosen emails and files are listed as coming soon. The addendum also bars training models on the data. We could not confirm which outside AI assistants already use these servers, so check your AI tool's own documentation before assuming anything changes for you."
+   ],
+   "means": "Many teams now give AI tools access to Gmail and Drive. Google is saying agents get a front door with a guard: one place that checks the rules, asks a human before risky actions and keeps a log. For marketing, expect more \"approve before it sends\" steps in any tool that touches customer or client email, and plan campaign timelines with that review step built in. Being able to explain what MCP is and why permissions matter is also useful as companies roll out agents. That is our reading, not Google's.",
+   "clip": "List the AI tools on your team that can reach work apps such as email, a cloud drive or a calendar. For each one, write one thing it can read and one thing it can do, like send, edit or share. Star the actions where you would want a confirmation first.",
+   "deeper": [
+    "Per Unite.ai, drafting and summarizing can run on their own, while sending email, changing Drive sharing and bulk edits need explicit confirmation.",
+    "Google's quota page says agents that call the REST APIs directly stay on the Standard Tier quotas, whatever tier is selected. We saw a search excerpt only.",
+    "Unite.ai lists known gaps: some approval prompts are English only, and saved tool approvals expire after 90 days with no self-service view yet.",
+    "Google also reports more than 2.8 trillion Workspace API calls a month, according to Unite.ai's summary of Google Cloud's post.",
+    "Time-limited approvals for agents and the user-facing controls are marked \"coming soon\" by Google, so they may not exist yet."
+   ],
+   "sources": "<a href=\"https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace\">Google Workspace blog</a> (primary source, vendor-reported), <a href=\"https://developers.google.com/workspace/guides/quota-usage-tiers\">Google usage tiers page</a> (primary source, search excerpt only), <a href=\"https://www.unite.ai/google-requires-workspace-ai-agents-to-use-managed-interfaces/\">Unite.ai</a> (news report, labeled by the outlet as AI-generated and editor-reviewed)",
+   "fig": null
+  },
+  {
+   "kicker": "Google DeepMind",
+   "headline": "DeepMind's new exam checks if AI gets easy questions right every single time",
+   "teaser_title": "DeepMind's new exam asks if AI gets easy questions right every time.",
+   "teaser_line": "The top score was 92.4% when all 16 tries had to be correct.",
+   "paragraphs": [
+    "<strong>Google DeepMind.</strong> On November 24, Google DeepMind launched Humanity's First Exam, or HFE, on Kaggle, a site where people compete on data and AI challenges. It is a set of 544 simple text and image questions across 20 basic skills, such as counting objects, naming colors and tracking positions. The twist is that it does not ask whether a model can solve a task once. It asks whether the model solves the task and its slight variations every time. DeepMind's example asks for the color of the third letter of each word on a neon sign, and the answer is green; yellow; white; blue; blue.",
+    "According to Unite.ai's reading of the technical report, the main score counts a question family as passed only if all 16 tries across four related prompts are right. On that strict score, GPT-6.2 Astra led at 92.4%, then GPT-6.2 Sol at 86.9% and Gemini 4 Neon at 85.8%. All three got at least one try right on every family. The report says 73% of wrong answers came from misreading images, such as positions, directions and counting. It also warns the questions were picked to expose weak spots, so the scores do not show how often models fail in ordinary use."
+   ],
+   "means": "In real work, reliable beats brilliant. If you ask AI to do the same small job every week, the question is not \"can it do this once\" but \"will it do this the same way every time.\" For marketing, client-ready work has to match on Tuesday what it did on Monday, so spot-check anything with images or counting, such as product counts in a social post or details pulled from a screenshot. That is our reading.",
+   "clip": "Pick one small job you give an AI tool, like counting items in a screenshot or reformatting a content calendar. Run it three times with slightly different wording. Write down whether the answers matched.",
+   "deeper": [
+    "The 544 prompts form 136 families, each with one seed question and three variants. Of the 544, 316 mix text and images and 228 are text only, per Unite.ai.",
+    "Image mistakes broke down as 31% about position, direction or paths and 23% about counting objects, per the same report summary.",
+    "Giving Gemini 4 Carbon more thinking effort raised its strict score by 17.4 points overall: 42.4 points on math and logic tasks, but only 3.1 points on vision tasks.",
+    "Only 112 prompts are public. The other 432 stay private so models cannot train on them.",
+    "DeepMind's Kaggle competition runs through December 15 and invites people to submit everyday questions that models still get wrong."
+   ],
+   "sources": "<a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/\">Google DeepMind blog</a> (primary source, vendor-reported), <a href=\"https://www.unite.ai/google-deepminds-544-prompt-hfe-test-exposes-llm-consistency-gaps/\">Unite.ai</a> (news report summarizing the technical report, AI-generated and editor-reviewed per the outlet)",
+   "fig": {
+    "title": "Fig. 1. HFE strict score: every try correct (percent)",
+    "rows": [
+     {
+      "label": "GPT-6.2 Astra",
+      "value": "92.4%",
+      "pct": 92.4,
+      "hi": true
+     },
+     {
+      "label": "GPT-6.2 Sol",
+      "value": "86.9%",
+      "pct": 86.9,
+      "hi": false
+     },
+     {
+      "label": "Gemini 4 Neon",
+      "value": "85.8%",
+      "pct": 85.8,
+      "hi": false
+     }
+    ],
+    "note": "Vendor-reported by Google DeepMind in its technical report, as relayed by Unite.ai. We did not open the report itself. All three models scored 100% on the looser test of at least one correct try. Kaggle's live leaderboard uses a different setup, so its numbers can differ. Bars share one zero-based scale from 0 to 100."
+   }
+  },
+  {
+   "kicker": "CrowdStrike",
+   "headline": "CrowdStrike agrees to buy Zscaler for $43.9 billion in the largest cybersecurity deal on record",
+   "teaser_title": "CrowdStrike will buy Zscaler for $43.9 billion.",
+   "teaser_line": "The pitch is security for the age of AI agents.",
+   "paragraphs": [
+    "<strong>CrowdStrike.</strong> On November 23, CrowdStrike said it will acquire Zscaler in an all-stock deal that values Zscaler at about $43.9 billion. Zscaler holders get 1.135 CrowdStrike shares per share, an implied $260.41 each and a premium of roughly 34%, according to CrowdStrike's release. Reuters calls it the biggest cybersecurity acquisition on record (we saw Reuters' headline and summary only). The deal still needs Zscaler shareholder and regulatory approval and is expected to close in the second half of CrowdStrike's fiscal 2028. CNBC reports CrowdStrike shares fell 9% on Monday while Zscaler jumped nearly 18%.",
+    "The pitch is about AI agents. CrowdStrike protects devices, while Zscaler protects the connections between users, apps and now agents. CEO George Kurtz says the combination can become \"the largest AI safety and security company\" the world has seen. CrowdStrike expects the combined company to start with more than $10 billion in annual recurring revenue and projects $500 million in yearly cost savings and about $1 billion in extra revenue, all company estimates. CNBC ties the deal to a wave of consolidation as AI-powered attacks grow."
+   ],
+   "means": "When a deal this size is sold on \"AI safety,\" it tells you where company budgets are going. For marketing, \"safe\" and \"secure\" have become the headline claims in tech, so the valuable skill is explaining complex products in plain words that a buyer can trust. Security plus AI is a growth area, and these companies need people who can communicate it, not only engineers. That is our reading, not investment advice.",
+   "clip": "Read the first paragraph of CrowdStrike's release below. Rewrite the pitch for a small-business owner in two sentences with no jargon.",
+   "deeper": [
+    "CrowdStrike holders would own about 84.1% of the combined company and Zscaler holders about 15.9%, per the release.",
+    "Zscaler's founder and his affiliates, about 34% of its shares, signed agreements to support the deal and he is set to join CrowdStrike's board.",
+    "The release says Zscaler reported $3.9 billion in annual recurring revenue and handles more than 750 billion transactions a day. Both are company-reported.",
+    "CNBC says CrowdStrike also beat estimates on Monday, with $1.58 billion in quarterly revenue against $1.53 billion expected.",
+    "CrowdStrike says about 8,000 Zscaler customers are not yet CrowdStrike customers, which is the cross-sell opportunity it is counting on."
+   ],
+   "sources": "<a href=\"https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-acquire-zscaler-bringing-network-security-and-zero\">CrowdStrike press release</a> (primary source, vendor-reported), <a href=\"https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html\">CNBC</a> (news report), <a href=\"https://www.reuters.com/legal/transactional/crowdstrike-buy-zscaler-439-billion-2026-11-23/\">Reuters</a> (headline and summary only)",
+   "fig": {
+    "title": "Fig. 2. Big cybersecurity deals, in billions of dollars",
+    "rows": [
+     {
+      "label": "CrowdStrike, Zscaler",
+      "value": "43.9",
+      "pct": 87.8,
+      "hi": true
+     },
+     {
+      "label": "Google, Wiz",
+      "value": "32",
+      "pct": 64,
+      "hi": false
+     },
+     {
+      "label": "Cisco, Splunk",
+      "value": "about 28",
+      "pct": 56,
+      "hi": false
+     },
+     {
+      "label": "Palo Alto, CyberArk",
+      "value": "25",
+      "pct": 50,
+      "hi": false
+     }
+    ],
+    "note": "Deal values as reported by CrowdStrike and CNBC. The deals were announced in different years (Splunk in 2024, Wiz in 2025) and are not adjusted for inflation. Splunk is a data software company, so treat it as a rough comparison. Bars share one zero-based scale from 0 to 50."
+   }
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "Meta",
+    "Muse",
+    "Nov 24"
+   ],
+   "title": "Meta's Muse AI agent now takes requests in Instagram DMs",
+   "paragraphs": [
+    "Meta added its Muse personal AI agent to Instagram direct messages. Send it a DM and it can turn your saved posts into a plan, with a trip as the example. Muse launched in September in the US on iPhone, Android and the web. Meta's own pages, as summarized by Unite.ai, say Muse only reads private messages if you grant access, and you can require approval before it sends or buys anything.",
+    "<strong>Who can use it:</strong> Muse users with Instagram connected, starting in the US. <strong>Good for:</strong> planning from saved ideas, and a preview of how brands may be reached inside social apps. <strong>The catch:</strong> disconnecting stops future data sharing, but what Muse already learned may stay in its memory, and the setting that lets chats help train Meta's models starts on. We have not tried it."
+   ],
+   "sources": "<a href=\"https://www.unite.ai/meta-adds-muse-ai-agent-to-instagram-dms-for-saved-content-planning/\">Unite.ai</a> (one outlet, AI-generated and editor-reviewed per the outlet; summary only of Meta's pages, which we did not open)"
+  },
+  {
+   "tags": [
+    "Epochal",
+    "Time Portal",
+    "Nov 24"
+   ],
+   "title": "A \"time machine\" for the web, built to train AI forecasters",
+   "paragraphs": [
+    "Epochal, started by three early xAI team members, launched Time Portal. It lets an AI agent browse the web as it looked on a chosen past date, so forecasts cannot peek at later news. Epochal says the archive holds more than 1 trillion pages, and its own test of 347 market questions found replays matched the original forecasts at a 0.98 correlation (vendor-reported).",
+    "<strong>Who can use it:</strong> developers get a limited free version with a playground, code libraries and an MCP server. <strong>Good for:</strong> testing forecasting agents. For most marketers, it is mostly a concept worth knowing."
+   ],
+   "sources": "<a href=\"https://www.unite.ai/epochal-launches-time-portal-to-test-forecasting-ai-on-web-history/\">Unite.ai</a> (one outlet, vendor numbers)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [
+    "Claude",
+    "Beta",
+    "Nov 24"
+   ],
+   "title": "Claude can now turn an artifact into a Mac or Windows app",
+   "paragraphs": [
+    "Anthropic launched \"Install as app\" in beta for Claude, its AI assistant. In the Claude desktop app for Mac or Windows, open an artifact (a small page or tool Claude builds in the chat), choose Install as app from the Share menu, and it gets its own icon and window. The app can still use Claude and any apps you have connected to Claude, updates when you edit the artifact, and its requests count toward your plan limits. Claude Docs, Slides and Sheets cannot be installed, and Anthropic does not review apps, so it says to give full access only to apps you trust.",
+    "<strong>How you might use it:</strong> if you build a small tool in Claude, such as a campaign checklist, you could keep it as its own app next to your other programs. Leave permissions at the default, which is browser-level only, until you trust it. It is on by default for Team plans with full access off, and off for Enterprise until an owner enables it. Not on Claude? Any notes app or a bookmarked page can hold a reusable checklist. Check the tool's own setup page for steps."
+   ],
+   "sources": "<a href=\"https://claude.com/resources/articles/install-as-app\">Anthropic, Install as app</a> (primary source), <a href=\"https://support.claude.com/en/articles/12138966-release-notes\">Claude release notes</a> (primary source)"
+  },
+  {
+   "tags": [],
+   "title": "Tip: draft, then stop, when AI touches email",
+   "paragraphs": [
+    "If you use an AI assistant that can connect to an email account, ask it: \"Draft a reply to the customer email I name. Save it as a draft and stop. Do not send anything.\" No email connection? Paste the email into any AI chat tool and ask for the draft there.",
+    "<strong>How you might use it:</strong> Google's new agent rules treat sending external email as an action that needs a human yes. You can build the same habit today with any tool, then read every draft before you hit send yourself."
+   ],
+   "sources": "<a href=\"https://workspace.google.com/blog/product-announcements/built-for-trust-and-control-new-ai-agent-protections-and-developer-tools-in-google-workspace\">Google Workspace blog</a> (for the confirmation rule). The habit itself is our suggestion."
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Write the prompt in the style you want back",
+  "intro": "Anthropic's guide says the formatting style of a prompt can influence the style of the answer. Its tip is to match the prompt to the output you want, for example removing markdown from the prompt to get less markdown back. The guide talks about formatting. Extending it to a personal voice, and the sample-paragraph idea, are our own adaptation.",
+  "weak": "TASK: campaign email for a product launch\n- Tone: professional\n- Length: 1 page\n- Do not use bullet points or markdown",
+  "strong": "I need a [campaign email / LinkedIn post / product announcement] for [the product or purpose]. I want it to read like a real person talking: plain, warm, short sentences, written as flowing paragraphs, with no lists, no headings and no bold text. Please keep it to about [250] words.\n\nHere is a short paragraph I wrote myself, so you can hear how I sound. Write in that same voice: [Paste one short paragraph you wrote in your own words]\n\nHere is what to use: [Paste the campaign brief and the facts that matter]\n\nPlease use only those facts. If something is missing, put it in square brackets for me to fill in instead of making it up.",
+  "why": [
+   {
+    "title": "The prompt sets the tone",
+    "text": "The strong prompt is itself plain paragraphs, so the answer tends to come back as plain paragraphs, not a bulleted memo."
+   },
+   {
+    "title": "Say what you want",
+    "text": "\"Flowing paragraphs\" tells the AI the target. A list of \"do nots\" only points at the thing you dislike."
+   },
+   {
+    "title": "Your own sample",
+    "text": "One paragraph in your real voice shows the AI how you sound far better than the word \"professional.\""
+   },
+   {
+    "title": "A number for length",
+    "text": "\"About 250 words\" stops the draft from rambling, and the brackets keep it from inventing facts."
+   }
+  ],
+  "try": "Pick a social post or campaign email you need this week. Paste one paragraph of your own writing, run the strong prompt, then run it again with the sample removed. Which draft sounds more like you? About 5 minutes.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices\">Anthropic, Prompting best practices</a> (the \"Control the format of responses\" section, on matching the prompt style to the output you want). The campaign-email wording and the voice-sample step are our own adaptation."
+ },
+ "brief": [
+  {
+   "name": "Adobe",
+   "text": "Not new today, but still rolling out: Google said on November 10 that Adobe's Acrobat will get an \"Edit with\" option in Drive and Gmail previews, and Adobe's connectors will expand in Gemini.",
+   "sources": "<a href=\"https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/\">Google blog</a> (primary source, dated Nov 10)"
+  },
+  {
+   "name": "Kaggle",
+   "text": "Want to stump an AI? DeepMind's Humanity's First Exam competition on Kaggle runs through December 15 and invites people to submit everyday questions that models still get wrong.",
+   "sources": "<a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/\">Google DeepMind blog</a> (primary source), <a href=\"https://www.unite.ai/google-deepminds-544-prompt-hfe-test-exposes-llm-consistency-gaps/\">Unite.ai</a> (news report)"
+  },
+  {
+   "name": "CrowdStrike",
+   "text": "Deal day was also earnings day: CrowdStrike beat estimates on Monday with $1.58 billion in quarterly revenue against $1.53 billion expected, per CNBC.",
+   "sources": "<a href=\"https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html\">CNBC</a> (news report)"
+  }
+ ],
+ "quiz": null,
+ "subject_hook": "Google's rules for AI agents, CrowdStrike buys Zscaler",
+ "subtitle": "Google requires AI agents to use its MCP servers for Gmail and Drive, DeepMind tests whether AI gets easy questions right every time, and CrowdStrike agrees to buy Zscaler for $43.9 billion.",
+ "your_turn": "Would you want an AI tool to ask for your OK before it sends any email for you?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-24-2026",
+ "prev_label": "Read yesterday's issue",
+ "interactive_url": "",
+ "slug": ""
+}

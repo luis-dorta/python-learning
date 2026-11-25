@@ -1,5 +1,13 @@
 [
  {
+  "date": "2026-11-25",
+  "date_long": "Wednesday, November 25, 2026",
+  "title": "Luis's AI Brief: November 25, 2026",
+  "headline": "Google says AI agents must use its MCP servers to reach Gmail and Drive.",
+  "subtitle": "Google requires AI agents to use its MCP servers for Gmail and Drive, DeepMind tests whether AI gets easy questions right every time, and CrowdStrike agrees to buy Zscaler for $43.9 billion.",
+  "thumb": "https://luis-dorta.github.io/python-learning/img/2026-11-25/thumb.jpg"
+ },
+ {
   "date": "2026-11-24",
   "date_long": "Tuesday, November 24, 2026",
   "title": "Luis's AI Brief: November 24, 2026",
