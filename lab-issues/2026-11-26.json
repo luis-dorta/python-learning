@@ -1,0 +1,226 @@
+{
+ "vol": 1,
+ "no": 17,
+ "date_long": "Thursday, November 26, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "OpenAI says its AI proved the exact limit on how fast matrices can be multiplied.",
+   "line": "The claim is 9/4. It is a preprint, and only part of it is machine-checked so far."
+  },
+  {
+   "label": "Story 2",
+   "title": "Amodei calls it \"absurd\" that he wants AI to take over human choices.",
+   "line": "His reply to this week's Axios report."
+  },
+  {
+   "label": "Story 3",
+   "title": "ChatGPT's Chat and Work will share one usage meter.",
+   "line": "OpenAI says only the heaviest users may hit limits sooner."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Put long documents first and your question last.",
+   "line": "A campaign-brief prompt you can reuse in any AI chat tool."
+  }
+ ],
+ "stories": [
+  {
+   "kicker": "OpenAI",
+   "headline": "OpenAI claims it pinned down the speed limit of matrix math",
+   "teaser_title": "OpenAI says its AI proved the exact limit on how fast matrices can be multiplied.",
+   "teaser_line": "The claim is 9/4. It is a preprint, and only part of it is machine-checked so far.",
+   "hero": {
+    "headline": "OpenAI claims it pinned down the speed limit of matrix math",
+    "svg": "<svg viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"Illustration of two small grids being multiplied into a third grid. Below, four horizontal lines show how work grows: the schoolbook line at the top, a lower line for a 1969 trick, a bright line at the claimed limit of 2.25, and a dashed line at 2 that the claim rules out.\">\n          <rect x=\"14\" y=\"14\" width=\"292\" height=\"212\" rx=\"22\" fill=\"rgba(255,255,255,.07)\" stroke=\"rgba(255,255,255,.3)\" stroke-width=\"1.5\"/>\n          <g fill=\"none\" stroke=\"#fff\" stroke-width=\"2.2\">\n            <rect x=\"34\" y=\"34\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"52\" y=\"34\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"70\" y=\"34\" width=\"14\" height=\"14\" rx=\"3\"/>\n            <rect x=\"34\" y=\"52\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"52\" y=\"52\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"70\" y=\"52\" width=\"14\" height=\"14\" rx=\"3\"/>\n            <rect x=\"34\" y=\"70\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"52\" y=\"70\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"70\" y=\"70\" width=\"14\" height=\"14\" rx=\"3\"/>\n            <rect x=\"116\" y=\"34\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"134\" y=\"34\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"152\" y=\"34\" width=\"14\" height=\"14\" rx=\"3\"/>\n            <rect x=\"116\" y=\"52\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"134\" y=\"52\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"152\" y=\"52\" width=\"14\" height=\"14\" rx=\"3\"/>\n            <rect x=\"116\" y=\"70\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"134\" y=\"70\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"152\" y=\"70\" width=\"14\" height=\"14\" rx=\"3\"/>\n          </g>\n          <path d=\"M96 52 L106 62 M106 52 L96 62\" stroke=\"#FFB020\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n          <path d=\"M178 59 L208 59 M200 51 L208 59 L200 67\" fill=\"none\" stroke=\"#C6F432\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          <g fill=\"#C6F432\" stroke=\"#C6F432\" stroke-width=\"1\">\n            <rect x=\"222\" y=\"34\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"240\" y=\"34\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"258\" y=\"34\" width=\"14\" height=\"14\" rx=\"3\"/>\n            <rect x=\"222\" y=\"52\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"240\" y=\"52\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"258\" y=\"52\" width=\"14\" height=\"14\" rx=\"3\"/>\n            <rect x=\"222\" y=\"70\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"240\" y=\"70\" width=\"14\" height=\"14\" rx=\"3\"/><rect x=\"258\" y=\"70\" width=\"14\" height=\"14\" rx=\"3\"/>\n          </g>\n          <path d=\"M34 118 L286 118\" stroke=\"rgba(255,255,255,.85)\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n          <text x=\"34\" y=\"110\" fill=\"#fff\" font-size=\"12\" font-family=\"Figtree,Arial,sans-serif\" font-weight=\"600\">Schoolbook: 3</text>\n          <path d=\"M34 150 L262 150\" stroke=\"rgba(255,255,255,.85)\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n          <text x=\"34\" y=\"142\" fill=\"#fff\" font-size=\"12\" font-family=\"Figtree,Arial,sans-serif\" font-weight=\"600\">1969 trick: about 2.81</text>\n          <path d=\"M34 182 L204 182\" stroke=\"#C6F432\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n          <text x=\"34\" y=\"174\" fill=\"#C6F432\" font-size=\"12.5\" font-family=\"Figtree,Arial,sans-serif\" font-weight=\"800\">Claimed limit: 2.25</text>\n          <path d=\"M34 210 L150 210\" stroke=\"#FF6B5E\" stroke-width=\"3\" stroke-dasharray=\"4 7\" stroke-linecap=\"round\"/>\n          <text x=\"34\" y=\"203\" fill=\"#FF6B5E\" font-size=\"12\" font-family=\"Figtree,Arial,sans-serif\" font-weight=\"600\">2: ruled out if true</text>\n        </svg>",
+    "stats": [
+     {
+      "value": "9/4",
+      "label": "Claimed exact exponent, or 2.25, for multiplying big matrices"
+     },
+     {
+      "value": "3",
+      "label": "OpenAI papers on this since September 24, the newest on November 24"
+     },
+     {
+      "value": "Part",
+      "label": "Only part of the claim is machine-checked in Lean, per OpenAI's own notes"
+     }
+    ]
+   },
+   "paragraphs": [
+    "<strong>OpenAI.</strong> On November 24, OpenAI posted a preprint called \"The matrix multiplication exponent is nine fourths.\" Matrices are big grids of numbers, and multiplying them sits underneath graphics, search and AI training. The schoolbook method takes about n cubed steps for an n by n grid, and the \"exponent\" tells you how fast the work grows as grids get bigger. OpenAI says its paper proves the best possible exponent is exactly 9/4, or 2.25, over every field, which is a broad family of number systems. Its repository says its papers come from an unnamed internal OpenAI model and should be read as \"raw research data.\"",
+    "The new paper follows two earlier ones. A September 24 paper claimed a method below 2.258 for complex numbers, and an October 2 paper claimed 9/4 as an upper bound, meaning a method that fast exists. The November paper claims the matching lower bound: no circuit can do much better, even if additions cost nothing. Two cautions. OpenAI's Lean proof checker covers division-free programs, and the per-size gate bound is listed as not yet formalized, according to MLQ's reading of OpenAI's own notes. MLQ also says the claim conflicts with a different September preprint that argued the exponent is 2, so both cannot be right. And this is about how work grows for very large grids, not a faster program you can run today. Treat it as a strong claim waiting on outside experts."
+   ],
+   "means": "Two lessons. Labs now publish research they say came from their own AI models, so \"who has checked this?\" is a question worth asking every time. And being able to say what a claim proves and what it does not, here a theory result and not a faster app, is the kind of judgment clients and audiences notice in marketing. That is our reading.",
+   "clip": "Pick one big AI headline from this week. Write two lines: what exactly is claimed, and who besides the company has checked it so far.",
+   "deeper": [
+    "MLQ says Strassen's 1969 method used seven products instead of eight for a small block, which is how it beat the schoolbook exponent of 3.",
+    "The paper's proof idea, per MLQ: a faster multiplication method would let a network spot duplicates in lists of words more cheaply than a separate counting bound allows, which is a contradiction.",
+    "The paper also claims the \"dual exponent\" lies between 1/2 and 2/3. OpenAI's Lean notes pin it at exactly 1/2 in the checked model, per MLQ."
+   ],
+   "sources": "<a href=\"https://github.com/openai/math\">OpenAI math repository</a> (primary source, vendor-reported; we read the paper only through excerpts), <a href=\"https://mlq.ai/news/openai-preprint-claims-the-matrix-multiplication-exponent-is-exactly-94/\">MLQ</a> (news report, one outlet), <a href=\"https://www.unite.ai/openai-preprint-reports-9-4-bound-for-matrix-multiplication/\">Unite.ai</a> (covers the earlier October paper)",
+   "fig": {
+    "title": "Fig. 1. How fast the work grows: the exponent (lower is faster)",
+    "rows": [
+     {
+      "label": "Schoolbook",
+      "value": "3",
+      "pct": 100,
+      "hi": false
+     },
+     {
+      "label": "1969 trick",
+      "value": "2.81",
+      "pct": 93.6,
+      "hi": false
+     },
+     {
+      "label": "OpenAI claim",
+      "value": "2.25",
+      "pct": 75,
+      "hi": true
+     },
+     {
+      "label": "Output size",
+      "value": "2",
+      "pct": 66.7,
+      "hi": false
+     }
+    ],
+    "note": "The 3 and 2.25 come from MLQ's summary of OpenAI's paper (vendor-reported, unreviewed). The 1969 figure is Strassen's method, log base 2 of 7, which we calculated at about 2.81. The 2 is the size of the answer grid, the floor the paper's wording points to. Bars share one zero-based scale from 0 to 3."
+   }
+  },
+  {
+   "kicker": "Anthropic",
+   "headline": "Amodei answers Axios: he does not want humans to hand over their free will",
+   "teaser_title": "Amodei calls it \"absurd\" that he wants AI to take over human choices.",
+   "teaser_line": "His reply to this week's Axios report.",
+   "paragraphs": [
+    "<strong>Anthropic.</strong> On November 25, Anthropic CEO Dario Amodei replied on X to an Axios report about how AI leaders view human control over advanced AI. Amodei wrote that he does not believe we should \"surrender human free will\" to AI and called the idea absurd. He said his own view on automation is mixed: it can be worth a lot economically, but it has downsides that sometimes make it not worth doing. He added that he does not think other AI leaders hold very different views.",
+    "Axios says it stands by its reporting and has updated its piece with his reply. An Anthropic spokesperson told Axios that Amodei has argued for human control of AI and that Anthropic trains Claude, its AI assistant, not to undermine human oversight. This brief uses AI help in its research, including Claude, which Anthropic makes, so keep that in mind as you read."
+   ],
+   "means": "Disputes like this spread as headlines before most people read the full text. For marketing, it is a live case study in a company answering on its own channel within a day. For anyone who writes about the news, practice reading the original statement next to the story about it. That is our reading.",
+   "clip": "Open Amodei's post (The Verge quotes it) and one news report about it. Underline one claim that shows up in the report but not in his post.",
+   "deeper": [
+    "Forbes ties the timing to growing public worry about AI, and notes Axios's first report came one day earlier.",
+    "The Verge's report quotes Amodei's post, which is the quickest way to read his own words before any summary.",
+    "Axios's own updated article is the best place to see both sides in one piece. Compare it with what you remember of the first version of the story."
+   ],
+   "sources": "<a href=\"https://www.forbes.com/sites/alisondurkee/2026/11/25/dario-amodei-rejects-idea-he-wants-to-surrender-human-free-will-to-ai/\">Forbes</a> (news report), <a href=\"https://www.theverge.com/ai-artificial-intelligence/1042513/dario-amodei-clarifies-he-doesnt-believe-we-should-surrender-free-will-to-ai\">The Verge</a> (news report, excerpt)",
+   "fig": null
+  },
+  {
+   "kicker": "OpenAI",
+   "headline": "OpenAI is merging ChatGPT's Chat and Work into one shared usage meter",
+   "teaser_title": "ChatGPT's Chat and Work will share one usage meter.",
+   "teaser_line": "OpenAI says only the heaviest users may hit limits sooner.",
+   "paragraphs": [
+    "<strong>OpenAI.</strong> On November 25, TechCrunch reported that OpenAI will make ChatGPT's Chat and Work share a single usage meter, citing an OpenAI spokesperson. The company's message is that most people will not hit limits faster, but a small slice of the heaviest users could reach them sooner. Conversations that use the Instant model will not count toward the shared allowance, and OpenAI says it will keep working on efficiency so subscribers get more. A TechCrunch social post says the change starts in December 2026 and describes a token-based pool, but we could not confirm that on the article itself, and the post says \"Codex\" where the article says \"Work.\"",
+    "Why it matters: a usage meter is how an AI company prices heavy use. Quick questions and long research jobs now draw from the same bucket, so the big jobs decide when you run out. Claude plans also count usage toward limits, so the habit of knowing which tasks use the most is useful whichever tool you pick. That last point is our own observation, not OpenAI's."
+   ],
+   "means": "If you use an AI tool every workday for campaign drafts and research, your weekly limit is a real resource. For marketing, this is also a pricing lesson: companies bundle many uses into one meter so customers cannot easily compare. That is our reading.",
+   "clip": "List the three AI tasks you run most, such as campaign drafts, research summaries or social post ideas. Mark each one quick, medium or heavy. Do the heavy ones when you have time to spare, not minutes before a deadline.",
+   "deeper": [
+    "PYMNTS, relaying TechCrunch, headlines the story as OpenAI saying most users will not hit limits faster.",
+    "OpenAI's help page on usage limits already describes ChatGPT and Codex sharing one allowance on Plus, Pro and Business plans. We saw only a search excerpt of it.",
+    "Details such as exact limits per plan were not in what we read, so check OpenAI's page before assuming a number."
+   ],
+   "sources": "<a href=\"https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/\">TechCrunch</a> (news report, search excerpt only), <a href=\"https://www.pymnts.com/news/artificial-intelligence/2026/openai-says-most-users-wont-hit-limits-faster-after-merger-of-chat-and-work/\">PYMNTS</a> (news report, excerpt), <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">OpenAI Help Center</a> (primary source, excerpt only)",
+   "fig": null
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "Together AI",
+    "Hurdle",
+    "Nov 25"
+   ],
+   "title": "Hurdle tests whether AI coding agents can really use an API",
+   "paragraphs": [
+    "Together AI, a company that hosts AI models for developers, released Hurdle, an open-source library that turns \"can an agent use this API and its docs?\" into a repeatable test. It checks whether agents finish the task and whether they try actions they were told to avoid. Watching and blocking requests needs Together's hosted sandboxes, which require Together credits.",
+    "<strong>Who can use it:</strong> developers. <strong>Good for:</strong> teams that want AI agents to work with their product. For marketers, it is mostly a concept worth knowing: companies now test AI agents the way they test new hires, on the same task every time."
+   ],
+   "sources": "<a href=\"https://www.together.ai/blog/introducing-hurdle-run-agent-evals-on-your-api-skills-and-docs\">Together AI blog</a> (primary source, vendor-reported)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [
+    "Claude",
+    "MCP",
+    "Beta",
+    "Nov 24"
+   ],
+   "title": "Connectors can now come with their own instructions",
+   "paragraphs": [
+    "Anthropic says MCP servers can now ship \"skills\" alongside their tools. MCP, short for Model Context Protocol, is the standard behind connectors, the links that let Claude, Anthropic's AI assistant, work with other apps. A skill is a written playbook that tells Claude how to use a tool well. This part is in beta. Tasks, which let a server run a long job in the background while Claude keeps working, are generally available. A LinkedIn post excerpt also says servers can ask you for input in the middle of a job. In Claude Code, Anthropic's coding tool, shipped skills show up in the slash menu as server:skill, according to a community post.",
+    "<strong>How you might use it:</strong> if your team connects an AI assistant to apps such as a cloud drive or a design tool, a connector could one day bring its own rules so the assistant handles your files the same way every time, without re-explaining. There is nothing to turn on today. If you use connectors, watch which ones adopt it. We saw only short excerpts, so details may differ in Anthropic's full post."
+   ],
+   "sources": "<a href=\"https://x.com/ClaudeDevs/status/2125289797199511594\">Anthropic developer account on X</a> (primary source, excerpt only), <a href=\"https://www.reddit.com/r/ClaudeCode/comments/1y5p5n2/mcp_servers_can_now_ship_their_own_skills_to/\">Reddit, r/ClaudeCode</a> (community post), <a href=\"https://www.linkedin.com/posts/mikekrieger_mcp-servers-can-now-ship-skills-run-tasks-activity-7531061602951888896-jGY3\">LinkedIn post</a> (excerpt only)"
+  },
+  {
+   "tags": [],
+   "title": "Tip: let AI read your tracker before it touches it",
+   "paragraphs": [
+    "If you use an AI assistant that can connect to a project tracker or spreadsheet, ask it: \"Look at our campaign tracker. List the tasks older than a week with no update noted. Only read. Change nothing.\" No connection? Export or paste the tracker into any AI chat tool and ask the same question.",
+    "<strong>How you might use it:</strong> you get a to-do list for your next follow-ups, and you practice the same read first, then approve habit that the new MCP input feature is built around. Then ask for email drafts, never sends."
+   ],
+   "sources": "Our own suggestion, based on the MCP news above."
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Put long documents first and your question last",
+  "intro": "Anthropic's prompting guide has a tip under the heading \"Put long-form data at the top\": place long documents and inputs above your question and instructions. When you paste a brief and a pile of customer feedback, order matters. Using it to check a campaign brief against customer feedback is our own adaptation.",
+  "weak": "Which messages does this campaign brief push and do customers agree? Here is the brief: [pasted brief]. Here is some customer stuff: [pasted feedback]",
+  "strong": "DOCUMENT 1: CAMPAIGN BRIEF\n[Paste the full campaign brief]\n\nDOCUMENT 2: CUSTOMER FEEDBACK\n[Paste customer reviews, survey answers or support notes]\n\nNow, using only the two documents above:\n1. List the 5 goals or messages the brief stresses most.\n2. For each one, quote the customer comment that best supports it.\n3. Tell me what the brief promises that the feedback does not back up yet.\nIf something is not in the documents, write \"not in the documents\" instead of guessing.",
+  "why": [
+   {
+    "title": "Documents first",
+    "text": "The AI reads the material before it knows what you will ask, so the question lands on top of everything it just read."
+   },
+   {
+    "title": "Clear labels",
+    "text": "\"Document 1\" and \"Document 2\" keep the brief and the feedback from blending together."
+   },
+   {
+    "title": "The question comes last",
+    "text": "Your numbered request sits right before the answer, which makes it easy to follow step by step."
+   },
+   {
+    "title": "A way out",
+    "text": "\"Not in the documents\" stops the AI from inventing customer support the feedback does not show."
+   }
+  ],
+  "try": "Take one real campaign brief and a batch of customer feedback. Run the strong prompt, then run the weak one with the same material. Which answer quotes the feedback more accurately? About 5 minutes.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic, Prompting best practices</a> (the \"Put long-form data at the top\" tip). The campaign-brief wording, labels and numbered request are our own adaptation."
+ },
+ "brief": [
+  {
+   "name": "Meta",
+   "text": "Yesterday's issue covered Meta's Muse agent arriving in Instagram DMs. New today: Adweek reports AI agent traffic is expected to rise about 150 times from a year ago this Cyber Week, with Muse sending nearly 70% of it. Adweek labels its summary AI-generated and newsroom-reviewed, and we read only the excerpt.",
+   "sources": "<a href=\"https://www.adweek.com/commerce/ai-agent-traffic-to-surge-150x-this-cyber-week-driven-mostly-by-meta-muse/\">Adweek</a> (excerpt only)"
+  },
+  {
+   "name": "Amazon",
+   "text": "Inc. reports that Amazon and Meta have held talks about AI shopping agents, centered on how ads and search results would work. Ads usually pay per click, and an AI agent does not react to an ad like a person does. We read only an excerpt.",
+   "sources": "<a href=\"https://www.inc.com/kit-eaton/amazon-meta-ai-agents-future-shopping-technology/91443060\">Inc.</a> (one outlet, excerpt only)"
+  },
+  {
+   "name": "ChatGPT",
+   "text": "Before you plan around ChatGPT's new shared meter: OpenAI's help page on usage limits already describes ChatGPT and Codex sharing one allowance on Plus, Pro and Business plans. We saw only a search excerpt, so check the page for current details.",
+   "sources": "<a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">OpenAI Help Center</a> (primary source, excerpt only)"
+  }
+ ],
+ "quiz": null,
+ "subject_hook": "OpenAI's 9/4 math claim, ChatGPT's shared usage meter",
+ "subtitle": "OpenAI claims its AI proved the exact speed limit of matrix multiplication, Anthropic's CEO answers an Axios report on human control of AI, and ChatGPT's Chat and Work move to one shared usage meter.",
+ "your_turn": "When a company says its own AI made a breakthrough, would you believe it before outside experts check?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-25-2026",
+ "prev_label": "Read yesterday's issue",
+ "interactive_url": "",
+ "slug": ""
+}
