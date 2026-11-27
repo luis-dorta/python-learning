@@ -1,0 +1,269 @@
+{
+ "vol": 1,
+ "no": 18,
+ "date_long": "Friday, November 27, 2026",
+ "tiles": [
+  {
+   "label": "Lead story",
+   "title": "A physicist says GPT-6 Astra helped him build a new theory of quantum gravity.",
+   "line": "It is a one-author preprint, and outside physicists have not weighed in yet."
+  },
+  {
+   "label": "Story 2",
+   "title": "AI shopping agents get their big Black Friday test.",
+   "line": "The forecasts are huge. Shoppers are still cautious."
+  },
+  {
+   "label": "Story 3",
+   "title": "Nvidia pauses AI server shipments to four Southeast Asian countries.",
+   "line": "Loans and data center plans are now in limbo."
+  },
+  {
+   "label": "Skill of the day",
+   "title": "Ask for several explanations, each with a confidence level.",
+   "line": "Plus the Friday recap and a quiz on the week."
+  }
+ ],
+ "stories": [
+  {
+   "kicker": "Stanford",
+   "headline": "An AI-assisted theory tries to make gravity play by quantum rules",
+   "teaser_title": "A physicist says GPT-6 Astra helped him build a new theory of quantum gravity.",
+   "teaser_line": "It is a one-author preprint, and outside physicists have not weighed in yet.",
+   "hero": {
+    "headline": "An AI-assisted theory tries to make gravity play by quantum rules",
+    "svg": "<svg viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"Illustration of a diamond-shaped region. A flash point sits at the bottom corner and a detector point at the top corner. Light paths from each corner form the four edges of the diamond, and a wavy line crosses the middle to show a wobbling gravitational wave.\">\n          <rect x=\"14\" y=\"14\" width=\"292\" height=\"212\" rx=\"22\" fill=\"rgba(255,255,255,.07)\" stroke=\"rgba(255,255,255,.3)\" stroke-width=\"1.5\"/>\n          <path d=\"M160 34 L250 120 L160 206 L70 120 Z\" fill=\"rgba(198,244,50,.10)\" stroke=\"#C6F432\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n          <path d=\"M96 120 C112 96 128 144 144 120 C160 96 176 144 192 120 C206 100 214 128 224 120\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n          <circle cx=\"160\" cy=\"206\" r=\"9\" fill=\"#FFB020\"/>\n          <circle cx=\"160\" cy=\"34\" r=\"9\" fill=\"#FF6B5E\"/>\n          <path d=\"M160 186 L160 150\" stroke=\"#FFB020\" stroke-width=\"2.5\" stroke-dasharray=\"3 6\" stroke-linecap=\"round\"/>\n          <text x=\"176\" y=\"212\" fill=\"#FFB020\" font-size=\"12.5\" font-family=\"Figtree,Arial,sans-serif\" font-weight=\"700\">flash</text>\n          <text x=\"176\" y=\"40\" fill=\"#FF6B5E\" font-size=\"12.5\" font-family=\"Figtree,Arial,sans-serif\" font-weight=\"700\">detector</text>\n          <text x=\"34\" y=\"64\" fill=\"#fff\" font-size=\"12\" font-family=\"Figtree,Arial,sans-serif\" font-weight=\"600\">edges follow</text>\n          <text x=\"34\" y=\"80\" fill=\"#fff\" font-size=\"12\" font-family=\"Figtree,Arial,sans-serif\" font-weight=\"600\">paths of light</text>\n        </svg>",
+    "stats": [
+     {
+      "value": "~400M",
+      "label": "Tokens of back and forth with GPT-6 Astra, as the author states"
+     },
+     {
+      "value": "Nov 25",
+      "label": "Date the preprint was posted to arXiv"
+     },
+     {
+      "value": "0",
+      "label": "Outside physicist assessments published as of Thursday afternoon, per MLQ"
+     }
+    ]
+   },
+   "paragraphs": [
+    "<strong>Stanford.</strong> On November 25, a Stanford physicist posted a preprint proposing a way to describe gravity with quantum rules, a puzzle physicists have chased for decades. His trick is to stop treating space as a fixed stage. He marks off a region using the paths light could take between two events, a shape called a causal diamond, and does the quantum math inside it. In the paper's acknowledgements, he says several calculations and proofs came from months of back and forth with OpenAI's GPT-6 Astra, about 400 million tokens, with OpenAI supplying the computing power.",
+    "The paper claims two checks. A calculation that blows up to infinity under a common shortcut gives a finite answer when done his way, and it reproduces a known quantum correction to black hole entropy that matches an earlier result from physicist Ashoke Sen. Now the cautions. It has one author, it has not been peer reviewed, it covers empty space only with no matter, and it offers no experiment to test it. The paper does not say which steps the AI produced. MLQ says no outside physicist had published an assessment by Thursday afternoon."
+   ],
+   "means": "The useful habit here is the disclosure. The author told readers exactly how AI was used and how much. When you use AI on a campaign report, a client deck or a batch of social posts, a short note on what it did and what you checked yourself builds trust. That is our reading.",
+   "clip": "Pick one thing you made recently with AI help, such as a campaign brief or a social post. Write a two line \"AI use note\": what the AI did, and what you verified yourself.",
+   "deeper": [
+    "The Quantum Insider explains the box with a picture: a flash goes off, a detector records light later, and light paths from each end enclose the region where a signal could travel.",
+    "Per MLQ, the paper also argues that a diamond of bounded size can hold only a finite number of distinguishable quantum states, and recovers the standard black hole entropy formula for the leading term.",
+    "Next steps named by The Quantum Insider: extend the theory to include matter, and check whether different ways of building the quantum states give the same theory."
+   ],
+   "sources": "<a href=\"https://mlq.ai/news/stanford-physicist-proposes-a-quantum-gravity-theory-built-with-gpt-6-astra/\">MLQ</a> (news report, cites the paper), <a href=\"https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/\">The Quantum Insider</a> (news report), <a href=\"https://arxiv.org/pdf/2611.34924\">the preprint on arXiv</a> (primary source, linked from both reports; we read it only through their summaries)",
+   "fig": null
+  },
+  {
+   "kicker": "Salesforce",
+   "headline": "AI shopping agents get their first big Black Friday test",
+   "teaser_title": "AI shopping agents get their big Black Friday test.",
+   "teaser_line": "The forecasts are huge. Shoppers are still cautious.",
+   "paragraphs": [
+    "<strong>Salesforce.</strong> Salesforce forecasts that this year's Cyber Week, November 24 to 30, will bring $357 billion in global online sales, and that $75.8 billion of it, 21%, will be \"influenced\" by AI and agents. It also says about one in five shoppers are using AI. Adobe, which tracks US online shopping, forecast earlier that traffic reaching US retail sites from AI tools will rise 95% year over year on Black Friday and 130% across the whole holiday season. Adobe also expects about $12.9 billion in US online spending today. Both are company forecasts, and both companies sell products to retailers.",
+    "Fortune's report this morning adds a reality check. It says 54% of adults have used AI for at least one shopping task, but only 23% trust generative AI to handle payments for them. An American Express survey it cites found 52% are fine with an agent buying cheap household items but only 15% for big purchases, and a Zeta poll found just 9% would let AI buy gifts without checking first. A Bain analysis of Similarweb data says AI assistants make up under 1% of retailers' web traffic. Notice the word \"influenced.\" It means AI played a part, such as research or comparison. It does not mean agents completed the purchase."
+   ],
+   "means": "If assistants shop for people, brands have to be easy for an AI to read: clear product details, honest reviews, plain answers. For your own reporting, be careful with metrics that say \"influenced.\" Ask what counts. That is our reading.",
+   "clip": "Ask any AI chat tool to recommend three products for something you plan to buy. Write down which brand details it used and one thing it got wrong or left out.",
+   "deeper": [
+    "Inc. reports the National Retail Federation says 59% of shoppers plan to use AI to help them buy, and that $76 billion is real money but far from the majority of the roughly $357 billion total.",
+    "Fortune also describes a test where each shopping agent made 15 trips and only 57% led to a purchase that matched the shopper's needs. Agents often did not ask follow up questions, such as whether a TV works with games.",
+    "eMarketer found AI-referred traffic to US retail sites rose 393% in the first quarter of 2026, from what Fortune calls an admittedly small base."
+   ],
+   "sources": "<a href=\"https://www.salesforce.com/news/stories/cyber-week-ai-sales-2026/\">Salesforce</a> (primary source, vendor-reported forecast), <a href=\"https://news.adobe.com/news/2026/09/adobe-us-holiday-shopping-season-to-hit-record\">Adobe</a> (primary source, vendor-reported forecast), <a href=\"https://fortune.com/2026/11/27/black-friday-ai-agentic-shopping-consumer-trust/\">Fortune</a> (news report), <a href=\"https://www.inc.com/michael-tasner/ai-agents-76-billion-black-friday-brand-visibility/91443182\">Inc.</a> (news report, excerpt only)",
+   "fig": {
+    "title": "Fig. 1. Adobe forecast: growth in AI-referred traffic to US retail sites, year over year (percent)",
+    "rows": [
+     {
+      "label": "Thanksgiving",
+      "value": "159%",
+      "pct": 99.4,
+      "hi": false
+     },
+     {
+      "label": "Full season",
+      "value": "130%",
+      "pct": 81.3,
+      "hi": false
+     },
+     {
+      "label": "Black Friday",
+      "value": "95%",
+      "pct": 59.4,
+      "hi": true
+     },
+     {
+      "label": "Cyber Monday",
+      "value": "88%",
+      "pct": 55,
+      "hi": false
+     }
+    ],
+    "note": "Vendor-reported forecasts from Adobe Analytics. Bars share one zero-based scale from 0 to 160. Growth is measured from a small starting base."
+   }
+  },
+  {
+   "kicker": "Nvidia",
+   "headline": "Nvidia pauses AI server shipments to four Southeast Asian countries",
+   "teaser_title": "Nvidia pauses AI server shipments to four Southeast Asian countries.",
+   "teaser_line": "Loans and data center plans are now in limbo.",
+   "paragraphs": [
+    "<strong>Nvidia.</strong> The Financial Times reported on Thursday that Nvidia has told manufacturing partners such as Dell and Supermicro to stop shipping servers that contain its chips to Malaysia, Singapore, Thailand and Indonesia. Three people with knowledge of the matter said the partners have told buyers in those countries that their orders will not ship. It is not clear whether the pause is temporary. It follows tighter US export controls meant to stop Chinese companies from renting AI computing power through foreign cloud providers. According to The Decoder, cloud providers in the region now have 90 days to apply for a license, and one executive called the situation \"chaos.\"",
+    "The money at stake is large. The FT says Nvidia booked $104 billion in revenue through its Singapore unit in 2025, up 72% in a year, though some Taiwan and China sales are also recorded there. Banks have reportedly paused or slowed financing. The FT, as relayed by The Decoder, says about $500 million in loans to Singapore cloud company Aolani are on hold, while Bloomberg, as relayed by CoinDesk, puts that loan at $480 million and says lenders are taking longer on a separate $6.6 billion loan for Bridge Data Centres in Malaysia. We did not read either original. CoinDesk adds that Nvidia shares have fallen as much as 50% from their October peak."
+   ],
+   "means": "AI is not only software. Chips, cloud capacity and government rules decide who can use the tools, and that can affect prices and limits down the line. For marketers, knowing how the AI supply chain works helps you read tech news with a cool head. That is our reading.",
+   "clip": "Pick one brand you follow. Write two lines on how chip supply, cloud costs or export rules could affect its AI plans.",
+   "deeper": [
+    "The Decoder says US Trade Representative Jamieson Greer told CNBC the goal is to block indirect access, including smuggling through Southeast Asia and remote access through data centers in third countries.",
+    "The Decoder, citing CNBC, says dealers have listed an unusually large number of Nvidia GPUs for sale, including thousands of B300 chips originally meant for data centers with Chinese rental customers.",
+    "CoinDesk says debt-funded AI infrastructure companies such as CoreWeave, IREN and Cipher Digital have dropped as much as 70% from their highs. If lenders tighten beyond Southeast Asia, it warns, chip orders could slow even while demand for computing stays strong.",
+    "Reuters's story is a relay of the FT report. Treat the pause as reported, not confirmed by Nvidia in anything we read."
+   ],
+   "sources": "<a href=\"https://www.reuters.com/world/asia-pacific/nvidia-halts-chip-shipments-southeast-asia-ft-reports-2026-11-26/\">Reuters</a> (relays the FT, excerpt only), <a href=\"https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370\">Financial Times</a> (original report, excerpt only), <a href=\"https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/\">The Decoder</a> (news report), <a href=\"https://www.coindesk.com/markets/2026/11/26/nvidia-shipment-freeze-and-u-s-chip-curbs-put-ai-stocks-under-pressure\">CoinDesk</a> (news report)",
+   "fig": null
+  }
+ ],
+ "newai": [
+  {
+   "tags": [
+    "DeepL",
+    "Aure",
+    "Voice"
+   ],
+   "title": "DeepL's Aure aims to carry a speaker's tone into translated speech",
+   "paragraphs": [
+    "DeepL, a translation company, announced Aure, a voice model for live translation. Instead of reading out flat text, it tries to pass the speaker's emotion, emphasis and pace into the translated voice. A Japanese-language write-up of DeepL's November 11 announcement says it covers English, German, Spanish, French, Italian, Japanese, Portuguese and Korean to start, and works in DeepL Voice for online meetings, for in-person conversations, and through an API. The write-up says the announcement had no numbers on accuracy or delay.",
+    "<strong>Who can use it:</strong> mainly businesses that already use DeepL Voice. <strong>Good for:</strong> meetings and customer calls with people who speak another language. Pricing was not in what we read, so check DeepL's own site."
+   ],
+   "sources": "<a href=\"https://labmemo.com/deepl-aure-voice-realtime-translation-2026-11/\">Labmemo</a> (Japanese-language report on DeepL's announcement)"
+  }
+ ],
+ "connectors_label": "Connectors and Claude",
+ "connectors": [
+  {
+   "tags": [
+    "Claude",
+    "Connectors",
+    "Beta",
+    "Nov 24"
+   ],
+   "title": "Claude can now send files to connected apps and save files from them",
+   "paragraphs": [
+    "Anthropic's release notes say Claude, its AI assistant, can now send a file to an app a user has connected, or save a file that the app offers. It is rolling out gradually in beta on the paid Pro, Max and Ultra plans, and on Team and Enterprise plans when an owner turns it on. The note does not list which apps support it, so check Anthropic's help article before you count on it.",
+    "<strong>How you might use it:</strong> if you connect a cloud drive or notes app to Claude, you could ask it to save a finished draft straight into a folder, instead of downloading and uploading it yourself. Start small. Say \"save this as a new file with today's date in the name, and do not overwrite anything.\" No connection? Copy the draft from any AI chat tool into your own file."
+   ],
+   "sources": "<a href=\"https://support.claude.com/en/articles/12138966-release-notes\">Claude Help Center, release notes</a> (primary source; we did not open the linked help article)"
+  },
+  {
+   "tags": [
+    "Claude",
+    "Recap",
+    "Nov 24"
+   ],
+   "title": "Claude's monthly recap is out of beta",
+   "paragraphs": [
+    "Claude's monthly recap, found as Reflect in Settings, is now out of beta on the Free, Pro, Max and Ultra plans on the web, desktop and mobile. Recaps can now draw on Claude Code sessions and Claude Cowork tasks in the cloud, and users can delete their stored recaps from the page.",
+    "<strong>How you might use it:</strong> read it once a month to spot the prompts you keep retyping, then save the best ones in any notes app. Using a different AI tool? Skim your chat history once a month for the same purpose."
+   ],
+   "sources": "<a href=\"https://support.claude.com/en/articles/12138966-release-notes\">Claude Help Center, release notes</a> (primary source)"
+  }
+ ],
+ "worth": null,
+ "prompt": {
+  "title": "Ask for several explanations, each with a confidence level",
+  "intro": "In its research guidance, Anthropic suggests developing several competing hypotheses while tracking confidence levels, and critiquing your own approach along the way. Turning that into a prompt for everyday \"why did this happen?\" questions is our own adaptation.",
+  "weak": "Why did my post get so few likes? Here are the numbers: [pasted numbers]",
+  "strong": "I want to understand why this happened:\n[Describe what happened, for example: my last 5 posts got far fewer likes than usual]\n\nHere are the facts I know:\n[Paste numbers, dates, what changed, and anything else you know]\n\nPlease do this in order:\n1. List 3 or 4 different possible explanations. Do not pick one yet.\n2. For each one, name the facts above that support it, the facts that argue against it, and your confidence: low, medium or high.\n3. Tell me the cheapest test I could run to tell the top two apart.\n4. Mark anything you are assuming instead of reading from my facts.\nIf my facts are not enough to decide, say so.",
+  "why": [
+   {
+    "title": "Many answers first",
+    "text": "It stops the AI from grabbing the first explanation that sounds good and building a story around it."
+   },
+   {
+    "title": "Evidence both ways",
+    "text": "Asking for facts that support and facts that argue against each idea forces it to point at your real data."
+   },
+   {
+    "title": "Confidence labels",
+    "text": "Low, medium and high tell you what to trust and what to double check."
+   },
+   {
+    "title": "A next step",
+    "text": "The cheapest test turns a nice analysis into something you can do this week."
+   }
+  ],
+  "try": "Take one real \"why\" question from your marketing work, such as why a campaign or a social post underperformed. Fill in the brackets, run the prompt, then run a one line version of the same question. Which answer gave you something you could test? About 5 minutes.",
+  "sources": "<a href=\"https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\">Anthropic, Prompting best practices</a> (the \"Research and information gathering\" section). The wording, numbered steps and examples are our own adaptation."
+ },
+ "brief": [
+  {
+   "name": "UK courts",
+   "text": "A review of published judgments by the Bureau of Investigative Journalism found undisclosed AI use in at least 25 cases in England and Wales this year, including invented case law and nonexistent statutes. One police officer asked Copilot for a \"tear-jerking\" victim statement, and the Court of Appeal said no officer should prepare a statement that way. The lesson for any job: check AI output before your name goes on it.",
+   "sources": "<a href=\"https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026\">The Guardian</a>, <a href=\"https://startupfortune.com/undisclosed-ai-use-has-hit-at-least-25-court-cases-in-england-and-wales/\">Startup Fortune</a>"
+  },
+  {
+   "name": "Retail assistants",
+   "text": "Fortune says Amazon's AI shopping assistant supported $12 billion in incremental sales last year, about 2% of the business, and that Walmart reported users of its Sparky assistant spent 35% more per order. Both figures come from the companies themselves.",
+   "sources": "<a href=\"https://fortune.com/2026/11/27/black-friday-ai-agentic-shopping-consumer-trust/\">Fortune</a> (news report)"
+  },
+  {
+   "name": "OpenAI",
+   "text": "MLQ notes today's quantum gravity paper is the second physics result in two weeks credited partly to GPT-6 Astra. On November 15, OpenAI said Astra led the proof behind a candidate lattice definition of the Standard Model, the theory of the basic particles.",
+   "sources": "<a href=\"https://mlq.ai/news/stanford-physicist-proposes-a-quantum-gravity-theory-built-with-gpt-6-astra/\">MLQ</a> (news report)"
+  }
+ ],
+ "quiz": {
+  "recap": [
+   "<strong>The week in brief.</strong> Monday: a Claude-assisted proof of the Riemann hypothesis passed its first independent checks, and OpenAI's chief scientist proposed shared limits for AI labs. Tuesday: Nvidia's board brought its CEO back after 10 days, and Anthropic launched Claude Ship for code review. Wednesday: Google put a front door on Gmail and Drive for AI agents, and CrowdStrike agreed to buy Zscaler. Thursday: OpenAI claimed the exact speed limit of matrix multiplication, and ChatGPT moved Chat and Work to one usage meter. Friday: a quantum gravity preprint built with GPT-6 Astra, AI shopping agents on Black Friday, and Nvidia's server pause.",
+   "This week's prompt skills: refine a draft in rounds, let the AI say \"I don't know,\" write the prompt in the style you want back, put long documents first, and now ask for competing explanations with confidence levels. Try the quiz."
+  ],
+  "questions": [
+   {
+    "question": "Why did the Claude-assisted Riemann hypothesis proof not win the prize right after the Lean check?",
+    "options": [
+     "Lean only checks spelling, not logic",
+     "A computer check can confirm the steps, but the prize rules also require publication and a waiting period",
+     "A person, not an AI, has to type the final proof"
+    ],
+    "answer": 1,
+    "explain": "Verification has layers: machine checks, then publication and time for experts to respond."
+   },
+   {
+    "question": "Why call OpenAI's 9/4 matrix result a claim for now?",
+    "options": [
+     "It is an unreviewed preprint and only part is machine-checked, so outside experts still need to confirm it",
+     "Because 9/4 is too small a number to matter",
+     "Because it describes an app you can download"
+    ],
+    "answer": 0,
+    "explain": "Always ask what was verified and by whom. This one is unreviewed, only partly machine-checked, and a theory result."
+   },
+   {
+    "question": "Salesforce forecasts $75.8 billion of Cyber Week sales will be \"influenced\" by AI and agents. Which reading is wrong?",
+    "options": [
+     "It is a forecast from a company that sells to retailers",
+     "AI agents themselves bought $75.8 billion of goods",
+     "Shoppers may have used AI only to research or compare"
+    ],
+    "answer": 1,
+    "explain": "Influenced means AI played a part, such as research or comparison. It does not mean agents completed the purchases."
+   }
+  ],
+  "sources": "<a href=\"https://leanprover-community.github.io/blog/posts/riemann-hypothesis/\">Lean FRO and Mathlib Initiative</a>, <a href=\"https://mlq.ai/news/openai-preprint-claims-the-matrix-multiplication-exponent-is-exactly-94/\">MLQ</a>, <a href=\"https://www.salesforce.com/news/stories/cyber-week-ai-sales-2026/\">Salesforce</a>"
+ },
+ "subject_hook": "An AI-assisted gravity theory, AI shoppers on Black Friday",
+ "subtitle": "A physicist credits GPT-6 Astra with help on a new quantum gravity theory, AI shopping agents face their first big Black Friday, and Nvidia pauses server shipments to four Southeast Asian countries.",
+ "your_turn": "If a report or post said exactly how AI helped make it, would you trust it more or less?",
+ "prev_url": "https://luiss-newsletter.beehiiv.com/p/luis-s-ai-brief-november-26-2026",
+ "prev_label": "Read yesterday's issue",
+ "interactive_url": "",
+ "slug": ""
+}
